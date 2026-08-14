@@ -1,0 +1,206 @@
+{
+    "systems": [
+        {
+            "id": 1,
+            "code": "ALPHA",
+            "description": "Первая система демо-сеттинга. Голубая планета One у единственной звезды.",
+            "info_url": null,
+            "name": "Alpha",
+            "position_x": 50,
+            "position_y": 0,
+            "position_z": 0,
+            "status": "P",
+            "time_modified": "2026-01-01 00:00:00",
+            "type": "SINGLE_STAR",
+            "affiliation": [
+                {
+                    "id": 1,
+                    "code": "myfaction",
+                    "color": "#48bbd4",
+                    "name": "My Faction"
+                }
+            ],
+            "aggregated_size": "4.85",
+            "aggregated_population": 5,
+            "aggregated_economy": 5,
+            "aggregated_danger": 3
+        },
+        {
+            "id": 2,
+            "code": "BETA",
+            "description": "Вторая система демо-сеттинга, соединена с Alpha туннелем размера M.",
+            "info_url": null,
+            "name": "Beta",
+            "position_x": -50,
+            "position_y": 0,
+            "position_z": 0,
+            "status": "P",
+            "time_modified": "2026-01-01 00:00:00",
+            "type": "SINGLE_STAR",
+            "affiliation": [],
+            "aggregated_size": "4.85",
+            "aggregated_population": 5,
+            "aggregated_economy": 5,
+            "aggregated_danger": 3
+        }
+    ],
+    "objects": [
+        {
+            "id": 100,
+            "code": "ALPHA.STAR.ALPHA",
+            "designation": null,
+            "name": "Alpha",
+            "type": "STAR",
+            "star_system_id": 1,
+            "star_system": {
+                "id": 1,
+                "code": "ALPHA",
+                "name": "Alpha",
+                "type": "SINGLE_STAR"
+            }
+        },
+        {
+            "id": 101,
+            "code": "ALPHA.JUMPPOINTS.BETA",
+            "designation": "Alpha - Beta",
+            "name": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 1,
+            "star_system": {
+                "id": 1,
+                "code": "ALPHA",
+                "name": "Alpha",
+                "type": "SINGLE_STAR"
+            }
+        },
+        {
+            "id": 102,
+            "code": "ALPHA.PLANET.ONE",
+            "designation": "Alpha I",
+            "name": "One",
+            "type": "PLANET",
+            "star_system_id": 1,
+            "star_system": {
+                "id": 1,
+                "code": "ALPHA",
+                "name": "Alpha",
+                "type": "SINGLE_STAR"
+            }
+        },
+        {
+            "id": 103,
+            "code": "ALPHA.MOONS.ONEA",
+            "designation": "Alpha Ia",
+            "name": "One A",
+            "type": "SATELLITE",
+            "star_system_id": 1,
+            "star_system": {
+                "id": 1,
+                "code": "ALPHA",
+                "name": "Alpha",
+                "type": "SINGLE_STAR"
+            }
+        },
+        {
+            "id": 104,
+            "code": "ALPHA.BELTS.ALPHA",
+            "designation": null,
+            "name": "Alpha Belt",
+            "type": "ASTEROID_BELT",
+            "star_system_id": 1,
+            "star_system": {
+                "id": 1,
+                "code": "ALPHA",
+                "name": "Alpha",
+                "type": "SINGLE_STAR"
+            }
+        },
+        {
+            "id": 200,
+            "code": "BETA.STAR.BETA",
+            "designation": null,
+            "name": "Beta",
+            "type": "STAR",
+            "star_system_id": 2,
+            "star_system": {
+                "id": 2,
+                "code": "BETA",
+                "name": "Beta",
+                "type": "SINGLE_STAR"
+            }
+        },
+        {
+            "id": 201,
+            "code": "BETA.JUMPPOINTS.ALPHA",
+            "designation": "Beta - Alpha",
+            "name": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 2,
+            "star_system": {
+                "id": 2,
+                "code": "BETA",
+                "name": "Beta",
+                "type": "SINGLE_STAR"
+            }
+        },
+        {
+            "id": 202,
+            "code": "BETA.PLANET.TWO",
+            "designation": "Beta I",
+            "name": "Two",
+            "type": "PLANET",
+            "star_system_id": 2,
+            "star_system": {
+                "id": 2,
+                "code": "BETA",
+                "name": "Beta",
+                "type": "SINGLE_STAR"
+            }
+        }
+    ],
+    "sysById": [
+        {
+            "id": 1,
+            "code": "ALPHA",
+            "description": "Первая система демо-сеттинга. Голубая планета One у единственной звезды.",
+            "info_url": null,
+            "name": "Alpha",
+            "position_x": 50,
+            "position_y": 0,
+            "position_z": 0,
+            "status": "P",
+            "time_modified": "2026-01-01 00:00:00",
+            "type": "SINGLE_STAR",
+            "affiliation": [
+                {
+                    "id": 1,
+                    "code": "myfaction",
+                    "color": "#48bbd4",
+                    "name": "My Faction"
+                }
+            ],
+            "aggregated_size": "4.85",
+            "aggregated_population": 5,
+            "aggregated_economy": 5,
+            "aggregated_danger": 3
+        },
+        {
+            "id": 2,
+            "code": "BETA",
+            "description": "Вторая система демо-сеттинга, соединена с Alpha туннелем размера M.",
+            "info_url": null,
+            "name": "Beta",
+            "position_x": -50,
+            "position_y": 0,
+            "position_z": 0,
+            "status": "P",
+            "time_modified": "2026-01-01 00:00:00",
+            "type": "SINGLE_STAR",
+            "affiliation": [],
+            "aggregated_size": "4.85",
+            "aggregated_population": 5,
+            "aggregated_economy": 5,
+            "aggregated_danger": 3
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+# Данные карты Star Citizen (контент вселенной) — перекачиваются заново:
+#   php grab.php fetch   - API JSON (bootup, системы, объекты)
+#   php grab.php index   - поисковый индекс
+#   php grab.php media   - изображения
+#   php grab.php assets  - модели, звуки, текстуры
+# В движок (бандл, css, fonts, ui-images, index.html) эти файлы не входят.
+
+# Локальный API карты: bootup.json, star-systems/ (90), celestial-objects/ (865), _index.json
+/web/api/
+
+# Изображения систем и объектов
+/web/media/
+
+# 3D-модели объектов карты (.dae)
+/web/static/starmap/models/
+
+# Звуки карты (эмбиенсы, музыка, UI-звуки)
+/web/static/starmap/sounds/
+
+# Текстуры, вшитые в .dae-модели
+/web/static/starmap/sourceimages/
+
+# Кэш граббера (исходные данные API до сборки зеркала)
+/data/

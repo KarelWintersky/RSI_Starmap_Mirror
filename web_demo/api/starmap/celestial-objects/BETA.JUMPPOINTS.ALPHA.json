@@ -1,0 +1,40 @@
+{
+    "success": 1,
+    "code": "OK",
+    "msg": "OK",
+    "data": {
+        "resultset": [
+            {
+                "id": 201,
+                "age": 0,
+                "appearance": "DEFAULT",
+                "axial_tilt": 0,
+                "code": "BETA.JUMPPOINTS.ALPHA",
+                "description": null,
+                "designation": "Beta - Alpha",
+                "distance": 9,
+                "fairchanceact": false,
+                "habitable": false,
+                "info_url": null,
+                "latitude": -1,
+                "longitude": -5,
+                "name": null,
+                "orbit_period": null,
+                "parent_id": 200,
+                "sensor_danger": "0",
+                "sensor_economy": "0",
+                "sensor_population": "0",
+                "shader_data": null,
+                "show_label": true,
+                "show_orbitlines": false,
+                "size": 0,
+                "subtype_id": null,
+                "time_modified": "2026-01-01 00:00:00",
+                "type": "JUMPPOINT",
+                "subtype": null,
+                "affiliation": [],
+                "population": []
+            }
+        ]
+    }
+}

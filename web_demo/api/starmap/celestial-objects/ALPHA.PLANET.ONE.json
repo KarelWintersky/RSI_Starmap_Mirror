@@ -1,0 +1,45 @@
+{
+    "success": 1,
+    "code": "OK",
+    "msg": "OK",
+    "data": {
+        "resultset": [
+            {
+                "id": 102,
+                "age": 0,
+                "appearance": "PLANET_BLUE",
+                "axial_tilt": 0,
+                "code": "ALPHA.PLANET.ONE",
+                "description": null,
+                "designation": "Alpha I",
+                "distance": 0.8,
+                "fairchanceact": false,
+                "habitable": true,
+                "info_url": null,
+                "latitude": 0,
+                "longitude": 0,
+                "name": "One",
+                "orbit_period": null,
+                "parent_id": 100,
+                "sensor_danger": "1",
+                "sensor_economy": "5",
+                "sensor_population": "5",
+                "shader_data": null,
+                "show_label": true,
+                "show_orbitlines": true,
+                "size": 6000,
+                "subtype_id": null,
+                "time_modified": "2026-01-01 00:00:00",
+                "type": "PLANET",
+                "subtype": null,
+                "affiliation": [],
+                "population": [],
+                "texture": {
+                    "slug": "demo",
+                    "source": "/media/planet-one.jpg",
+                    "images": []
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "success": 1,
+    "code": "OK",
+    "msg": "OK",
+    "data": {
+        "resultset": [
+            {
+                "id": 202,
+                "age": 0,
+                "appearance": "PLANET_GREEN",
+                "axial_tilt": 0,
+                "code": "BETA.PLANET.TWO",
+                "description": null,
+                "designation": "Beta I",
+                "distance": 0.6,
+                "fairchanceact": false,
+                "habitable": false,
+                "info_url": null,
+                "latitude": 10,
+                "longitude": -20,
+                "name": "Two",
+                "orbit_period": null,
+                "parent_id": 200,
+                "sensor_danger": "4",
+                "sensor_economy": "3",
+                "sensor_population": "2",
+                "shader_data": null,
+                "show_label": true,
+                "show_orbitlines": true,
+                "size": 8000,
+                "subtype_id": null,
+                "time_modified": "2026-01-01 00:00:00",
+                "type": "PLANET",
+                "subtype": null,
+                "affiliation": [],
+                "population": [],
+                "texture": {
+                    "slug": "demo",
+                    "source": "/media/planet-two.jpg",
+                    "images": []
+                }
+            }
+        ]
+    }
+}
