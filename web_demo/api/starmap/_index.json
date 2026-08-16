@@ -37,7 +37,14 @@
             "status": "P",
             "time_modified": "2026-01-01 00:00:00",
             "type": "SINGLE_STAR",
-            "affiliation": [],
+            "affiliation": [
+                {
+                    "id": 1,
+                    "code": "myfaction",
+                    "color": "#48bbd4",
+                    "name": "My Faction"
+                }
+            ],
             "aggregated_size": "4.85",
             "aggregated_population": 5,
             "aggregated_economy": 5,
@@ -196,7 +203,14 @@
             "status": "P",
             "time_modified": "2026-01-01 00:00:00",
             "type": "SINGLE_STAR",
-            "affiliation": [],
+            "affiliation": [
+                {
+                    "id": 1,
+                    "code": "myfaction",
+                    "color": "#48bbd4",
+                    "name": "My Faction"
+                }
+            ],
             "aggregated_size": "4.85",
             "aggregated_population": 5,
             "aggregated_economy": 5,

@@ -38,7 +38,7 @@ const SYSTEMS = [
         'habitable_zone_inner' => 0.4,
         'habitable_zone_outer' => 1.0,
         'frost_line' => 2.0,
-        'affiliation' => [],
+        'affiliation' => ['myfaction'],
     ],
 ];
 
@@ -47,7 +47,7 @@ const OBJECTS = [
     'ALPHA.STAR.ALPHA'            => ['id' => 100, 'type' => 'STAR',        'parent' => null, 'distance' => 0.0,   'lat' => 0,   'lon' => 0,    'size' => 1.2,     'appearance' => 'DEFAULT',        'name' => 'Alpha',  'designation' => null,      'texture' => null, 'habitable' => false, 'sensors' => [0, 0, 0]],
     'ALPHA.JUMPPOINTS.BETA'       => ['id' => 101, 'type' => 'JUMPPOINT',   'parent' => 100,  'distance' => 1.8,   'lat' => -5,  'lon' => 130,  'size' => 0,        'appearance' => 'DEFAULT',        'name' => null,     'designation' => 'Alpha - Beta', 'texture' => null, 'habitable' => false, 'sensors' => [0, 0, 0]],
     'ALPHA.PLANET.ONE'            => ['id' => 102, 'type' => 'PLANET',      'parent' => 100,  'distance' => 0.8,   'lat' => 0,   'lon' => 0,    'size' => 6000,     'appearance' => 'PLANET_BLUE',    'name' => 'One',    'designation' => 'Alpha I',     'texture' => '/media/planet-one.jpg', 'habitable' => true, 'sensors' => [5, 5, 1]],
-    'ALPHA.MOONS.ONEA'            => ['id' => 103, 'type' => 'SATELLITE',   'parent' => 102,  'distance' => 0.02,  'lat' => 0,   'lon' => 45,   'size' => 1500,     'appearance' => 'DEFAULT',        'name' => 'One A',  'designation' => 'Alpha Ia',    'texture' => null, 'habitable' => false, 'sensors' => [0, 0, 0]],
+    'ALPHA.MOONS.ONEA'            => ['id' => 103, 'type' => 'SATELLITE',   'parent' => 102,  'distance' => 0.005, 'lat' => 0,   'lon' => 45,   'size' => 0.5,      'appearance' => 'DEFAULT',        'name' => 'One A',  'designation' => 'Alpha Ia',    'texture' => null, 'habitable' => false, 'sensors' => [0, 0, 0]],
     'ALPHA.BELTS.ALPHA'           => ['id' => 104, 'type' => 'ASTEROID_BELT', 'parent' => 100, 'distance' => 1.5,  'lat' => 0,   'lon' => 0,    'size' => 1,        'appearance' => 'DEFAULT',        'name' => 'Alpha Belt', 'designation' => null,  'texture' => null, 'habitable' => false, 'sensors' => [0, 0, 0]],
     'BETA.STAR.BETA'              => ['id' => 200, 'type' => 'STAR',        'parent' => null, 'distance' => 0.0,   'lat' => 0,   'lon' => 0,    'size' => 1.2,     'appearance' => 'DEFAULT',        'name' => 'Beta',   'designation' => null,      'texture' => null, 'habitable' => false, 'sensors' => [0, 0, 0]],
     'BETA.JUMPPOINTS.ALPHA'       => ['id' => 201, 'type' => 'JUMPPOINT',   'parent' => 200,  'distance' => 9.0,   'lat' => -1,  'lon' => -5,   'size' => 0,        'appearance' => 'DEFAULT',        'name' => null,     'designation' => 'Beta - Alpha', 'texture' => null, 'habitable' => false, 'sensors' => [0, 0, 0]],
@@ -61,6 +61,12 @@ const TUNNELS = [
 const AFFILIATIONS = [
     ['id' => 1, 'code' => 'myfaction', 'color' => '#48bbd4', 'name' => 'My Faction'],
 ];
+
+// Иконки фракций живут в web/static/starmap/sourceimages/factions/{code}.png.
+// Система без фракции → код "NONE" → спрайт с пустой текстурой = белый квадрат.
+// Fallback: round-иконка NONE.png (копия uee.png), чтобы таких квадратов не было.
+const FACTION_ICON_FALLBACK = __DIR__ . '/static/starmap/sourceimages/factions/NONE.png';
+const FACTION_ICON_SOURCE = __DIR__ . '/../web/static/starmap/sourceimages/factions/uee.png';
 
 // --------------------------------------------------------------------- helpers
 
@@ -246,5 +252,11 @@ demoWrite(DEMO_API . '/_index.json', [
     'objects' => $objects,
     'sysById' => $systems,
 ]);
+
+// fallback-иконка для систем без фракции (код "NONE"): без неё спрайт = белый квадрат
+if (is_file(FACTION_ICON_SOURCE) && (!is_file(FACTION_ICON_FALLBACK) || !empty($GLOBALS['FORCE']))) {
+    copy(FACTION_ICON_SOURCE, FACTION_ICON_FALLBACK);
+    demoOut('factions: NONE.png (fallback)');
+}
 
 demoOut('web_demo/api/starmap/: bootup.json, star-systems/' . count(SYSTEMS) . ', celestial-objects/' . count(OBJECTS) . ', _index.json');
