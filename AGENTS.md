@@ -147,6 +147,34 @@ PATCH_FOR_DCLICK.md       оба UX-патча движка (строки до/�
 - Проверено headless-chromium: движок стартует на демо-данных, грузит `/api/starmap/bootup`,
   рендерит галактический вид (тёмно-синее звёздное поле с цветными звёздами).
 
+## SpringGalaxy (web_spring/)
+
+Новый чистый движок карты, пишется с нуля на three.js 0.185.1 (ESM, без сборщика).
+Цель — читаемая замена обфусцированного бандла ARK, тот же трёхуровневый переход:
+2D-карта → 3D-галактика → звёздная система. Подробный план — `web_spring/PLAN.md`.
+
+- Стек: three.js 0.185.1 (забендорен в `three/`, `node_modules` в git не идёт),
+  чистые ES-модули + import map (`"three": "/three/three.module.js"`),
+  PHP только для данных и `php -S`. Запуск: `php web_spring/make_data.php` →
+  `php -S 0.0.0.0:8090 web_spring/server.php`.
+- Данные (Фаза 0 — тестовые, 5 систем): `web_spring/make_data.php` генерит
+  `api/starmap/{bootup.json, star-systems/{ALPHA,BETA,GAMMA,VOID,DELTA}.json, _index.json}`.
+  Формат совместим с боевым API: на систему ОДИН файл (все объекты плоским списком,
+  дерево по `parent_id`, новые поля `oort_radius` в системе и тип объекта `OORT`).
+- Движок (`web_spring/js/`): `main.js`→`App` (`app.js`: renderer/scene/camera/raycast/цикл),
+  `data.js` (DataStore + SystemModel), `coords.js` (Types 0..11, `sysWorld`, `sphToCart`),
+  `effects.js` (глоу/кольца/подписи/звёздное поле/орбиты/атмосфера/диск ЧД/пояса/поля/OORT),
+  `rig.js` (CameraRig: сферическая орбита + flyTo с damp; Clicker), `galaxy.js`, `system.js`,
+  `states.js` (State2D/State3D/StateSystem).
+- Подводные камни, проверенные на практике:
+  - r185 `three.module.js` импортирует `./three.core.js` — вендорить ОБА.
+  - У raycast-интерсекции нет поля `userData` — данные брать из `hit.object.userData`.
+  - `pointerup.detail` у PointerEvent всегда 0; двойной клик — нативный `dblclick`.
+  - `THREE.Clock` в r185 deprecated → `THREE.Timer` (+ `.connect(document)`).
+- Проверка: `make lint` (php -l) + headless chromium с CDP-скриптом
+  (`/tmp/opencode/cdp-test.mjs`): инициализация, 2D→3D, вход в систему, zoom out.
+  Сценарий кликов проверен, ошибок в консоли нет.
+
 ## Подводные камни старта движка (важно!)
 
 - **Preload шрифта Electrolize обязателен**: вход `l("Electrolize").then(t.start()).catch(console.error)`

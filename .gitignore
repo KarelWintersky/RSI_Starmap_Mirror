@@ -22,3 +22,7 @@
 
 # Кэш граббера (исходные данные API до сборки зеркала)
 /data/
+
+# SpringGalaxy: данные генерируются make_data.php; three.js ставится npm
+/web_spring/node_modules/
+/web_spring/api/starmap/
