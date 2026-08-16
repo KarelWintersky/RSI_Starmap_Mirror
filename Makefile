@@ -21,39 +21,45 @@ HELP_ACTION = \
 PHP  ?= php
 PORT ?= 8080
 
-.PHONY: help fetch index assets media media-all build all serve lint
+.PHONY: help fetch index assets media media-all build all serve lint spring-data
 
 ##@ Сборка данных (data/)
-fetch:  ##@setup Скачать JSON с API: bootup + системы + объекты (повторный запуск пропускает уже скачанные; --force сбрасывает кэш)
+fetch:  ##@fetch Скачать JSON с API: bootup + системы + объекты (повторный запуск пропускает уже скачанные; --force сбрасывает кэш)
 	$(PHP) grab.php fetch
 
-index:  ##@setup Собрать список media-URL из data/ в data/urlindex.json
+index:  ##@fetch Собрать список media-URL из data/ в data/urlindex.json
 	$(PHP) grab.php index
 
-assets: ##@setup Зеркалировать статику CDN (модели .dae, звуки, css/js, шрифты, ui-images)
+assets: ##@fetch Зеркалировать статику CDN (модели .dae, звуки, css/js, шрифты, ui-images)
 	$(PHP) grab.php assets
 
-media:  ##@setup Скачать основное медиа: текстуры планет, 3D-модели, превью, галерею post
+media:  ##@fetch Скачать основное медиа: текстуры планет, 3D-модели, превью, галерею post
 	$(PHP) grab.php media --texture --model --thumbnail --media_post
 
-media-all: ##@setup Скачать ВСЁ медиа, включая все размеры галереи (медленно, большой объём)
+media-all: ##@fetch Скачать ВСЁ медиа, включая все размеры галереи (медленно, большой объём)
 	$(PHP) grab.php media
 
-build:  ##@setup Собрать web/: index.html, патченный bundle, локальный API, поисковый индекс
+build:  ##@fetch Собрать web/: index.html, патченный bundle, локальный API, поисковый индекс
 	$(PHP) grab.php build
 
 all: fetch index assets media build ##@setup Полная сборка: данные + статика + медиа + зеркало
 
 ##@ Запуск
-serve:  ##@run Поднять локальный сервер офлайн-зеркала. Порт: make serve PORT=9000
+server:  ##@original Поднять локальный сервер офлайн-зеркала. Порт: make serve PORT=9000
 	$(PHP) grab.php serve $(PORT)
 
-demo:   ##@run Поднять демо-песочницу на данных своего сеттинга (web_demo/). Порт: make demo PORT=8099
+demo:   ##@demo Поднять демо-песочницу на данных своего сеттинга (web_demo/). Порт: make demo PORT=8099
 	$(PHP) -S 0.0.0.0:$(PORT) web_demo/server.php
 
-demo-data: ##@setup Перегенерировать данные демо (web_demo/api/starmap) из web_demo/make_data.php
+demo-data: ##@demo Перегенерировать данные демо (web_demo/api/starmap) из web_demo/make_data.php
 	$(PHP) web_demo/make_data.php
 
+spring-data: ##@spring Сгенерировать данные SpringGalaxy: топология из confmap.svg + случайная лоция систем
+	$(PHP) web_spring/make_data.php && $(PHP) web_spring/generate_systems.php
+
+spring: ##@spring SpringGalaxy: run demo
+	$(PHP) -S 0.0.0.0:8090 web_spring/server.php
+
 ##@ Проверки
-lint:   ##@check Проверить синтаксис всех PHP-файлов проекта
+lint:   ##@dev Проверить синтаксис всех PHP-файлов проекта
 	find . -name '*.php' -not -path './vendor/*' -print0 | xargs -0 -n1 $(PHP) -l

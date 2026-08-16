@@ -585,5 +585,5370 @@
             "star_system_id": 47
         }
     ],
-    "objects": []
+    "objects": [
+        {
+            "id": 1402,
+            "code": "ACHERON.PLANET.A",
+            "name": "V-AMD5 A",
+            "designation": "A",
+            "type": "PLANET",
+            "star_system_id": 40,
+            "parent_id": 1400
+        },
+        {
+            "id": 1403,
+            "code": "ACHERON.PLANET.B",
+            "name": "V-AMD5 B",
+            "designation": "B",
+            "type": "PLANET",
+            "star_system_id": 40,
+            "parent_id": 1400
+        },
+        {
+            "id": 1404,
+            "code": "ACHERON.JUMP.DINUR",
+            "name": "Гиперканал → Динур",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 40,
+            "parent_id": 1400
+        },
+        {
+            "id": 1405,
+            "code": "ACHERON.JUMP.ALMAH",
+            "name": "Гиперканал → Альмах",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 40,
+            "parent_id": 1400
+        },
+        {
+            "id": 1401,
+            "code": "ACHERON.OORT",
+            "name": "V-AMD5 Oort Cloud",
+            "designation": null,
+            "type": "OORT",
+            "star_system_id": 40,
+            "parent_id": 1400
+        },
+        {
+            "id": 1732,
+            "code": "AJODHJA.PLANET.A",
+            "name": "Айодхья A",
+            "designation": "A",
+            "type": "PLANET",
+            "star_system_id": 73,
+            "parent_id": 1730
+        },
+        {
+            "id": 1733,
+            "code": "AJODHJA.PLANET.B",
+            "name": "Айодхья B",
+            "designation": "B",
+            "type": "PLANET",
+            "star_system_id": 73,
+            "parent_id": 1730
+        },
+        {
+            "id": 1734,
+            "code": "AJODHJA.PLANET.C",
+            "name": "Айодхья C",
+            "designation": "C",
+            "type": "PLANET",
+            "star_system_id": 73,
+            "parent_id": 1730
+        },
+        {
+            "id": 1735,
+            "code": "AJODHJA.PLANET.D",
+            "name": "Айодхья D",
+            "designation": "D",
+            "type": "PLANET",
+            "star_system_id": 73,
+            "parent_id": 1730
+        },
+        {
+            "id": 1736,
+            "code": "AJODHJA.PLANET.E",
+            "name": "Айодхья E",
+            "designation": "E",
+            "type": "PLANET",
+            "star_system_id": 73,
+            "parent_id": 1730
+        },
+        {
+            "id": 1737,
+            "code": "AJODHJA.JUMP.BRISTOL",
+            "name": "Гиперканал → Бристоль",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 73,
+            "parent_id": 1730
+        },
+        {
+            "id": 1738,
+            "code": "AJODHJA.JUMP.ARDENN",
+            "name": "Гиперканал → Арденн",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 73,
+            "parent_id": 1730
+        },
+        {
+            "id": 1731,
+            "code": "AJODHJA.OORT",
+            "name": "Айодхья Oort Cloud",
+            "designation": null,
+            "type": "OORT",
+            "star_system_id": 73,
+            "parent_id": 1730
+        },
+        {
+            "id": 1572,
+            "code": "ALBERTA.PLANET.A",
+            "name": "Альберта A",
+            "designation": "A",
+            "type": "PLANET",
+            "star_system_id": 57,
+            "parent_id": 1570
+        },
+        {
+            "id": 1573,
+            "code": "ALBERTA.PLANET.B",
+            "name": "Альберта B",
+            "designation": "B",
+            "type": "PLANET",
+            "star_system_id": 57,
+            "parent_id": 1570
+        },
+        {
+            "id": 1574,
+            "code": "ALBERTA.PLANET.C",
+            "name": "Альберта C",
+            "designation": "C",
+            "type": "PLANET",
+            "star_system_id": 57,
+            "parent_id": 1570
+        },
+        {
+            "id": 1575,
+            "code": "ALBERTA.PLANET.D",
+            "name": "Альберта D",
+            "designation": "D",
+            "type": "PLANET",
+            "star_system_id": 57,
+            "parent_id": 1570
+        },
+        {
+            "id": 1576,
+            "code": "ALBERTA.JUMP.MARUKKU",
+            "name": "Гиперканал → Марукку",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 57,
+            "parent_id": 1570
+        },
+        {
+            "id": 1577,
+            "code": "ALBERTA.JUMP.ARGOSTROLION",
+            "name": "Гиперканал → Аргостолион",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 57,
+            "parent_id": 1570
+        },
+        {
+            "id": 1578,
+            "code": "ALBERTA.JUMP.FIN",
+            "name": "Гиперканал → Фин",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 57,
+            "parent_id": 1570
+        },
+        {
+            "id": 1571,
+            "code": "ALBERTA.OORT",
+            "name": "Альберта Oort Cloud",
+            "designation": null,
+            "type": "OORT",
+            "star_system_id": 57,
+            "parent_id": 1570
+        },
+        {
+            "id": 1412,
+            "code": "ALMAH.PLANET.A",
+            "name": "Альмах A",
+            "designation": "A",
+            "type": "PLANET",
+            "star_system_id": 41,
+            "parent_id": 1410
+        },
+        {
+            "id": 1413,
+            "code": "ALMAH.PLANET.B",
+            "name": "Альмах B",
+            "designation": "B",
+            "type": "PLANET",
+            "star_system_id": 41,
+            "parent_id": 1410
+        },
+        {
+            "id": 1414,
+            "code": "ALMAH.PLANET.C",
+            "name": "Альмах C",
+            "designation": "C",
+            "type": "PLANET",
+            "star_system_id": 41,
+            "parent_id": 1410
+        },
+        {
+            "id": 1415,
+            "code": "ALMAH.PLANET.D",
+            "name": "Альмах D",
+            "designation": "D",
+            "type": "PLANET",
+            "star_system_id": 41,
+            "parent_id": 1410
+        },
+        {
+            "id": 1416,
+            "code": "ALMAH.JUMP.GAYA",
+            "name": "Гиперканал → Гайя",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 41,
+            "parent_id": 1410
+        },
+        {
+            "id": 1417,
+            "code": "ALMAH.JUMP.ARDENN",
+            "name": "Гиперканал → Арденн",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 41,
+            "parent_id": 1410
+        },
+        {
+            "id": 1418,
+            "code": "ALMAH.JUMP.DINUR",
+            "name": "Гиперканал → Динур",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 41,
+            "parent_id": 1410
+        },
+        {
+            "id": 1419,
+            "code": "ALMAH.JUMP.ACHERON",
+            "name": "Гиперканал → V-AMD5",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 41,
+            "parent_id": 1410
+        },
+        {
+            "id": 1411,
+            "code": "ALMAH.OORT",
+            "name": "Альмах Oort Cloud",
+            "designation": null,
+            "type": "OORT",
+            "star_system_id": 41,
+            "parent_id": 1410
+        },
+        {
+            "id": 1222,
+            "code": "ANTARA.PLANET.A",
+            "name": "Антара A",
+            "designation": "A",
+            "type": "PLANET",
+            "star_system_id": 22,
+            "parent_id": 1220
+        },
+        {
+            "id": 1223,
+            "code": "ANTARA.PLANET.B",
+            "name": "Антара B",
+            "designation": "B",
+            "type": "PLANET",
+            "star_system_id": 22,
+            "parent_id": 1220
+        },
+        {
+            "id": 1224,
+            "code": "ANTARA.PLANET.C",
+            "name": "Антара C",
+            "designation": "C",
+            "type": "PLANET",
+            "star_system_id": 22,
+            "parent_id": 1220
+        },
+        {
+            "id": 1225,
+            "code": "ANTARA.PLANET.D",
+            "name": "Антара D",
+            "designation": "D",
+            "type": "PLANET",
+            "star_system_id": 22,
+            "parent_id": 1220
+        },
+        {
+            "id": 1226,
+            "code": "ANTARA.PLANET.E",
+            "name": "Антара E",
+            "designation": "E",
+            "type": "PLANET",
+            "star_system_id": 22,
+            "parent_id": 1220
+        },
+        {
+            "id": 1227,
+            "code": "ANTARA.PLANET.F",
+            "name": "Антара F",
+            "designation": "F",
+            "type": "PLANET",
+            "star_system_id": 22,
+            "parent_id": 1220
+        },
+        {
+            "id": 1228,
+            "code": "ANTARA.JUMP.FOMALHAUT",
+            "name": "Гиперканал → Фомальгаут",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 22,
+            "parent_id": 1220
+        },
+        {
+            "id": 1229,
+            "code": "ANTARA.JUMP.KITEG",
+            "name": "Гиперканал → Китеж",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 22,
+            "parent_id": 1220
+        },
+        {
+            "id": 1230,
+            "code": "ANTARA.JUMP.HANNAHT",
+            "name": "Гиперканал → Ханнахт",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 22,
+            "parent_id": 1220
+        },
+        {
+            "id": 1231,
+            "code": "ANTARA.JUMP.NEWHAWAI",
+            "name": "Гиперканал → Нью-Гаваи",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 22,
+            "parent_id": 1220
+        },
+        {
+            "id": 1221,
+            "code": "ANTARA.OORT",
+            "name": "Антара Oort Cloud",
+            "designation": null,
+            "type": "OORT",
+            "star_system_id": 22,
+            "parent_id": 1220
+        },
+        {
+            "id": 1422,
+            "code": "ARDENN.PLANET.A",
+            "name": "Арденн A",
+            "designation": "A",
+            "type": "PLANET",
+            "star_system_id": 42,
+            "parent_id": 1420
+        },
+        {
+            "id": 1423,
+            "code": "ARDENN.PLANET.B",
+            "name": "Арденн B",
+            "designation": "B",
+            "type": "PLANET",
+            "star_system_id": 42,
+            "parent_id": 1420
+        },
+        {
+            "id": 1424,
+            "code": "ARDENN.PLANET.C",
+            "name": "Арденн C",
+            "designation": "C",
+            "type": "PLANET",
+            "star_system_id": 42,
+            "parent_id": 1420
+        },
+        {
+            "id": 1425,
+            "code": "ARDENN.PLANET.D",
+            "name": "Арденн D",
+            "designation": "D",
+            "type": "PLANET",
+            "star_system_id": 42,
+            "parent_id": 1420
+        },
+        {
+            "id": 1426,
+            "code": "ARDENN.PLANET.E",
+            "name": "Арденн E",
+            "designation": "E",
+            "type": "PLANET",
+            "star_system_id": 42,
+            "parent_id": 1420
+        },
+        {
+            "id": 1427,
+            "code": "ARDENN.PLANET.F",
+            "name": "Арденн F",
+            "designation": "F",
+            "type": "PLANET",
+            "star_system_id": 42,
+            "parent_id": 1420
+        },
+        {
+            "id": 1428,
+            "code": "ARDENN.JUMP.ALMAH",
+            "name": "Гиперканал → Альмах",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 42,
+            "parent_id": 1420
+        },
+        {
+            "id": 1429,
+            "code": "ARDENN.JUMP.AVALON",
+            "name": "Гиперканал → Авалон",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 42,
+            "parent_id": 1420
+        },
+        {
+            "id": 1430,
+            "code": "ARDENN.JUMP.AJODHJA",
+            "name": "Гиперканал → Айодхья",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 42,
+            "parent_id": 1420
+        },
+        {
+            "id": 1421,
+            "code": "ARDENN.OORT",
+            "name": "Арденн Oort Cloud",
+            "designation": null,
+            "type": "OORT",
+            "star_system_id": 42,
+            "parent_id": 1420
+        },
+        {
+            "id": 1552,
+            "code": "ARGOSTROLION.PLANET.A",
+            "name": "Аргостолион A",
+            "designation": "A",
+            "type": "PLANET",
+            "star_system_id": 55,
+            "parent_id": 1550
+        },
+        {
+            "id": 1553,
+            "code": "ARGOSTROLION.PLANET.B",
+            "name": "Аргостолион B",
+            "designation": "B",
+            "type": "PLANET",
+            "star_system_id": 55,
+            "parent_id": 1550
+        },
+        {
+            "id": 1554,
+            "code": "ARGOSTROLION.PLANET.C",
+            "name": "Аргостолион C",
+            "designation": "C",
+            "type": "PLANET",
+            "star_system_id": 55,
+            "parent_id": 1550
+        },
+        {
+            "id": 1555,
+            "code": "ARGOSTROLION.PLANET.D",
+            "name": "Аргостолион D",
+            "designation": "D",
+            "type": "PLANET",
+            "star_system_id": 55,
+            "parent_id": 1550
+        },
+        {
+            "id": 1556,
+            "code": "ARGOSTROLION.ASTEROID_BELT",
+            "name": "Аргостолион — пояс астероидов",
+            "designation": null,
+            "type": "ASTEROID_BELT",
+            "star_system_id": 55,
+            "parent_id": 1550
+        },
+        {
+            "id": 1557,
+            "code": "ARGOSTROLION.JUMP.ALBERTA",
+            "name": "Гиперканал → Альберта",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 55,
+            "parent_id": 1550
+        },
+        {
+            "id": 1558,
+            "code": "ARGOSTROLION.JUMP.PELLA",
+            "name": "Гиперканал → Пелла",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 55,
+            "parent_id": 1550
+        },
+        {
+            "id": 1559,
+            "code": "ARGOSTROLION.JUMP.SHANTIER",
+            "name": "Гиперканал → Шантьер",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 55,
+            "parent_id": 1550
+        },
+        {
+            "id": 1551,
+            "code": "ARGOSTROLION.OORT",
+            "name": "Аргостолион Oort Cloud",
+            "designation": null,
+            "type": "OORT",
+            "star_system_id": 55,
+            "parent_id": 1550
+        },
+        {
+            "id": 1302,
+            "code": "ARKONIS.PLANET.A",
+            "name": "H-ADOC A",
+            "designation": "A",
+            "type": "PLANET",
+            "star_system_id": 30,
+            "parent_id": 1300
+        },
+        {
+            "id": 1303,
+            "code": "ARKONIS.PLANET.B",
+            "name": "H-ADOC B",
+            "designation": "B",
+            "type": "PLANET",
+            "star_system_id": 30,
+            "parent_id": 1300
+        },
+        {
+            "id": 1304,
+            "code": "ARKONIS.PLANET.C",
+            "name": "H-ADOC C",
+            "designation": "C",
+            "type": "PLANET",
+            "star_system_id": 30,
+            "parent_id": 1300
+        },
+        {
+            "id": 1305,
+            "code": "ARKONIS.JUMP.FORTHOPE",
+            "name": "Гиперканал → Форт-Надежда",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 30,
+            "parent_id": 1300
+        },
+        {
+            "id": 1306,
+            "code": "ARKONIS.JUMP.ESCALONA",
+            "name": "Гиперканал → Эскалона",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 30,
+            "parent_id": 1300
+        },
+        {
+            "id": 1301,
+            "code": "ARKONIS.OORT",
+            "name": "H-ADOC Oort Cloud",
+            "designation": null,
+            "type": "OORT",
+            "star_system_id": 30,
+            "parent_id": 1300
+        },
+        {
+            "id": 1532,
+            "code": "ARLISS.PLANET.A",
+            "name": "Арлисс A",
+            "designation": "A",
+            "type": "PLANET",
+            "star_system_id": 53,
+            "parent_id": 1530
+        },
+        {
+            "id": 1533,
+            "code": "ARLISS.PLANET.B",
+            "name": "Арлисс B",
+            "designation": "B",
+            "type": "PLANET",
+            "star_system_id": 53,
+            "parent_id": 1530
+        },
+        {
+            "id": 1534,
+            "code": "ARLISS.PLANET.C",
+            "name": "Арлисс C",
+            "designation": "C",
+            "type": "PLANET",
+            "star_system_id": 53,
+            "parent_id": 1530
+        },
+        {
+            "id": 1535,
+            "code": "ARLISS.JUMP.ITTEGOST",
+            "name": "Гиперканал → Иттегост",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 53,
+            "parent_id": 1530
+        },
+        {
+            "id": 1536,
+            "code": "ARLISS.JUMP.SOLARIS",
+            "name": "Гиперканал → Солярис",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 53,
+            "parent_id": 1530
+        },
+        {
+            "id": 1531,
+            "code": "ARLISS.OORT",
+            "name": "Арлисс Oort Cloud",
+            "designation": null,
+            "type": "OORT",
+            "star_system_id": 53,
+            "parent_id": 1530
+        },
+        {
+            "id": 1342,
+            "code": "ARRAKIS.PLANET.A",
+            "name": "Арракис A",
+            "designation": "A",
+            "type": "PLANET",
+            "star_system_id": 34,
+            "parent_id": 1340
+        },
+        {
+            "id": 1343,
+            "code": "ARRAKIS.PLANET.B",
+            "name": "Арракис B",
+            "designation": "B",
+            "type": "PLANET",
+            "star_system_id": 34,
+            "parent_id": 1340
+        },
+        {
+            "id": 1344,
+            "code": "ARRAKIS.PLANET.C",
+            "name": "Арракис C",
+            "designation": "C",
+            "type": "PLANET",
+            "star_system_id": 34,
+            "parent_id": 1340
+        },
+        {
+            "id": 1345,
+            "code": "ARRAKIS.PLANET.D",
+            "name": "Арракис D",
+            "designation": "D",
+            "type": "PLANET",
+            "star_system_id": 34,
+            "parent_id": 1340
+        },
+        {
+            "id": 1346,
+            "code": "ARRAKIS.PLANET.E",
+            "name": "Арракис E",
+            "designation": "E",
+            "type": "PLANET",
+            "star_system_id": 34,
+            "parent_id": 1340
+        },
+        {
+            "id": 1347,
+            "code": "ARRAKIS.PLANET.F",
+            "name": "Арракис F",
+            "designation": "F",
+            "type": "PLANET",
+            "star_system_id": 34,
+            "parent_id": 1340
+        },
+        {
+            "id": 1348,
+            "code": "ARRAKIS.JUMP.ESCALONA",
+            "name": "Гиперканал → Эскалона",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 34,
+            "parent_id": 1340
+        },
+        {
+            "id": 1349,
+            "code": "ARRAKIS.JUMP.GANDER",
+            "name": "Гиперканал → Гандэр",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 34,
+            "parent_id": 1340
+        },
+        {
+            "id": 1350,
+            "code": "ARRAKIS.JUMP.TERRONUS",
+            "name": "Гиперканал → K-MGJ7",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 34,
+            "parent_id": 1340
+        },
+        {
+            "id": 1351,
+            "code": "ARRAKIS.JUMP.PHOENIX",
+            "name": "Гиперканал → XX9-WV",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 34,
+            "parent_id": 1340
+        },
+        {
+            "id": 1341,
+            "code": "ARRAKIS.OORT",
+            "name": "Арракис Oort Cloud",
+            "designation": null,
+            "type": "OORT",
+            "star_system_id": 34,
+            "parent_id": 1340
+        },
+        {
+            "id": 1152,
+            "code": "ASADAL.PLANET.A",
+            "name": "Асадаль A",
+            "designation": "A",
+            "type": "PLANET",
+            "star_system_id": 15,
+            "parent_id": 1150
+        },
+        {
+            "id": 1153,
+            "code": "ASADAL.PLANET.B",
+            "name": "Асадаль B",
+            "designation": "B",
+            "type": "PLANET",
+            "star_system_id": 15,
+            "parent_id": 1150
+        },
+        {
+            "id": 1154,
+            "code": "ASADAL.PLANET.C",
+            "name": "Асадаль C",
+            "designation": "C",
+            "type": "PLANET",
+            "star_system_id": 15,
+            "parent_id": 1150
+        },
+        {
+            "id": 1155,
+            "code": "ASADAL.PLANET.D",
+            "name": "Асадаль D",
+            "designation": "D",
+            "type": "PLANET",
+            "star_system_id": 15,
+            "parent_id": 1150
+        },
+        {
+            "id": 1156,
+            "code": "ASADAL.PLANET.E",
+            "name": "Асадаль E",
+            "designation": "E",
+            "type": "PLANET",
+            "star_system_id": 15,
+            "parent_id": 1150
+        },
+        {
+            "id": 1157,
+            "code": "ASADAL.JUMP.MIKOVARRO",
+            "name": "Гиперканал → Миковарро",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 15,
+            "parent_id": 1150
+        },
+        {
+            "id": 1158,
+            "code": "ASADAL.JUMP.ASTRA",
+            "name": "Гиперканал → Астра",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 15,
+            "parent_id": 1150
+        },
+        {
+            "id": 1159,
+            "code": "ASADAL.JUMP.KUBULUS",
+            "name": "Гиперканал → Кубулус",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 15,
+            "parent_id": 1150
+        },
+        {
+            "id": 1151,
+            "code": "ASADAL.OORT",
+            "name": "Асадаль Oort Cloud",
+            "designation": null,
+            "type": "OORT",
+            "star_system_id": 15,
+            "parent_id": 1150
+        },
+        {
+            "id": 1162,
+            "code": "ASTRA.PLANET.A",
+            "name": "Астра A",
+            "designation": "A",
+            "type": "PLANET",
+            "star_system_id": 16,
+            "parent_id": 1160
+        },
+        {
+            "id": 1163,
+            "code": "ASTRA.PLANET.B",
+            "name": "Астра B",
+            "designation": "B",
+            "type": "PLANET",
+            "star_system_id": 16,
+            "parent_id": 1160
+        },
+        {
+            "id": 1164,
+            "code": "ASTRA.PLANET.C",
+            "name": "Астра C",
+            "designation": "C",
+            "type": "PLANET",
+            "star_system_id": 16,
+            "parent_id": 1160
+        },
+        {
+            "id": 1165,
+            "code": "ASTRA.PLANET.D",
+            "name": "Астра D",
+            "designation": "D",
+            "type": "PLANET",
+            "star_system_id": 16,
+            "parent_id": 1160
+        },
+        {
+            "id": 1166,
+            "code": "ASTRA.JUMP.KITEG",
+            "name": "Гиперканал → Китеж",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 16,
+            "parent_id": 1160
+        },
+        {
+            "id": 1167,
+            "code": "ASTRA.JUMP.MIKOVARRO",
+            "name": "Гиперканал → Миковарро",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 16,
+            "parent_id": 1160
+        },
+        {
+            "id": 1168,
+            "code": "ASTRA.JUMP.ASADAL",
+            "name": "Гиперканал → Асадаль",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 16,
+            "parent_id": 1160
+        },
+        {
+            "id": 1161,
+            "code": "ASTRA.OORT",
+            "name": "Астра Oort Cloud",
+            "designation": null,
+            "type": "OORT",
+            "star_system_id": 16,
+            "parent_id": 1160
+        },
+        {
+            "id": 1432,
+            "code": "AVALON.PLANET.A",
+            "name": "Авалон A",
+            "designation": "A",
+            "type": "PLANET",
+            "star_system_id": 43,
+            "parent_id": 1430
+        },
+        {
+            "id": 1433,
+            "code": "AVALON.PLANET.B",
+            "name": "Авалон B",
+            "designation": "B",
+            "type": "PLANET",
+            "star_system_id": 43,
+            "parent_id": 1430
+        },
+        {
+            "id": 1434,
+            "code": "AVALON.PLANET.C",
+            "name": "Авалон C",
+            "designation": "C",
+            "type": "PLANET",
+            "star_system_id": 43,
+            "parent_id": 1430
+        },
+        {
+            "id": 1435,
+            "code": "AVALON.PLANET.D",
+            "name": "Авалон D",
+            "designation": "D",
+            "type": "PLANET",
+            "star_system_id": 43,
+            "parent_id": 1430
+        },
+        {
+            "id": 1436,
+            "code": "AVALON.ASTEROID_BELT",
+            "name": "Авалон — пояс астероидов",
+            "designation": null,
+            "type": "ASTEROID_BELT",
+            "star_system_id": 43,
+            "parent_id": 1430
+        },
+        {
+            "id": 1437,
+            "code": "AVALON.JUMP.ARDENN",
+            "name": "Гиперканал → Арденн",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 43,
+            "parent_id": 1430
+        },
+        {
+            "id": 1431,
+            "code": "AVALON.OORT",
+            "name": "Авалон Oort Cloud",
+            "designation": null,
+            "type": "OORT",
+            "star_system_id": 43,
+            "parent_id": 1430
+        },
+        {
+            "id": 1512,
+            "code": "BRISTOL.PLANET.A",
+            "name": "Бристоль A",
+            "designation": "A",
+            "type": "PLANET",
+            "star_system_id": 51,
+            "parent_id": 1510
+        },
+        {
+            "id": 1513,
+            "code": "BRISTOL.PLANET.B",
+            "name": "Бристоль B",
+            "designation": "B",
+            "type": "PLANET",
+            "star_system_id": 51,
+            "parent_id": 1510
+        },
+        {
+            "id": 1514,
+            "code": "BRISTOL.PLANET.C",
+            "name": "Бристоль C",
+            "designation": "C",
+            "type": "PLANET",
+            "star_system_id": 51,
+            "parent_id": 1510
+        },
+        {
+            "id": 1515,
+            "code": "BRISTOL.JUMP.SIRIUS",
+            "name": "Гиперканал → Сириус",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 51,
+            "parent_id": 1510
+        },
+        {
+            "id": 1516,
+            "code": "BRISTOL.JUMP.AJODHJA",
+            "name": "Гиперканал → Айодхья",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 51,
+            "parent_id": 1510
+        },
+        {
+            "id": 1517,
+            "code": "BRISTOL.JUMP.NIGHTWISH",
+            "name": "Гиперканал → Найтвиш",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 51,
+            "parent_id": 1510
+        },
+        {
+            "id": 1518,
+            "code": "BRISTOL.JUMP.ITTEGOST",
+            "name": "Гиперканал → Иттегост",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 51,
+            "parent_id": 1510
+        },
+        {
+            "id": 1511,
+            "code": "BRISTOL.OORT",
+            "name": "Бристоль Oort Cloud",
+            "designation": null,
+            "type": "OORT",
+            "star_system_id": 51,
+            "parent_id": 1510
+        },
+        {
+            "id": 1542,
+            "code": "CHUMATAKTION.PLANET.A",
+            "name": "Чуматактион A",
+            "designation": "A",
+            "type": "PLANET",
+            "star_system_id": 54,
+            "parent_id": 1540
+        },
+        {
+            "id": 1543,
+            "code": "CHUMATAKTION.PLANET.B",
+            "name": "Чуматактион B",
+            "designation": "B",
+            "type": "PLANET",
+            "star_system_id": 54,
+            "parent_id": 1540
+        },
+        {
+            "id": 1544,
+            "code": "CHUMATAKTION.PLANET.C",
+            "name": "Чуматактион C",
+            "designation": "C",
+            "type": "PLANET",
+            "star_system_id": 54,
+            "parent_id": 1540
+        },
+        {
+            "id": 1545,
+            "code": "CHUMATAKTION.PLANET.D",
+            "name": "Чуматактион D",
+            "designation": "D",
+            "type": "PLANET",
+            "star_system_id": 54,
+            "parent_id": 1540
+        },
+        {
+            "id": 1546,
+            "code": "CHUMATAKTION.ASTEROID_BELT",
+            "name": "Чуматактион — пояс астероидов",
+            "designation": null,
+            "type": "ASTEROID_BELT",
+            "star_system_id": 54,
+            "parent_id": 1540
+        },
+        {
+            "id": 1547,
+            "code": "CHUMATAKTION.PLANET.E",
+            "name": "Чуматактион E",
+            "designation": "E",
+            "type": "PLANET",
+            "star_system_id": 54,
+            "parent_id": 1540
+        },
+        {
+            "id": 1548,
+            "code": "CHUMATAKTION.JUMP.RADJYA",
+            "name": "Гиперканал → Раджья",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 54,
+            "parent_id": 1540
+        },
+        {
+            "id": 1549,
+            "code": "CHUMATAKTION.JUMP.SHARD",
+            "name": "Гиперканал → Шард",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 54,
+            "parent_id": 1540
+        },
+        {
+            "id": 1541,
+            "code": "CHUMATAKTION.OORT",
+            "name": "Чуматактион Oort Cloud",
+            "designation": null,
+            "type": "OORT",
+            "star_system_id": 54,
+            "parent_id": 1540
+        },
+        {
+            "id": 1042,
+            "code": "DALLAS.PLANET.A",
+            "name": "Даллас A",
+            "designation": "A",
+            "type": "PLANET",
+            "star_system_id": 4,
+            "parent_id": 1040
+        },
+        {
+            "id": 1043,
+            "code": "DALLAS.PLANET.B",
+            "name": "Даллас B",
+            "designation": "B",
+            "type": "PLANET",
+            "star_system_id": 4,
+            "parent_id": 1040
+        },
+        {
+            "id": 1044,
+            "code": "DALLAS.PLANET.C",
+            "name": "Даллас C",
+            "designation": "C",
+            "type": "PLANET",
+            "star_system_id": 4,
+            "parent_id": 1040
+        },
+        {
+            "id": 1045,
+            "code": "DALLAS.PLANET.D",
+            "name": "Даллас D",
+            "designation": "D",
+            "type": "PLANET",
+            "star_system_id": 4,
+            "parent_id": 1040
+        },
+        {
+            "id": 1046,
+            "code": "DALLAS.JUMP.SIRIUS",
+            "name": "Гиперканал → Сириус",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 4,
+            "parent_id": 1040
+        },
+        {
+            "id": 1047,
+            "code": "DALLAS.JUMP.RINGTAIL",
+            "name": "Гиперканал → Рингтейл",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 4,
+            "parent_id": 1040
+        },
+        {
+            "id": 1041,
+            "code": "DALLAS.OORT",
+            "name": "Даллас Oort Cloud",
+            "designation": null,
+            "type": "OORT",
+            "star_system_id": 4,
+            "parent_id": 1040
+        },
+        {
+            "id": 1392,
+            "code": "DINUR.PLANET.A",
+            "name": "Динур A",
+            "designation": "A",
+            "type": "PLANET",
+            "star_system_id": 39,
+            "parent_id": 1390
+        },
+        {
+            "id": 1393,
+            "code": "DINUR.PLANET.B",
+            "name": "Динур B",
+            "designation": "B",
+            "type": "PLANET",
+            "star_system_id": 39,
+            "parent_id": 1390
+        },
+        {
+            "id": 1394,
+            "code": "DINUR.PLANET.C",
+            "name": "Динур C",
+            "designation": "C",
+            "type": "PLANET",
+            "star_system_id": 39,
+            "parent_id": 1390
+        },
+        {
+            "id": 1395,
+            "code": "DINUR.PLANET.D",
+            "name": "Динур D",
+            "designation": "D",
+            "type": "PLANET",
+            "star_system_id": 39,
+            "parent_id": 1390
+        },
+        {
+            "id": 1396,
+            "code": "DINUR.JUMP.LORDAERON",
+            "name": "Гиперканал → Лордаэрон",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 39,
+            "parent_id": 1390
+        },
+        {
+            "id": 1397,
+            "code": "DINUR.JUMP.ACHERON",
+            "name": "Гиперканал → V-AMD5",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 39,
+            "parent_id": 1390
+        },
+        {
+            "id": 1398,
+            "code": "DINUR.JUMP.ALMAH",
+            "name": "Гиперканал → Альмах",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 39,
+            "parent_id": 1390
+        },
+        {
+            "id": 1391,
+            "code": "DINUR.OORT",
+            "name": "Динур Oort Cloud",
+            "designation": null,
+            "type": "OORT",
+            "star_system_id": 39,
+            "parent_id": 1390
+        },
+        {
+            "id": 1252,
+            "code": "ELLADA.PLANET.A",
+            "name": "Эллада A",
+            "designation": "A",
+            "type": "PLANET",
+            "star_system_id": 25,
+            "parent_id": 1250
+        },
+        {
+            "id": 1253,
+            "code": "ELLADA.PLANET.B",
+            "name": "Эллада B",
+            "designation": "B",
+            "type": "PLANET",
+            "star_system_id": 25,
+            "parent_id": 1250
+        },
+        {
+            "id": 1254,
+            "code": "ELLADA.PLANET.C",
+            "name": "Эллада C",
+            "designation": "C",
+            "type": "PLANET",
+            "star_system_id": 25,
+            "parent_id": 1250
+        },
+        {
+            "id": 1255,
+            "code": "ELLADA.PLANET.D",
+            "name": "Эллада D",
+            "designation": "D",
+            "type": "PLANET",
+            "star_system_id": 25,
+            "parent_id": 1250
+        },
+        {
+            "id": 1256,
+            "code": "ELLADA.JUMP.FROST",
+            "name": "Гиперканал → Фрост",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 25,
+            "parent_id": 1250
+        },
+        {
+            "id": 1257,
+            "code": "ELLADA.JUMP.FOMALHAUT",
+            "name": "Гиперканал → Фомальгаут",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 25,
+            "parent_id": 1250
+        },
+        {
+            "id": 1251,
+            "code": "ELLADA.OORT",
+            "name": "Эллада Oort Cloud",
+            "designation": null,
+            "type": "OORT",
+            "star_system_id": 25,
+            "parent_id": 1250
+        },
+        {
+            "id": 1322,
+            "code": "ESCALONA.PLANET.A",
+            "name": "Эскалона A",
+            "designation": "A",
+            "type": "PLANET",
+            "star_system_id": 32,
+            "parent_id": 1320
+        },
+        {
+            "id": 1323,
+            "code": "ESCALONA.PLANET.B",
+            "name": "Эскалона B",
+            "designation": "B",
+            "type": "PLANET",
+            "star_system_id": 32,
+            "parent_id": 1320
+        },
+        {
+            "id": 1324,
+            "code": "ESCALONA.PLANET.C",
+            "name": "Эскалона C",
+            "designation": "C",
+            "type": "PLANET",
+            "star_system_id": 32,
+            "parent_id": 1320
+        },
+        {
+            "id": 1325,
+            "code": "ESCALONA.JUMP.GANDER",
+            "name": "Гиперканал → Гандэр",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 32,
+            "parent_id": 1320
+        },
+        {
+            "id": 1326,
+            "code": "ESCALONA.JUMP.MADRA",
+            "name": "Гиперканал → Мадра",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 32,
+            "parent_id": 1320
+        },
+        {
+            "id": 1327,
+            "code": "ESCALONA.JUMP.ARRAKIS",
+            "name": "Гиперканал → Арракис",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 32,
+            "parent_id": 1320
+        },
+        {
+            "id": 1328,
+            "code": "ESCALONA.JUMP.ARKONIS",
+            "name": "Гиперканал → H-ADOC",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 32,
+            "parent_id": 1320
+        },
+        {
+            "id": 1321,
+            "code": "ESCALONA.OORT",
+            "name": "Эскалона Oort Cloud",
+            "designation": null,
+            "type": "OORT",
+            "star_system_id": 32,
+            "parent_id": 1320
+        },
+        {
+            "id": 1602,
+            "code": "FIN.PLANET.A",
+            "name": "Фин A",
+            "designation": "A",
+            "type": "PLANET",
+            "star_system_id": 60,
+            "parent_id": 1600
+        },
+        {
+            "id": 1603,
+            "code": "FIN.PLANET.B",
+            "name": "Фин B",
+            "designation": "B",
+            "type": "PLANET",
+            "star_system_id": 60,
+            "parent_id": 1600
+        },
+        {
+            "id": 1604,
+            "code": "FIN.PLANET.C",
+            "name": "Фин C",
+            "designation": "C",
+            "type": "PLANET",
+            "star_system_id": 60,
+            "parent_id": 1600
+        },
+        {
+            "id": 1605,
+            "code": "FIN.JUMP.VEGA",
+            "name": "Гиперканал → Вега",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 60,
+            "parent_id": 1600
+        },
+        {
+            "id": 1606,
+            "code": "FIN.JUMP.TAIMYR",
+            "name": "Гиперканал → Таймыр",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 60,
+            "parent_id": 1600
+        },
+        {
+            "id": 1607,
+            "code": "FIN.JUMP.ALBERTA",
+            "name": "Гиперканал → Альберта",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 60,
+            "parent_id": 1600
+        },
+        {
+            "id": 1608,
+            "code": "FIN.JUMP.KCDX4",
+            "name": "Гиперканал → KCD-X4",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 60,
+            "parent_id": 1600
+        },
+        {
+            "id": 1601,
+            "code": "FIN.OORT",
+            "name": "Фин Oort Cloud",
+            "designation": null,
+            "type": "OORT",
+            "star_system_id": 60,
+            "parent_id": 1600
+        },
+        {
+            "id": 1502,
+            "code": "FLORIA.PLANET.A",
+            "name": "Флория A",
+            "designation": "A",
+            "type": "PLANET",
+            "star_system_id": 50,
+            "parent_id": 1500
+        },
+        {
+            "id": 1503,
+            "code": "FLORIA.PLANET.B",
+            "name": "Флория B",
+            "designation": "B",
+            "type": "PLANET",
+            "star_system_id": 50,
+            "parent_id": 1500
+        },
+        {
+            "id": 1504,
+            "code": "FLORIA.PLANET.C",
+            "name": "Флория C",
+            "designation": "C",
+            "type": "PLANET",
+            "star_system_id": 50,
+            "parent_id": 1500
+        },
+        {
+            "id": 1505,
+            "code": "FLORIA.JUMP.VOLANDIS",
+            "name": "Гиперканал → Воландис",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 50,
+            "parent_id": 1500
+        },
+        {
+            "id": 1506,
+            "code": "FLORIA.JUMP.FROST",
+            "name": "Гиперканал → Фрост",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 50,
+            "parent_id": 1500
+        },
+        {
+            "id": 1507,
+            "code": "FLORIA.JUMP.HEYAN",
+            "name": "Гиперканал → Хэйан",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 50,
+            "parent_id": 1500
+        },
+        {
+            "id": 1508,
+            "code": "FLORIA.JUMP.NBISMARK",
+            "name": "Гиперканал → Neuer Bismarck",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 50,
+            "parent_id": 1500
+        },
+        {
+            "id": 1509,
+            "code": "FLORIA.JUMP.SCRABBAD",
+            "name": "Гиперканал → Скраббад",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 50,
+            "parent_id": 1500
+        },
+        {
+            "id": 1510,
+            "code": "FLORIA.JUMP.NEWHAWAI",
+            "name": "Гиперканал → Нью-Гаваи",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 50,
+            "parent_id": 1500
+        },
+        {
+            "id": 1501,
+            "code": "FLORIA.OORT",
+            "name": "Флория Oort Cloud",
+            "designation": null,
+            "type": "OORT",
+            "star_system_id": 50,
+            "parent_id": 1500
+        },
+        {
+            "id": 1262,
+            "code": "FOMALHAUT.PLANET.A",
+            "name": "Фомальгаут A",
+            "designation": "A",
+            "type": "PLANET",
+            "star_system_id": 26,
+            "parent_id": 1260
+        },
+        {
+            "id": 1263,
+            "code": "FOMALHAUT.PLANET.B",
+            "name": "Фомальгаут B",
+            "designation": "B",
+            "type": "PLANET",
+            "star_system_id": 26,
+            "parent_id": 1260
+        },
+        {
+            "id": 1264,
+            "code": "FOMALHAUT.PLANET.C",
+            "name": "Фомальгаут C",
+            "designation": "C",
+            "type": "PLANET",
+            "star_system_id": 26,
+            "parent_id": 1260
+        },
+        {
+            "id": 1265,
+            "code": "FOMALHAUT.PLANET.D",
+            "name": "Фомальгаут D",
+            "designation": "D",
+            "type": "PLANET",
+            "star_system_id": 26,
+            "parent_id": 1260
+        },
+        {
+            "id": 1266,
+            "code": "FOMALHAUT.ASTEROID_BELT",
+            "name": "Фомальгаут — пояс астероидов",
+            "designation": null,
+            "type": "ASTEROID_BELT",
+            "star_system_id": 26,
+            "parent_id": 1260
+        },
+        {
+            "id": 1267,
+            "code": "FOMALHAUT.PLANET.E",
+            "name": "Фомальгаут E",
+            "designation": "E",
+            "type": "PLANET",
+            "star_system_id": 26,
+            "parent_id": 1260
+        },
+        {
+            "id": 1268,
+            "code": "FOMALHAUT.JUMP.ELLADA",
+            "name": "Гиперканал → Эллада",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 26,
+            "parent_id": 1260
+        },
+        {
+            "id": 1269,
+            "code": "FOMALHAUT.JUMP.ANTARA",
+            "name": "Гиперканал → Антара",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 26,
+            "parent_id": 1260
+        },
+        {
+            "id": 1270,
+            "code": "FOMALHAUT.JUMP.NEWHAWAI",
+            "name": "Гиперканал → Нью-Гаваи",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 26,
+            "parent_id": 1260
+        },
+        {
+            "id": 1261,
+            "code": "FOMALHAUT.OORT",
+            "name": "Фомальгаут Oort Cloud",
+            "designation": null,
+            "type": "OORT",
+            "star_system_id": 26,
+            "parent_id": 1260
+        },
+        {
+            "id": 1292,
+            "code": "FORTHOPE.PLANET.A",
+            "name": "Форт-Надежда A",
+            "designation": "A",
+            "type": "PLANET",
+            "star_system_id": 29,
+            "parent_id": 1290
+        },
+        {
+            "id": 1293,
+            "code": "FORTHOPE.PLANET.B",
+            "name": "Форт-Надежда B",
+            "designation": "B",
+            "type": "PLANET",
+            "star_system_id": 29,
+            "parent_id": 1290
+        },
+        {
+            "id": 1294,
+            "code": "FORTHOPE.PLANET.C",
+            "name": "Форт-Надежда C",
+            "designation": "C",
+            "type": "PLANET",
+            "star_system_id": 29,
+            "parent_id": 1290
+        },
+        {
+            "id": 1295,
+            "code": "FORTHOPE.PLANET.D",
+            "name": "Форт-Надежда D",
+            "designation": "D",
+            "type": "PLANET",
+            "star_system_id": 29,
+            "parent_id": 1290
+        },
+        {
+            "id": 1296,
+            "code": "FORTHOPE.PLANET.E",
+            "name": "Форт-Надежда E",
+            "designation": "E",
+            "type": "PLANET",
+            "star_system_id": 29,
+            "parent_id": 1290
+        },
+        {
+            "id": 1297,
+            "code": "FORTHOPE.JUMP.MADRA",
+            "name": "Гиперканал → Мадра",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 29,
+            "parent_id": 1290
+        },
+        {
+            "id": 1298,
+            "code": "FORTHOPE.JUMP.NEWFRANCE",
+            "name": "Гиперканал → НоваяФранция",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 29,
+            "parent_id": 1290
+        },
+        {
+            "id": 1299,
+            "code": "FORTHOPE.JUMP.ARKONIS",
+            "name": "Гиперканал → H-ADOC",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 29,
+            "parent_id": 1290
+        },
+        {
+            "id": 1291,
+            "code": "FORTHOPE.OORT",
+            "name": "Форт-Надежда Oort Cloud",
+            "designation": null,
+            "type": "OORT",
+            "star_system_id": 29,
+            "parent_id": 1290
+        },
+        {
+            "id": 1112,
+            "code": "FROST.PLANET.A",
+            "name": "Фрост A",
+            "designation": "A",
+            "type": "PLANET",
+            "star_system_id": 11,
+            "parent_id": 1110
+        },
+        {
+            "id": 1113,
+            "code": "FROST.PLANET.B",
+            "name": "Фрост B",
+            "designation": "B",
+            "type": "PLANET",
+            "star_system_id": 11,
+            "parent_id": 1110
+        },
+        {
+            "id": 1114,
+            "code": "FROST.PLANET.C",
+            "name": "Фрост C",
+            "designation": "C",
+            "type": "PLANET",
+            "star_system_id": 11,
+            "parent_id": 1110
+        },
+        {
+            "id": 1115,
+            "code": "FROST.JUMP.FLORIA",
+            "name": "Гиперканал → Флория",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 11,
+            "parent_id": 1110
+        },
+        {
+            "id": 1116,
+            "code": "FROST.JUMP.HEYAN",
+            "name": "Гиперканал → Хэйан",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 11,
+            "parent_id": 1110
+        },
+        {
+            "id": 1117,
+            "code": "FROST.JUMP.STONEHAVEN",
+            "name": "Гиперканал → Стоунхэйвен",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 11,
+            "parent_id": 1110
+        },
+        {
+            "id": 1118,
+            "code": "FROST.JUMP.ELLADA",
+            "name": "Гиперканал → Эллада",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 11,
+            "parent_id": 1110
+        },
+        {
+            "id": 1111,
+            "code": "FROST.OORT",
+            "name": "Фрост Oort Cloud",
+            "designation": null,
+            "type": "OORT",
+            "star_system_id": 11,
+            "parent_id": 1110
+        },
+        {
+            "id": 1332,
+            "code": "GANDER.PLANET.A",
+            "name": "Гандэр A",
+            "designation": "A",
+            "type": "PLANET",
+            "star_system_id": 33,
+            "parent_id": 1330
+        },
+        {
+            "id": 1333,
+            "code": "GANDER.PLANET.B",
+            "name": "Гандэр B",
+            "designation": "B",
+            "type": "PLANET",
+            "star_system_id": 33,
+            "parent_id": 1330
+        },
+        {
+            "id": 1334,
+            "code": "GANDER.PLANET.C",
+            "name": "Гандэр C",
+            "designation": "C",
+            "type": "PLANET",
+            "star_system_id": 33,
+            "parent_id": 1330
+        },
+        {
+            "id": 1335,
+            "code": "GANDER.JUMP.ESCALONA",
+            "name": "Гиперканал → Эскалона",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 33,
+            "parent_id": 1330
+        },
+        {
+            "id": 1336,
+            "code": "GANDER.JUMP.ARRAKIS",
+            "name": "Гиперканал → Арракис",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 33,
+            "parent_id": 1330
+        },
+        {
+            "id": 1337,
+            "code": "GANDER.JUMP.RINGTAIL",
+            "name": "Гиперканал → Рингтейл",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 33,
+            "parent_id": 1330
+        },
+        {
+            "id": 1338,
+            "code": "GANDER.JUMP.KAREON",
+            "name": "Гиперканал → Кареон",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 33,
+            "parent_id": 1330
+        },
+        {
+            "id": 1331,
+            "code": "GANDER.OORT",
+            "name": "Гандэр Oort Cloud",
+            "designation": null,
+            "type": "OORT",
+            "star_system_id": 33,
+            "parent_id": 1330
+        },
+        {
+            "id": 1232,
+            "code": "GARVINI.PLANET.A",
+            "name": "CL-85V A",
+            "designation": "A",
+            "type": "PLANET",
+            "star_system_id": 23,
+            "parent_id": 1230
+        },
+        {
+            "id": 1233,
+            "code": "GARVINI.PLANET.B",
+            "name": "CL-85V B",
+            "designation": "B",
+            "type": "PLANET",
+            "star_system_id": 23,
+            "parent_id": 1230
+        },
+        {
+            "id": 1234,
+            "code": "GARVINI.PLANET.C",
+            "name": "CL-85V C",
+            "designation": "C",
+            "type": "PLANET",
+            "star_system_id": 23,
+            "parent_id": 1230
+        },
+        {
+            "id": 1235,
+            "code": "GARVINI.PLANET.D",
+            "name": "CL-85V D",
+            "designation": "D",
+            "type": "PLANET",
+            "star_system_id": 23,
+            "parent_id": 1230
+        },
+        {
+            "id": 1236,
+            "code": "GARVINI.PLANET.E",
+            "name": "CL-85V E",
+            "designation": "E",
+            "type": "PLANET",
+            "star_system_id": 23,
+            "parent_id": 1230
+        },
+        {
+            "id": 1237,
+            "code": "GARVINI.JUMP.NBISMARK",
+            "name": "Гиперканал → Neuer Bismarck",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 23,
+            "parent_id": 1230
+        },
+        {
+            "id": 1231,
+            "code": "GARVINI.OORT",
+            "name": "CL-85V Oort Cloud",
+            "designation": null,
+            "type": "OORT",
+            "star_system_id": 23,
+            "parent_id": 1230
+        },
+        {
+            "id": 1442,
+            "code": "GAYA.PLANET.A",
+            "name": "Гайя A",
+            "designation": "A",
+            "type": "PLANET",
+            "star_system_id": 44,
+            "parent_id": 1440
+        },
+        {
+            "id": 1443,
+            "code": "GAYA.PLANET.B",
+            "name": "Гайя B",
+            "designation": "B",
+            "type": "PLANET",
+            "star_system_id": 44,
+            "parent_id": 1440
+        },
+        {
+            "id": 1444,
+            "code": "GAYA.PLANET.C",
+            "name": "Гайя C",
+            "designation": "C",
+            "type": "PLANET",
+            "star_system_id": 44,
+            "parent_id": 1440
+        },
+        {
+            "id": 1445,
+            "code": "GAYA.JUMP.ALMAH",
+            "name": "Гиперканал → Альмах",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 44,
+            "parent_id": 1440
+        },
+        {
+            "id": 1446,
+            "code": "GAYA.JUMP.NIGHTWISH",
+            "name": "Гиперканал → Найтвиш",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 44,
+            "parent_id": 1440
+        },
+        {
+            "id": 1441,
+            "code": "GAYA.OORT",
+            "name": "Гайя Oort Cloud",
+            "designation": null,
+            "type": "OORT",
+            "star_system_id": 44,
+            "parent_id": 1440
+        },
+        {
+            "id": 1212,
+            "code": "HANNAHT.PLANET.A",
+            "name": "Ханнахт A",
+            "designation": "A",
+            "type": "PLANET",
+            "star_system_id": 21,
+            "parent_id": 1210
+        },
+        {
+            "id": 1213,
+            "code": "HANNAHT.PLANET.B",
+            "name": "Ханнахт B",
+            "designation": "B",
+            "type": "PLANET",
+            "star_system_id": 21,
+            "parent_id": 1210
+        },
+        {
+            "id": 1214,
+            "code": "HANNAHT.PLANET.C",
+            "name": "Ханнахт C",
+            "designation": "C",
+            "type": "PLANET",
+            "star_system_id": 21,
+            "parent_id": 1210
+        },
+        {
+            "id": 1215,
+            "code": "HANNAHT.PLANET.D",
+            "name": "Ханнахт D",
+            "designation": "D",
+            "type": "PLANET",
+            "star_system_id": 21,
+            "parent_id": 1210
+        },
+        {
+            "id": 1216,
+            "code": "HANNAHT.JUMP.NEWLEIPZIG",
+            "name": "Гиперканал → НовыйЛейпциг",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 21,
+            "parent_id": 1210
+        },
+        {
+            "id": 1217,
+            "code": "HANNAHT.JUMP.KUBULUS",
+            "name": "Гиперканал → Кубулус",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 21,
+            "parent_id": 1210
+        },
+        {
+            "id": 1218,
+            "code": "HANNAHT.JUMP.ANTARA",
+            "name": "Гиперканал → Антара",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 21,
+            "parent_id": 1210
+        },
+        {
+            "id": 1211,
+            "code": "HANNAHT.OORT",
+            "name": "Ханнахт Oort Cloud",
+            "designation": null,
+            "type": "OORT",
+            "star_system_id": 21,
+            "parent_id": 1210
+        },
+        {
+            "id": 1242,
+            "code": "HEYAN.PLANET.A",
+            "name": "Хэйан A",
+            "designation": "A",
+            "type": "PLANET",
+            "star_system_id": 24,
+            "parent_id": 1240
+        },
+        {
+            "id": 1243,
+            "code": "HEYAN.PLANET.B",
+            "name": "Хэйан B",
+            "designation": "B",
+            "type": "PLANET",
+            "star_system_id": 24,
+            "parent_id": 1240
+        },
+        {
+            "id": 1244,
+            "code": "HEYAN.PLANET.C",
+            "name": "Хэйан C",
+            "designation": "C",
+            "type": "PLANET",
+            "star_system_id": 24,
+            "parent_id": 1240
+        },
+        {
+            "id": 1245,
+            "code": "HEYAN.PLANET.D",
+            "name": "Хэйан D",
+            "designation": "D",
+            "type": "PLANET",
+            "star_system_id": 24,
+            "parent_id": 1240
+        },
+        {
+            "id": 1246,
+            "code": "HEYAN.PLANET.E",
+            "name": "Хэйан E",
+            "designation": "E",
+            "type": "PLANET",
+            "star_system_id": 24,
+            "parent_id": 1240
+        },
+        {
+            "id": 1247,
+            "code": "HEYAN.PLANET.F",
+            "name": "Хэйан F",
+            "designation": "F",
+            "type": "PLANET",
+            "star_system_id": 24,
+            "parent_id": 1240
+        },
+        {
+            "id": 1248,
+            "code": "HEYAN.JUMP.FLORIA",
+            "name": "Гиперканал → Флория",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 24,
+            "parent_id": 1240
+        },
+        {
+            "id": 1249,
+            "code": "HEYAN.JUMP.FROST",
+            "name": "Гиперканал → Фрост",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 24,
+            "parent_id": 1240
+        },
+        {
+            "id": 1241,
+            "code": "HEYAN.OORT",
+            "name": "Хэйан Oort Cloud",
+            "designation": null,
+            "type": "OORT",
+            "star_system_id": 24,
+            "parent_id": 1240
+        },
+        {
+            "id": 1522,
+            "code": "ITTEGOST.PLANET.A",
+            "name": "Иттегост A",
+            "designation": "A",
+            "type": "PLANET",
+            "star_system_id": 52,
+            "parent_id": 1520
+        },
+        {
+            "id": 1523,
+            "code": "ITTEGOST.PLANET.B",
+            "name": "Иттегост B",
+            "designation": "B",
+            "type": "PLANET",
+            "star_system_id": 52,
+            "parent_id": 1520
+        },
+        {
+            "id": 1524,
+            "code": "ITTEGOST.PLANET.C",
+            "name": "Иттегост C",
+            "designation": "C",
+            "type": "PLANET",
+            "star_system_id": 52,
+            "parent_id": 1520
+        },
+        {
+            "id": 1525,
+            "code": "ITTEGOST.PLANET.D",
+            "name": "Иттегост D",
+            "designation": "D",
+            "type": "PLANET",
+            "star_system_id": 52,
+            "parent_id": 1520
+        },
+        {
+            "id": 1526,
+            "code": "ITTEGOST.ASTEROID_BELT",
+            "name": "Иттегост — пояс астероидов",
+            "designation": null,
+            "type": "ASTEROID_BELT",
+            "star_system_id": 52,
+            "parent_id": 1520
+        },
+        {
+            "id": 1527,
+            "code": "ITTEGOST.JUMP.ARLISS",
+            "name": "Гиперканал → Арлисс",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 52,
+            "parent_id": 1520
+        },
+        {
+            "id": 1528,
+            "code": "ITTEGOST.JUMP.BRISTOL",
+            "name": "Гиперканал → Бристоль",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 52,
+            "parent_id": 1520
+        },
+        {
+            "id": 1521,
+            "code": "ITTEGOST.OORT",
+            "name": "Иттегост Oort Cloud",
+            "designation": null,
+            "type": "OORT",
+            "star_system_id": 52,
+            "parent_id": 1520
+        },
+        {
+            "id": 1462,
+            "code": "JORK.PLANET.A",
+            "name": "Йорк A",
+            "designation": "A",
+            "type": "PLANET",
+            "star_system_id": 46,
+            "parent_id": 1460
+        },
+        {
+            "id": 1463,
+            "code": "JORK.PLANET.B",
+            "name": "Йорк B",
+            "designation": "B",
+            "type": "PLANET",
+            "star_system_id": 46,
+            "parent_id": 1460
+        },
+        {
+            "id": 1464,
+            "code": "JORK.JUMP.NIGHTWISH",
+            "name": "Гиперканал → Найтвиш",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 46,
+            "parent_id": 1460
+        },
+        {
+            "id": 1465,
+            "code": "JORK.JUMP.SOLARIS",
+            "name": "Гиперканал → Солярис",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 46,
+            "parent_id": 1460
+        },
+        {
+            "id": 1461,
+            "code": "JORK.OORT",
+            "name": "Йорк Oort Cloud",
+            "designation": null,
+            "type": "OORT",
+            "star_system_id": 46,
+            "parent_id": 1460
+        },
+        {
+            "id": 1352,
+            "code": "KAREON.PLANET.A",
+            "name": "Кареон A",
+            "designation": "A",
+            "type": "PLANET",
+            "star_system_id": 35,
+            "parent_id": 1350
+        },
+        {
+            "id": 1353,
+            "code": "KAREON.PLANET.B",
+            "name": "Кареон B",
+            "designation": "B",
+            "type": "PLANET",
+            "star_system_id": 35,
+            "parent_id": 1350
+        },
+        {
+            "id": 1354,
+            "code": "KAREON.JUMP.TERRONUS",
+            "name": "Гиперканал → K-MGJ7",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 35,
+            "parent_id": 1350
+        },
+        {
+            "id": 1355,
+            "code": "KAREON.JUMP.GANDER",
+            "name": "Гиперканал → Гандэр",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 35,
+            "parent_id": 1350
+        },
+        {
+            "id": 1356,
+            "code": "KAREON.JUMP.SOL",
+            "name": "Гиперканал → Солнце",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 35,
+            "parent_id": 1350
+        },
+        {
+            "id": 1351,
+            "code": "KAREON.OORT",
+            "name": "Кареон Oort Cloud",
+            "designation": null,
+            "type": "OORT",
+            "star_system_id": 35,
+            "parent_id": 1350
+        },
+        {
+            "id": 1582,
+            "code": "KCDX4.PLANET.A",
+            "name": "KCD-X4 A",
+            "designation": "A",
+            "type": "PLANET",
+            "star_system_id": 58,
+            "parent_id": 1580
+        },
+        {
+            "id": 1583,
+            "code": "KCDX4.PLANET.B",
+            "name": "KCD-X4 B",
+            "designation": "B",
+            "type": "PLANET",
+            "star_system_id": 58,
+            "parent_id": 1580
+        },
+        {
+            "id": 1584,
+            "code": "KCDX4.PLANET.C",
+            "name": "KCD-X4 C",
+            "designation": "C",
+            "type": "PLANET",
+            "star_system_id": 58,
+            "parent_id": 1580
+        },
+        {
+            "id": 1585,
+            "code": "KCDX4.PLANET.D",
+            "name": "KCD-X4 D",
+            "designation": "D",
+            "type": "PLANET",
+            "star_system_id": 58,
+            "parent_id": 1580
+        },
+        {
+            "id": 1586,
+            "code": "KCDX4.PLANET.E",
+            "name": "KCD-X4 E",
+            "designation": "E",
+            "type": "PLANET",
+            "star_system_id": 58,
+            "parent_id": 1580
+        },
+        {
+            "id": 1587,
+            "code": "KCDX4.JUMP.ROKANNON",
+            "name": "Гиперканал → Роканнон",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 58,
+            "parent_id": 1580
+        },
+        {
+            "id": 1588,
+            "code": "KCDX4.JUMP.TAIMYR",
+            "name": "Гиперканал → Таймыр",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 58,
+            "parent_id": 1580
+        },
+        {
+            "id": 1589,
+            "code": "KCDX4.JUMP.VEGA",
+            "name": "Гиперканал → Вега",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 58,
+            "parent_id": 1580
+        },
+        {
+            "id": 1590,
+            "code": "KCDX4.JUMP.FIN",
+            "name": "Гиперканал → Фин",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 58,
+            "parent_id": 1580
+        },
+        {
+            "id": 1591,
+            "code": "KCDX4.JUMP.RAMMEKARTI",
+            "name": "Гиперканал → Раммекарти",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 58,
+            "parent_id": 1580
+        },
+        {
+            "id": 1581,
+            "code": "KCDX4.OORT",
+            "name": "KCD-X4 Oort Cloud",
+            "designation": null,
+            "type": "OORT",
+            "star_system_id": 58,
+            "parent_id": 1580
+        },
+        {
+            "id": 1172,
+            "code": "KITEG.PLANET.A",
+            "name": "Китеж A",
+            "designation": "A",
+            "type": "PLANET",
+            "star_system_id": 17,
+            "parent_id": 1170
+        },
+        {
+            "id": 1173,
+            "code": "KITEG.PLANET.B",
+            "name": "Китеж B",
+            "designation": "B",
+            "type": "PLANET",
+            "star_system_id": 17,
+            "parent_id": 1170
+        },
+        {
+            "id": 1174,
+            "code": "KITEG.PLANET.C",
+            "name": "Китеж C",
+            "designation": "C",
+            "type": "PLANET",
+            "star_system_id": 17,
+            "parent_id": 1170
+        },
+        {
+            "id": 1175,
+            "code": "KITEG.PLANET.D",
+            "name": "Китеж D",
+            "designation": "D",
+            "type": "PLANET",
+            "star_system_id": 17,
+            "parent_id": 1170
+        },
+        {
+            "id": 1176,
+            "code": "KITEG.ASTEROID_BELT",
+            "name": "Китеж — пояс астероидов",
+            "designation": null,
+            "type": "ASTEROID_BELT",
+            "star_system_id": 17,
+            "parent_id": 1170
+        },
+        {
+            "id": 1177,
+            "code": "KITEG.PLANET.E",
+            "name": "Китеж E",
+            "designation": "E",
+            "type": "PLANET",
+            "star_system_id": 17,
+            "parent_id": 1170
+        },
+        {
+            "id": 1178,
+            "code": "KITEG.JUMP.ANTARA",
+            "name": "Гиперканал → Антара",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 17,
+            "parent_id": 1170
+        },
+        {
+            "id": 1179,
+            "code": "KITEG.JUMP.ASTRA",
+            "name": "Гиперканал → Астра",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 17,
+            "parent_id": 1170
+        },
+        {
+            "id": 1171,
+            "code": "KITEG.OORT",
+            "name": "Китеж Oort Cloud",
+            "designation": null,
+            "type": "OORT",
+            "star_system_id": 17,
+            "parent_id": 1170
+        },
+        {
+            "id": 1482,
+            "code": "KOLHIDA.PLANET.A",
+            "name": "Колхида A",
+            "designation": "A",
+            "type": "PLANET",
+            "star_system_id": 48,
+            "parent_id": 1480
+        },
+        {
+            "id": 1483,
+            "code": "KOLHIDA.PLANET.B",
+            "name": "Колхида B",
+            "designation": "B",
+            "type": "PLANET",
+            "star_system_id": 48,
+            "parent_id": 1480
+        },
+        {
+            "id": 1484,
+            "code": "KOLHIDA.PLANET.C",
+            "name": "Колхида C",
+            "designation": "C",
+            "type": "PLANET",
+            "star_system_id": 48,
+            "parent_id": 1480
+        },
+        {
+            "id": 1485,
+            "code": "KOLHIDA.PLANET.D",
+            "name": "Колхида D",
+            "designation": "D",
+            "type": "PLANET",
+            "star_system_id": 48,
+            "parent_id": 1480
+        },
+        {
+            "id": 1486,
+            "code": "KOLHIDA.PLANET.E",
+            "name": "Колхида E",
+            "designation": "E",
+            "type": "PLANET",
+            "star_system_id": 48,
+            "parent_id": 1480
+        },
+        {
+            "id": 1487,
+            "code": "KOLHIDA.PLANET.F",
+            "name": "Колхида F",
+            "designation": "F",
+            "type": "PLANET",
+            "star_system_id": 48,
+            "parent_id": 1480
+        },
+        {
+            "id": 1488,
+            "code": "KOLHIDA.JUMP.WRAITMIRE",
+            "name": "Гиперканал → Райтмир",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 48,
+            "parent_id": 1480
+        },
+        {
+            "id": 1481,
+            "code": "KOLHIDA.OORT",
+            "name": "Колхида Oort Cloud",
+            "designation": null,
+            "type": "OORT",
+            "star_system_id": 48,
+            "parent_id": 1480
+        },
+        {
+            "id": 1182,
+            "code": "KUBULUS.PLANET.A",
+            "name": "Кубулус A",
+            "designation": "A",
+            "type": "PLANET",
+            "star_system_id": 18,
+            "parent_id": 1180
+        },
+        {
+            "id": 1183,
+            "code": "KUBULUS.PLANET.B",
+            "name": "Кубулус B",
+            "designation": "B",
+            "type": "PLANET",
+            "star_system_id": 18,
+            "parent_id": 1180
+        },
+        {
+            "id": 1184,
+            "code": "KUBULUS.PLANET.C",
+            "name": "Кубулус C",
+            "designation": "C",
+            "type": "PLANET",
+            "star_system_id": 18,
+            "parent_id": 1180
+        },
+        {
+            "id": 1185,
+            "code": "KUBULUS.JUMP.ASADAL",
+            "name": "Гиперканал → Асадаль",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 18,
+            "parent_id": 1180
+        },
+        {
+            "id": 1186,
+            "code": "KUBULUS.JUMP.NEWLEIPZIG",
+            "name": "Гиперканал → НовыйЛейпциг",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 18,
+            "parent_id": 1180
+        },
+        {
+            "id": 1187,
+            "code": "KUBULUS.JUMP.HANNAHT",
+            "name": "Гиперканал → Ханнахт",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 18,
+            "parent_id": 1180
+        },
+        {
+            "id": 1181,
+            "code": "KUBULUS.OORT",
+            "name": "Кубулус Oort Cloud",
+            "designation": null,
+            "type": "OORT",
+            "star_system_id": 18,
+            "parent_id": 1180
+        },
+        {
+            "id": 1382,
+            "code": "LORDAERON.PLANET.A",
+            "name": "Лордаэрон A",
+            "designation": "A",
+            "type": "PLANET",
+            "star_system_id": 38,
+            "parent_id": 1380
+        },
+        {
+            "id": 1383,
+            "code": "LORDAERON.PLANET.B",
+            "name": "Лордаэрон B",
+            "designation": "B",
+            "type": "PLANET",
+            "star_system_id": 38,
+            "parent_id": 1380
+        },
+        {
+            "id": 1384,
+            "code": "LORDAERON.PLANET.C",
+            "name": "Лордаэрон C",
+            "designation": "C",
+            "type": "PLANET",
+            "star_system_id": 38,
+            "parent_id": 1380
+        },
+        {
+            "id": 1385,
+            "code": "LORDAERON.JUMP.SOLARIS",
+            "name": "Гиперканал → Солярис",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 38,
+            "parent_id": 1380
+        },
+        {
+            "id": 1386,
+            "code": "LORDAERON.JUMP.DINUR",
+            "name": "Гиперканал → Динур",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 38,
+            "parent_id": 1380
+        },
+        {
+            "id": 1381,
+            "code": "LORDAERON.OORT",
+            "name": "Лордаэрон Oort Cloud",
+            "designation": null,
+            "type": "OORT",
+            "star_system_id": 38,
+            "parent_id": 1380
+        },
+        {
+            "id": 1312,
+            "code": "MADRA.PLANET.A",
+            "name": "Мадра A",
+            "designation": "A",
+            "type": "PLANET",
+            "star_system_id": 31,
+            "parent_id": 1310
+        },
+        {
+            "id": 1313,
+            "code": "MADRA.PLANET.B",
+            "name": "Мадра B",
+            "designation": "B",
+            "type": "PLANET",
+            "star_system_id": 31,
+            "parent_id": 1310
+        },
+        {
+            "id": 1314,
+            "code": "MADRA.PLANET.C",
+            "name": "Мадра C",
+            "designation": "C",
+            "type": "PLANET",
+            "star_system_id": 31,
+            "parent_id": 1310
+        },
+        {
+            "id": 1315,
+            "code": "MADRA.JUMP.FORTHOPE",
+            "name": "Гиперканал → Форт-Надежда",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 31,
+            "parent_id": 1310
+        },
+        {
+            "id": 1316,
+            "code": "MADRA.JUMP.ESCALONA",
+            "name": "Гиперканал → Эскалона",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 31,
+            "parent_id": 1310
+        },
+        {
+            "id": 1311,
+            "code": "MADRA.OORT",
+            "name": "Мадра Oort Cloud",
+            "designation": null,
+            "type": "OORT",
+            "star_system_id": 31,
+            "parent_id": 1310
+        },
+        {
+            "id": 1562,
+            "code": "MARUKKU.PLANET.A",
+            "name": "Марукку A",
+            "designation": "A",
+            "type": "PLANET",
+            "star_system_id": 56,
+            "parent_id": 1560
+        },
+        {
+            "id": 1563,
+            "code": "MARUKKU.PLANET.B",
+            "name": "Марукку B",
+            "designation": "B",
+            "type": "PLANET",
+            "star_system_id": 56,
+            "parent_id": 1560
+        },
+        {
+            "id": 1564,
+            "code": "MARUKKU.PLANET.C",
+            "name": "Марукку C",
+            "designation": "C",
+            "type": "PLANET",
+            "star_system_id": 56,
+            "parent_id": 1560
+        },
+        {
+            "id": 1565,
+            "code": "MARUKKU.PLANET.D",
+            "name": "Марукку D",
+            "designation": "D",
+            "type": "PLANET",
+            "star_system_id": 56,
+            "parent_id": 1560
+        },
+        {
+            "id": 1566,
+            "code": "MARUKKU.ASTEROID_BELT",
+            "name": "Марукку — пояс астероидов",
+            "designation": null,
+            "type": "ASTEROID_BELT",
+            "star_system_id": 56,
+            "parent_id": 1560
+        },
+        {
+            "id": 1567,
+            "code": "MARUKKU.JUMP.ALBERTA",
+            "name": "Гиперканал → Альберта",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 56,
+            "parent_id": 1560
+        },
+        {
+            "id": 1561,
+            "code": "MARUKKU.OORT",
+            "name": "Марукку Oort Cloud",
+            "designation": null,
+            "type": "OORT",
+            "star_system_id": 56,
+            "parent_id": 1560
+        },
+        {
+            "id": 1142,
+            "code": "MIKOVARRO.PLANET.A",
+            "name": "Миковарро A",
+            "designation": "A",
+            "type": "PLANET",
+            "star_system_id": 14,
+            "parent_id": 1140
+        },
+        {
+            "id": 1143,
+            "code": "MIKOVARRO.PLANET.B",
+            "name": "Миковарро B",
+            "designation": "B",
+            "type": "PLANET",
+            "star_system_id": 14,
+            "parent_id": 1140
+        },
+        {
+            "id": 1144,
+            "code": "MIKOVARRO.JUMP.OLSTER",
+            "name": "Гиперканал → Ольстер",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 14,
+            "parent_id": 1140
+        },
+        {
+            "id": 1145,
+            "code": "MIKOVARRO.JUMP.ASTRA",
+            "name": "Гиперканал → Астра",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 14,
+            "parent_id": 1140
+        },
+        {
+            "id": 1146,
+            "code": "MIKOVARRO.JUMP.ASADAL",
+            "name": "Гиперканал → Асадаль",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 14,
+            "parent_id": 1140
+        },
+        {
+            "id": 1141,
+            "code": "MIKOVARRO.OORT",
+            "name": "Миковарро Oort Cloud",
+            "designation": null,
+            "type": "OORT",
+            "star_system_id": 14,
+            "parent_id": 1140
+        },
+        {
+            "id": 1362,
+            "code": "MIRKWOOD.PLANET.A",
+            "name": "Мирквуд A",
+            "designation": "A",
+            "type": "PLANET",
+            "star_system_id": 36,
+            "parent_id": 1360
+        },
+        {
+            "id": 1363,
+            "code": "MIRKWOOD.PLANET.B",
+            "name": "Мирквуд B",
+            "designation": "B",
+            "type": "PLANET",
+            "star_system_id": 36,
+            "parent_id": 1360
+        },
+        {
+            "id": 1364,
+            "code": "MIRKWOOD.PLANET.C",
+            "name": "Мирквуд C",
+            "designation": "C",
+            "type": "PLANET",
+            "star_system_id": 36,
+            "parent_id": 1360
+        },
+        {
+            "id": 1365,
+            "code": "MIRKWOOD.PLANET.D",
+            "name": "Мирквуд D",
+            "designation": "D",
+            "type": "PLANET",
+            "star_system_id": 36,
+            "parent_id": 1360
+        },
+        {
+            "id": 1366,
+            "code": "MIRKWOOD.PLANET.E",
+            "name": "Мирквуд E",
+            "designation": "E",
+            "type": "PLANET",
+            "star_system_id": 36,
+            "parent_id": 1360
+        },
+        {
+            "id": 1367,
+            "code": "MIRKWOOD.JUMP.SHARD",
+            "name": "Гиперканал → Шард",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 36,
+            "parent_id": 1360
+        },
+        {
+            "id": 1368,
+            "code": "MIRKWOOD.JUMP.SOL",
+            "name": "Гиперканал → Солнце",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 36,
+            "parent_id": 1360
+        },
+        {
+            "id": 1361,
+            "code": "MIRKWOOD.OORT",
+            "name": "Мирквуд Oort Cloud",
+            "designation": null,
+            "type": "OORT",
+            "star_system_id": 36,
+            "parent_id": 1360
+        },
+        {
+            "id": 1202,
+            "code": "NBISMARK.PLANET.A",
+            "name": "Neuer Bismarck A",
+            "designation": "A",
+            "type": "PLANET",
+            "star_system_id": 20,
+            "parent_id": 1200
+        },
+        {
+            "id": 1203,
+            "code": "NBISMARK.PLANET.B",
+            "name": "Neuer Bismarck B",
+            "designation": "B",
+            "type": "PLANET",
+            "star_system_id": 20,
+            "parent_id": 1200
+        },
+        {
+            "id": 1204,
+            "code": "NBISMARK.PLANET.C",
+            "name": "Neuer Bismarck C",
+            "designation": "C",
+            "type": "PLANET",
+            "star_system_id": 20,
+            "parent_id": 1200
+        },
+        {
+            "id": 1205,
+            "code": "NBISMARK.JUMP.GARVINI",
+            "name": "Гиперканал → CL-85V",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 20,
+            "parent_id": 1200
+        },
+        {
+            "id": 1206,
+            "code": "NBISMARK.JUMP.NEWLEIPZIG",
+            "name": "Гиперканал → НовыйЛейпциг",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 20,
+            "parent_id": 1200
+        },
+        {
+            "id": 1207,
+            "code": "NBISMARK.JUMP.FLORIA",
+            "name": "Гиперканал → Флория",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 20,
+            "parent_id": 1200
+        },
+        {
+            "id": 1201,
+            "code": "NBISMARK.OORT",
+            "name": "Neuer Bismarck Oort Cloud",
+            "designation": null,
+            "type": "OORT",
+            "star_system_id": 20,
+            "parent_id": 1200
+        },
+        {
+            "id": 1612,
+            "code": "NEQUADOR.PLANET.A",
+            "name": "Новый Эквадор A",
+            "designation": "A",
+            "type": "PLANET",
+            "star_system_id": 61,
+            "parent_id": 1610
+        },
+        {
+            "id": 1613,
+            "code": "NEQUADOR.PLANET.B",
+            "name": "Новый Эквадор B",
+            "designation": "B",
+            "type": "PLANET",
+            "star_system_id": 61,
+            "parent_id": 1610
+        },
+        {
+            "id": 1614,
+            "code": "NEQUADOR.PLANET.C",
+            "name": "Новый Эквадор C",
+            "designation": "C",
+            "type": "PLANET",
+            "star_system_id": 61,
+            "parent_id": 1610
+        },
+        {
+            "id": 1615,
+            "code": "NEQUADOR.PLANET.D",
+            "name": "Новый Эквадор D",
+            "designation": "D",
+            "type": "PLANET",
+            "star_system_id": 61,
+            "parent_id": 1610
+        },
+        {
+            "id": 1616,
+            "code": "NEQUADOR.ASTEROID_BELT",
+            "name": "Новый Эквадор — пояс астероидов",
+            "designation": null,
+            "type": "ASTEROID_BELT",
+            "star_system_id": 61,
+            "parent_id": 1610
+        },
+        {
+            "id": 1617,
+            "code": "NEQUADOR.PLANET.E",
+            "name": "Новый Эквадор E",
+            "designation": "E",
+            "type": "PLANET",
+            "star_system_id": 61,
+            "parent_id": 1610
+        },
+        {
+            "id": 1618,
+            "code": "NEQUADOR.JUMP.VALINOR",
+            "name": "Гиперканал → Валинор",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 61,
+            "parent_id": 1610
+        },
+        {
+            "id": 1619,
+            "code": "NEQUADOR.JUMP.ROKANNON",
+            "name": "Гиперканал → Роканнон",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 61,
+            "parent_id": 1610
+        },
+        {
+            "id": 1620,
+            "code": "NEQUADOR.JUMP.TAIMYR",
+            "name": "Гиперканал → Таймыр",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 61,
+            "parent_id": 1610
+        },
+        {
+            "id": 1611,
+            "code": "NEQUADOR.OORT",
+            "name": "Новый Эквадор Oort Cloud",
+            "designation": null,
+            "type": "OORT",
+            "star_system_id": 61,
+            "parent_id": 1610
+        },
+        {
+            "id": 1062,
+            "code": "NEVEMORE.PLANET.A",
+            "name": "Невемор A",
+            "designation": "A",
+            "type": "PLANET",
+            "star_system_id": 6,
+            "parent_id": 1060
+        },
+        {
+            "id": 1063,
+            "code": "NEVEMORE.PLANET.B",
+            "name": "Невемор B",
+            "designation": "B",
+            "type": "PLANET",
+            "star_system_id": 6,
+            "parent_id": 1060
+        },
+        {
+            "id": 1064,
+            "code": "NEVEMORE.PLANET.C",
+            "name": "Невемор C",
+            "designation": "C",
+            "type": "PLANET",
+            "star_system_id": 6,
+            "parent_id": 1060
+        },
+        {
+            "id": 1065,
+            "code": "NEVEMORE.PLANET.D",
+            "name": "Невемор D",
+            "designation": "D",
+            "type": "PLANET",
+            "star_system_id": 6,
+            "parent_id": 1060
+        },
+        {
+            "id": 1066,
+            "code": "NEVEMORE.ASTEROID_BELT",
+            "name": "Невемор — пояс астероидов",
+            "designation": null,
+            "type": "ASTEROID_BELT",
+            "star_system_id": 6,
+            "parent_id": 1060
+        },
+        {
+            "id": 1067,
+            "code": "NEVEMORE.PLANET.E",
+            "name": "Невемор E",
+            "designation": "E",
+            "type": "PLANET",
+            "star_system_id": 6,
+            "parent_id": 1060
+        },
+        {
+            "id": 1068,
+            "code": "NEVEMORE.JUMP.RINGTAIL",
+            "name": "Гиперканал → Рингтейл",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 6,
+            "parent_id": 1060
+        },
+        {
+            "id": 1069,
+            "code": "NEVEMORE.JUMP.NEWFRANCE",
+            "name": "Гиперканал → НоваяФранция",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 6,
+            "parent_id": 1060
+        },
+        {
+            "id": 1061,
+            "code": "NEVEMORE.OORT",
+            "name": "Невемор Oort Cloud",
+            "designation": null,
+            "type": "OORT",
+            "star_system_id": 6,
+            "parent_id": 1060
+        },
+        {
+            "id": 1272,
+            "code": "NEWFRANCE.PLANET.A",
+            "name": "НоваяФранция A",
+            "designation": "A",
+            "type": "PLANET",
+            "star_system_id": 27,
+            "parent_id": 1270
+        },
+        {
+            "id": 1273,
+            "code": "NEWFRANCE.PLANET.B",
+            "name": "НоваяФранция B",
+            "designation": "B",
+            "type": "PLANET",
+            "star_system_id": 27,
+            "parent_id": 1270
+        },
+        {
+            "id": 1274,
+            "code": "NEWFRANCE.PLANET.C",
+            "name": "НоваяФранция C",
+            "designation": "C",
+            "type": "PLANET",
+            "star_system_id": 27,
+            "parent_id": 1270
+        },
+        {
+            "id": 1275,
+            "code": "NEWFRANCE.PLANET.D",
+            "name": "НоваяФранция D",
+            "designation": "D",
+            "type": "PLANET",
+            "star_system_id": 27,
+            "parent_id": 1270
+        },
+        {
+            "id": 1276,
+            "code": "NEWFRANCE.JUMP.NEVEMORE",
+            "name": "Гиперканал → Невемор",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 27,
+            "parent_id": 1270
+        },
+        {
+            "id": 1277,
+            "code": "NEWFRANCE.JUMP.VAYLE",
+            "name": "Гиперканал → Вайл",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 27,
+            "parent_id": 1270
+        },
+        {
+            "id": 1278,
+            "code": "NEWFRANCE.JUMP.FORTHOPE",
+            "name": "Гиперканал → Форт-Надежда",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 27,
+            "parent_id": 1270
+        },
+        {
+            "id": 1271,
+            "code": "NEWFRANCE.OORT",
+            "name": "НоваяФранция Oort Cloud",
+            "designation": null,
+            "type": "OORT",
+            "star_system_id": 27,
+            "parent_id": 1270
+        },
+        {
+            "id": 1492,
+            "code": "NEWHAWAI.PLANET.A",
+            "name": "Нью-Гаваи A",
+            "designation": "A",
+            "type": "PLANET",
+            "star_system_id": 49,
+            "parent_id": 1490
+        },
+        {
+            "id": 1493,
+            "code": "NEWHAWAI.PLANET.B",
+            "name": "Нью-Гаваи B",
+            "designation": "B",
+            "type": "PLANET",
+            "star_system_id": 49,
+            "parent_id": 1490
+        },
+        {
+            "id": 1494,
+            "code": "NEWHAWAI.PLANET.C",
+            "name": "Нью-Гаваи C",
+            "designation": "C",
+            "type": "PLANET",
+            "star_system_id": 49,
+            "parent_id": 1490
+        },
+        {
+            "id": 1495,
+            "code": "NEWHAWAI.PLANET.D",
+            "name": "Нью-Гаваи D",
+            "designation": "D",
+            "type": "PLANET",
+            "star_system_id": 49,
+            "parent_id": 1490
+        },
+        {
+            "id": 1496,
+            "code": "NEWHAWAI.ASTEROID_BELT",
+            "name": "Нью-Гаваи — пояс астероидов",
+            "designation": null,
+            "type": "ASTEROID_BELT",
+            "star_system_id": 49,
+            "parent_id": 1490
+        },
+        {
+            "id": 1497,
+            "code": "NEWHAWAI.JUMP.FLORIA",
+            "name": "Гиперканал → Флория",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 49,
+            "parent_id": 1490
+        },
+        {
+            "id": 1498,
+            "code": "NEWHAWAI.JUMP.FOMALHAUT",
+            "name": "Гиперканал → Фомальгаут",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 49,
+            "parent_id": 1490
+        },
+        {
+            "id": 1499,
+            "code": "NEWHAWAI.JUMP.ANTARA",
+            "name": "Гиперканал → Антара",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 49,
+            "parent_id": 1490
+        },
+        {
+            "id": 1491,
+            "code": "NEWHAWAI.OORT",
+            "name": "Нью-Гаваи Oort Cloud",
+            "designation": null,
+            "type": "OORT",
+            "star_system_id": 49,
+            "parent_id": 1490
+        },
+        {
+            "id": 1192,
+            "code": "NEWLEIPZIG.PLANET.A",
+            "name": "НовыйЛейпциг A",
+            "designation": "A",
+            "type": "PLANET",
+            "star_system_id": 19,
+            "parent_id": 1190
+        },
+        {
+            "id": 1193,
+            "code": "NEWLEIPZIG.PLANET.B",
+            "name": "НовыйЛейпциг B",
+            "designation": "B",
+            "type": "PLANET",
+            "star_system_id": 19,
+            "parent_id": 1190
+        },
+        {
+            "id": 1194,
+            "code": "NEWLEIPZIG.PLANET.C",
+            "name": "НовыйЛейпциг C",
+            "designation": "C",
+            "type": "PLANET",
+            "star_system_id": 19,
+            "parent_id": 1190
+        },
+        {
+            "id": 1195,
+            "code": "NEWLEIPZIG.PLANET.D",
+            "name": "НовыйЛейпциг D",
+            "designation": "D",
+            "type": "PLANET",
+            "star_system_id": 19,
+            "parent_id": 1190
+        },
+        {
+            "id": 1196,
+            "code": "NEWLEIPZIG.JUMP.KUBULUS",
+            "name": "Гиперканал → Кубулус",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 19,
+            "parent_id": 1190
+        },
+        {
+            "id": 1197,
+            "code": "NEWLEIPZIG.JUMP.HANNAHT",
+            "name": "Гиперканал → Ханнахт",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 19,
+            "parent_id": 1190
+        },
+        {
+            "id": 1198,
+            "code": "NEWLEIPZIG.JUMP.NBISMARK",
+            "name": "Гиперканал → Neuer Bismarck",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 19,
+            "parent_id": 1190
+        },
+        {
+            "id": 1191,
+            "code": "NEWLEIPZIG.OORT",
+            "name": "НовыйЛейпциг Oort Cloud",
+            "designation": null,
+            "type": "OORT",
+            "star_system_id": 19,
+            "parent_id": 1190
+        },
+        {
+            "id": 1452,
+            "code": "NIGHTWISH.PLANET.A",
+            "name": "Найтвиш A",
+            "designation": "A",
+            "type": "PLANET",
+            "star_system_id": 45,
+            "parent_id": 1450
+        },
+        {
+            "id": 1453,
+            "code": "NIGHTWISH.PLANET.B",
+            "name": "Найтвиш B",
+            "designation": "B",
+            "type": "PLANET",
+            "star_system_id": 45,
+            "parent_id": 1450
+        },
+        {
+            "id": 1454,
+            "code": "NIGHTWISH.PLANET.C",
+            "name": "Найтвиш C",
+            "designation": "C",
+            "type": "PLANET",
+            "star_system_id": 45,
+            "parent_id": 1450
+        },
+        {
+            "id": 1455,
+            "code": "NIGHTWISH.PLANET.D",
+            "name": "Найтвиш D",
+            "designation": "D",
+            "type": "PLANET",
+            "star_system_id": 45,
+            "parent_id": 1450
+        },
+        {
+            "id": 1456,
+            "code": "NIGHTWISH.JUMP.BRISTOL",
+            "name": "Гиперканал → Бристоль",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 45,
+            "parent_id": 1450
+        },
+        {
+            "id": 1457,
+            "code": "NIGHTWISH.JUMP.GAYA",
+            "name": "Гиперканал → Гайя",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 45,
+            "parent_id": 1450
+        },
+        {
+            "id": 1458,
+            "code": "NIGHTWISH.JUMP.WRAITMIRE",
+            "name": "Гиперканал → Райтмир",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 45,
+            "parent_id": 1450
+        },
+        {
+            "id": 1459,
+            "code": "NIGHTWISH.JUMP.JORK",
+            "name": "Гиперканал → Йорк",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 45,
+            "parent_id": 1450
+        },
+        {
+            "id": 1451,
+            "code": "NIGHTWISH.OORT",
+            "name": "Найтвиш Oort Cloud",
+            "designation": null,
+            "type": "OORT",
+            "star_system_id": 45,
+            "parent_id": 1450
+        },
+        {
+            "id": 1722,
+            "code": "OBLAKO.PLANET.A",
+            "name": "Облако A",
+            "designation": "A",
+            "type": "PLANET",
+            "star_system_id": 72,
+            "parent_id": 1720
+        },
+        {
+            "id": 1723,
+            "code": "OBLAKO.PLANET.B",
+            "name": "Облако B",
+            "designation": "B",
+            "type": "PLANET",
+            "star_system_id": 72,
+            "parent_id": 1720
+        },
+        {
+            "id": 1724,
+            "code": "OBLAKO.PLANET.C",
+            "name": "Облако C",
+            "designation": "C",
+            "type": "PLANET",
+            "star_system_id": 72,
+            "parent_id": 1720
+        },
+        {
+            "id": 1725,
+            "code": "OBLAKO.PLANET.D",
+            "name": "Облако D",
+            "designation": "D",
+            "type": "PLANET",
+            "star_system_id": 72,
+            "parent_id": 1720
+        },
+        {
+            "id": 1726,
+            "code": "OBLAKO.PLANET.E",
+            "name": "Облако E",
+            "designation": "E",
+            "type": "PLANET",
+            "star_system_id": 72,
+            "parent_id": 1720
+        },
+        {
+            "id": 1727,
+            "code": "OBLAKO.JUMP.PELLA",
+            "name": "Гиперканал → Пелла",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 72,
+            "parent_id": 1720
+        },
+        {
+            "id": 1728,
+            "code": "OBLAKO.JUMP.PIMON",
+            "name": "Гиперканал → Пимон",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 72,
+            "parent_id": 1720
+        },
+        {
+            "id": 1721,
+            "code": "OBLAKO.OORT",
+            "name": "Облако Oort Cloud",
+            "designation": null,
+            "type": "OORT",
+            "star_system_id": 72,
+            "parent_id": 1720
+        },
+        {
+            "id": 1132,
+            "code": "OLSTER.PLANET.A",
+            "name": "Ольстер A",
+            "designation": "A",
+            "type": "PLANET",
+            "star_system_id": 13,
+            "parent_id": 1130
+        },
+        {
+            "id": 1133,
+            "code": "OLSTER.PLANET.B",
+            "name": "Ольстер B",
+            "designation": "B",
+            "type": "PLANET",
+            "star_system_id": 13,
+            "parent_id": 1130
+        },
+        {
+            "id": 1134,
+            "code": "OLSTER.PLANET.C",
+            "name": "Ольстер C",
+            "designation": "C",
+            "type": "PLANET",
+            "star_system_id": 13,
+            "parent_id": 1130
+        },
+        {
+            "id": 1135,
+            "code": "OLSTER.PLANET.D",
+            "name": "Ольстер D",
+            "designation": "D",
+            "type": "PLANET",
+            "star_system_id": 13,
+            "parent_id": 1130
+        },
+        {
+            "id": 1136,
+            "code": "OLSTER.PLANET.E",
+            "name": "Ольстер E",
+            "designation": "E",
+            "type": "PLANET",
+            "star_system_id": 13,
+            "parent_id": 1130
+        },
+        {
+            "id": 1137,
+            "code": "OLSTER.JUMP.STONEHAVEN",
+            "name": "Гиперканал → Стоунхэйвен",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 13,
+            "parent_id": 1130
+        },
+        {
+            "id": 1138,
+            "code": "OLSTER.JUMP.MIKOVARRO",
+            "name": "Гиперканал → Миковарро",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 13,
+            "parent_id": 1130
+        },
+        {
+            "id": 1131,
+            "code": "OLSTER.OORT",
+            "name": "Ольстер Oort Cloud",
+            "designation": null,
+            "type": "OORT",
+            "star_system_id": 13,
+            "parent_id": 1130
+        },
+        {
+            "id": 1672,
+            "code": "PELLA.PLANET.A",
+            "name": "Пелла A",
+            "designation": "A",
+            "type": "PLANET",
+            "star_system_id": 67,
+            "parent_id": 1670
+        },
+        {
+            "id": 1673,
+            "code": "PELLA.PLANET.B",
+            "name": "Пелла B",
+            "designation": "B",
+            "type": "PLANET",
+            "star_system_id": 67,
+            "parent_id": 1670
+        },
+        {
+            "id": 1674,
+            "code": "PELLA.PLANET.C",
+            "name": "Пелла C",
+            "designation": "C",
+            "type": "PLANET",
+            "star_system_id": 67,
+            "parent_id": 1670
+        },
+        {
+            "id": 1675,
+            "code": "PELLA.PLANET.D",
+            "name": "Пелла D",
+            "designation": "D",
+            "type": "PLANET",
+            "star_system_id": 67,
+            "parent_id": 1670
+        },
+        {
+            "id": 1676,
+            "code": "PELLA.PLANET.E",
+            "name": "Пелла E",
+            "designation": "E",
+            "type": "PLANET",
+            "star_system_id": 67,
+            "parent_id": 1670
+        },
+        {
+            "id": 1677,
+            "code": "PELLA.PLANET.F",
+            "name": "Пелла F",
+            "designation": "F",
+            "type": "PLANET",
+            "star_system_id": 67,
+            "parent_id": 1670
+        },
+        {
+            "id": 1678,
+            "code": "PELLA.JUMP.THEFOREST",
+            "name": "Гиперканал → Лес",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 67,
+            "parent_id": 1670
+        },
+        {
+            "id": 1679,
+            "code": "PELLA.JUMP.PIMON",
+            "name": "Гиперканал → Пимон",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 67,
+            "parent_id": 1670
+        },
+        {
+            "id": 1680,
+            "code": "PELLA.JUMP.SHANTIER",
+            "name": "Гиперканал → Шантьер",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 67,
+            "parent_id": 1670
+        },
+        {
+            "id": 1681,
+            "code": "PELLA.JUMP.ARGOSTROLION",
+            "name": "Гиперканал → Аргостолион",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 67,
+            "parent_id": 1670
+        },
+        {
+            "id": 1682,
+            "code": "PELLA.JUMP.OBLAKO",
+            "name": "Гиперканал → Облако",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 67,
+            "parent_id": 1670
+        },
+        {
+            "id": 1671,
+            "code": "PELLA.OORT",
+            "name": "Пелла Oort Cloud",
+            "designation": null,
+            "type": "OORT",
+            "star_system_id": 67,
+            "parent_id": 1670
+        },
+        {
+            "id": 1082,
+            "code": "PHOENIX.PLANET.A",
+            "name": "XX9-WV A",
+            "designation": "A",
+            "type": "PLANET",
+            "star_system_id": 8,
+            "parent_id": 1080
+        },
+        {
+            "id": 1083,
+            "code": "PHOENIX.PLANET.B",
+            "name": "XX9-WV B",
+            "designation": "B",
+            "type": "PLANET",
+            "star_system_id": 8,
+            "parent_id": 1080
+        },
+        {
+            "id": 1084,
+            "code": "PHOENIX.JUMP.VAYLE",
+            "name": "Гиперканал → Вайл",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 8,
+            "parent_id": 1080
+        },
+        {
+            "id": 1085,
+            "code": "PHOENIX.JUMP.ARRAKIS",
+            "name": "Гиперканал → Арракис",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 8,
+            "parent_id": 1080
+        },
+        {
+            "id": 1086,
+            "code": "PHOENIX.JUMP.TERRONUS",
+            "name": "Гиперканал → K-MGJ7",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 8,
+            "parent_id": 1080
+        },
+        {
+            "id": 1081,
+            "code": "PHOENIX.OORT",
+            "name": "XX9-WV Oort Cloud",
+            "designation": null,
+            "type": "OORT",
+            "star_system_id": 8,
+            "parent_id": 1080
+        },
+        {
+            "id": 1622,
+            "code": "PIMON.PLANET.A",
+            "name": "Пимон A",
+            "designation": "A",
+            "type": "PLANET",
+            "star_system_id": 62,
+            "parent_id": 1620
+        },
+        {
+            "id": 1623,
+            "code": "PIMON.PLANET.B",
+            "name": "Пимон B",
+            "designation": "B",
+            "type": "PLANET",
+            "star_system_id": 62,
+            "parent_id": 1620
+        },
+        {
+            "id": 1624,
+            "code": "PIMON.PLANET.C",
+            "name": "Пимон C",
+            "designation": "C",
+            "type": "PLANET",
+            "star_system_id": 62,
+            "parent_id": 1620
+        },
+        {
+            "id": 1625,
+            "code": "PIMON.PLANET.D",
+            "name": "Пимон D",
+            "designation": "D",
+            "type": "PLANET",
+            "star_system_id": 62,
+            "parent_id": 1620
+        },
+        {
+            "id": 1626,
+            "code": "PIMON.JUMP.TAIMYR",
+            "name": "Гиперканал → Таймыр",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 62,
+            "parent_id": 1620
+        },
+        {
+            "id": 1627,
+            "code": "PIMON.JUMP.PELLA",
+            "name": "Гиперканал → Пелла",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 62,
+            "parent_id": 1620
+        },
+        {
+            "id": 1628,
+            "code": "PIMON.JUMP.OBLAKO",
+            "name": "Гиперканал → Облако",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 62,
+            "parent_id": 1620
+        },
+        {
+            "id": 1621,
+            "code": "PIMON.OORT",
+            "name": "Пимон Oort Cloud",
+            "designation": null,
+            "type": "OORT",
+            "star_system_id": 62,
+            "parent_id": 1620
+        },
+        {
+            "id": 1712,
+            "code": "RADJYA.PLANET.A",
+            "name": "Раджья A",
+            "designation": "A",
+            "type": "PLANET",
+            "star_system_id": 71,
+            "parent_id": 1710
+        },
+        {
+            "id": 1713,
+            "code": "RADJYA.PLANET.B",
+            "name": "Раджья B",
+            "designation": "B",
+            "type": "PLANET",
+            "star_system_id": 71,
+            "parent_id": 1710
+        },
+        {
+            "id": 1714,
+            "code": "RADJYA.PLANET.C",
+            "name": "Раджья C",
+            "designation": "C",
+            "type": "PLANET",
+            "star_system_id": 71,
+            "parent_id": 1710
+        },
+        {
+            "id": 1715,
+            "code": "RADJYA.PLANET.D",
+            "name": "Раджья D",
+            "designation": "D",
+            "type": "PLANET",
+            "star_system_id": 71,
+            "parent_id": 1710
+        },
+        {
+            "id": 1716,
+            "code": "RADJYA.JUMP.SIRIUS",
+            "name": "Гиперканал → Сириус",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 71,
+            "parent_id": 1710
+        },
+        {
+            "id": 1717,
+            "code": "RADJYA.JUMP.VEGA",
+            "name": "Гиперканал → Вега",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 71,
+            "parent_id": 1710
+        },
+        {
+            "id": 1718,
+            "code": "RADJYA.JUMP.CHUMATAKTION",
+            "name": "Гиперканал → Чуматактион",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 71,
+            "parent_id": 1710
+        },
+        {
+            "id": 1711,
+            "code": "RADJYA.OORT",
+            "name": "Раджья Oort Cloud",
+            "designation": null,
+            "type": "OORT",
+            "star_system_id": 71,
+            "parent_id": 1710
+        },
+        {
+            "id": 1702,
+            "code": "RAMMEKARTI.PLANET.A",
+            "name": "Раммекарти A",
+            "designation": "A",
+            "type": "PLANET",
+            "star_system_id": 70,
+            "parent_id": 1700
+        },
+        {
+            "id": 1703,
+            "code": "RAMMEKARTI.PLANET.B",
+            "name": "Раммекарти B",
+            "designation": "B",
+            "type": "PLANET",
+            "star_system_id": 70,
+            "parent_id": 1700
+        },
+        {
+            "id": 1704,
+            "code": "RAMMEKARTI.PLANET.C",
+            "name": "Раммекарти C",
+            "designation": "C",
+            "type": "PLANET",
+            "star_system_id": 70,
+            "parent_id": 1700
+        },
+        {
+            "id": 1705,
+            "code": "RAMMEKARTI.PLANET.D",
+            "name": "Раммекарти D",
+            "designation": "D",
+            "type": "PLANET",
+            "star_system_id": 70,
+            "parent_id": 1700
+        },
+        {
+            "id": 1706,
+            "code": "RAMMEKARTI.PLANET.E",
+            "name": "Раммекарти E",
+            "designation": "E",
+            "type": "PLANET",
+            "star_system_id": 70,
+            "parent_id": 1700
+        },
+        {
+            "id": 1707,
+            "code": "RAMMEKARTI.JUMP.VEGA",
+            "name": "Гиперканал → Вега",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 70,
+            "parent_id": 1700
+        },
+        {
+            "id": 1708,
+            "code": "RAMMEKARTI.JUMP.SHARD",
+            "name": "Гиперканал → Шард",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 70,
+            "parent_id": 1700
+        },
+        {
+            "id": 1709,
+            "code": "RAMMEKARTI.JUMP.KCDX4",
+            "name": "Гиперканал → KCD-X4",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 70,
+            "parent_id": 1700
+        },
+        {
+            "id": 1701,
+            "code": "RAMMEKARTI.OORT",
+            "name": "Раммекарти Oort Cloud",
+            "designation": null,
+            "type": "OORT",
+            "star_system_id": 70,
+            "parent_id": 1700
+        },
+        {
+            "id": 1052,
+            "code": "RINGTAIL.PLANET.A",
+            "name": "Рингтейл A",
+            "designation": "A",
+            "type": "PLANET",
+            "star_system_id": 5,
+            "parent_id": 1050
+        },
+        {
+            "id": 1053,
+            "code": "RINGTAIL.PLANET.B",
+            "name": "Рингтейл B",
+            "designation": "B",
+            "type": "PLANET",
+            "star_system_id": 5,
+            "parent_id": 1050
+        },
+        {
+            "id": 1054,
+            "code": "RINGTAIL.PLANET.C",
+            "name": "Рингтейл C",
+            "designation": "C",
+            "type": "PLANET",
+            "star_system_id": 5,
+            "parent_id": 1050
+        },
+        {
+            "id": 1055,
+            "code": "RINGTAIL.PLANET.D",
+            "name": "Рингтейл D",
+            "designation": "D",
+            "type": "PLANET",
+            "star_system_id": 5,
+            "parent_id": 1050
+        },
+        {
+            "id": 1056,
+            "code": "RINGTAIL.ASTEROID_BELT",
+            "name": "Рингтейл — пояс астероидов",
+            "designation": null,
+            "type": "ASTEROID_BELT",
+            "star_system_id": 5,
+            "parent_id": 1050
+        },
+        {
+            "id": 1057,
+            "code": "RINGTAIL.JUMP.DALLAS",
+            "name": "Гиперканал → Даллас",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 5,
+            "parent_id": 1050
+        },
+        {
+            "id": 1058,
+            "code": "RINGTAIL.JUMP.NEVEMORE",
+            "name": "Гиперканал → Невемор",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 5,
+            "parent_id": 1050
+        },
+        {
+            "id": 1059,
+            "code": "RINGTAIL.JUMP.GANDER",
+            "name": "Гиперканал → Гандэр",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 5,
+            "parent_id": 1050
+        },
+        {
+            "id": 1051,
+            "code": "RINGTAIL.OORT",
+            "name": "Рингтейл Oort Cloud",
+            "designation": null,
+            "type": "OORT",
+            "star_system_id": 5,
+            "parent_id": 1050
+        },
+        {
+            "id": 1642,
+            "code": "ROKANNON.PLANET.A",
+            "name": "Роканнон A",
+            "designation": "A",
+            "type": "PLANET",
+            "star_system_id": 64,
+            "parent_id": 1640
+        },
+        {
+            "id": 1643,
+            "code": "ROKANNON.PLANET.B",
+            "name": "Роканнон B",
+            "designation": "B",
+            "type": "PLANET",
+            "star_system_id": 64,
+            "parent_id": 1640
+        },
+        {
+            "id": 1644,
+            "code": "ROKANNON.JUMP.NEQUADOR",
+            "name": "Гиперканал → Новый Эквадор",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 64,
+            "parent_id": 1640
+        },
+        {
+            "id": 1645,
+            "code": "ROKANNON.JUMP.KCDX4",
+            "name": "Гиперканал → KCD-X4",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 64,
+            "parent_id": 1640
+        },
+        {
+            "id": 1646,
+            "code": "ROKANNON.JUMP.SUPREMA",
+            "name": "Гиперканал → Suprema",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 64,
+            "parent_id": 1640
+        },
+        {
+            "id": 1641,
+            "code": "ROKANNON.OORT",
+            "name": "Роканнон Oort Cloud",
+            "designation": null,
+            "type": "OORT",
+            "star_system_id": 64,
+            "parent_id": 1640
+        },
+        {
+            "id": 1092,
+            "code": "SCRABBAD.PLANET.A",
+            "name": "Скраббад A",
+            "designation": "A",
+            "type": "PLANET",
+            "star_system_id": 9,
+            "parent_id": 1090
+        },
+        {
+            "id": 1093,
+            "code": "SCRABBAD.PLANET.B",
+            "name": "Скраббад B",
+            "designation": "B",
+            "type": "PLANET",
+            "star_system_id": 9,
+            "parent_id": 1090
+        },
+        {
+            "id": 1094,
+            "code": "SCRABBAD.PLANET.C",
+            "name": "Скраббад C",
+            "designation": "C",
+            "type": "PLANET",
+            "star_system_id": 9,
+            "parent_id": 1090
+        },
+        {
+            "id": 1095,
+            "code": "SCRABBAD.PLANET.D",
+            "name": "Скраббад D",
+            "designation": "D",
+            "type": "PLANET",
+            "star_system_id": 9,
+            "parent_id": 1090
+        },
+        {
+            "id": 1096,
+            "code": "SCRABBAD.ASTEROID_BELT",
+            "name": "Скраббад — пояс астероидов",
+            "designation": null,
+            "type": "ASTEROID_BELT",
+            "star_system_id": 9,
+            "parent_id": 1090
+        },
+        {
+            "id": 1097,
+            "code": "SCRABBAD.PLANET.E",
+            "name": "Скраббад E",
+            "designation": "E",
+            "type": "PLANET",
+            "star_system_id": 9,
+            "parent_id": 1090
+        },
+        {
+            "id": 1098,
+            "code": "SCRABBAD.JUMP.SIRIUS",
+            "name": "Гиперканал → Сириус",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 9,
+            "parent_id": 1090
+        },
+        {
+            "id": 1099,
+            "code": "SCRABBAD.JUMP.VOLANDIS",
+            "name": "Гиперканал → Воландис",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 9,
+            "parent_id": 1090
+        },
+        {
+            "id": 1100,
+            "code": "SCRABBAD.JUMP.FLORIA",
+            "name": "Гиперканал → Флория",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 9,
+            "parent_id": 1090
+        },
+        {
+            "id": 1091,
+            "code": "SCRABBAD.OORT",
+            "name": "Скраббад Oort Cloud",
+            "designation": null,
+            "type": "OORT",
+            "star_system_id": 9,
+            "parent_id": 1090
+        },
+        {
+            "id": 1682,
+            "code": "SHANTIER.PLANET.A",
+            "name": "Шантьер A",
+            "designation": "A",
+            "type": "PLANET",
+            "star_system_id": 68,
+            "parent_id": 1680
+        },
+        {
+            "id": 1683,
+            "code": "SHANTIER.PLANET.B",
+            "name": "Шантьер B",
+            "designation": "B",
+            "type": "PLANET",
+            "star_system_id": 68,
+            "parent_id": 1680
+        },
+        {
+            "id": 1684,
+            "code": "SHANTIER.PLANET.C",
+            "name": "Шантьер C",
+            "designation": "C",
+            "type": "PLANET",
+            "star_system_id": 68,
+            "parent_id": 1680
+        },
+        {
+            "id": 1685,
+            "code": "SHANTIER.PLANET.D",
+            "name": "Шантьер D",
+            "designation": "D",
+            "type": "PLANET",
+            "star_system_id": 68,
+            "parent_id": 1680
+        },
+        {
+            "id": 1686,
+            "code": "SHANTIER.JUMP.SHARD",
+            "name": "Гиперканал → Шард",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 68,
+            "parent_id": 1680
+        },
+        {
+            "id": 1687,
+            "code": "SHANTIER.JUMP.THEFOREST",
+            "name": "Гиперканал → Лес",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 68,
+            "parent_id": 1680
+        },
+        {
+            "id": 1688,
+            "code": "SHANTIER.JUMP.PELLA",
+            "name": "Гиперканал → Пелла",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 68,
+            "parent_id": 1680
+        },
+        {
+            "id": 1689,
+            "code": "SHANTIER.JUMP.ARGOSTROLION",
+            "name": "Гиперканал → Аргостолион",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 68,
+            "parent_id": 1680
+        },
+        {
+            "id": 1681,
+            "code": "SHANTIER.OORT",
+            "name": "Шантьер Oort Cloud",
+            "designation": null,
+            "type": "OORT",
+            "star_system_id": 68,
+            "parent_id": 1680
+        },
+        {
+            "id": 1692,
+            "code": "SHARD.PLANET.A",
+            "name": "Шард A",
+            "designation": "A",
+            "type": "PLANET",
+            "star_system_id": 69,
+            "parent_id": 1690
+        },
+        {
+            "id": 1693,
+            "code": "SHARD.PLANET.B",
+            "name": "Шард B",
+            "designation": "B",
+            "type": "PLANET",
+            "star_system_id": 69,
+            "parent_id": 1690
+        },
+        {
+            "id": 1694,
+            "code": "SHARD.JUMP.RAMMEKARTI",
+            "name": "Гиперканал → Раммекарти",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 69,
+            "parent_id": 1690
+        },
+        {
+            "id": 1695,
+            "code": "SHARD.JUMP.SHANTIER",
+            "name": "Гиперканал → Шантьер",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 69,
+            "parent_id": 1690
+        },
+        {
+            "id": 1696,
+            "code": "SHARD.JUMP.CHUMATAKTION",
+            "name": "Гиперканал → Чуматактион",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 69,
+            "parent_id": 1690
+        },
+        {
+            "id": 1697,
+            "code": "SHARD.JUMP.MIRKWOOD",
+            "name": "Гиперканал → Мирквуд",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 69,
+            "parent_id": 1690
+        },
+        {
+            "id": 1691,
+            "code": "SHARD.OORT",
+            "name": "Шард Oort Cloud",
+            "designation": null,
+            "type": "OORT",
+            "star_system_id": 69,
+            "parent_id": 1690
+        },
+        {
+            "id": 1022,
+            "code": "SIRIUS.PLANET.A",
+            "name": "Сириус A",
+            "designation": "A",
+            "type": "PLANET",
+            "star_system_id": 2,
+            "parent_id": 1020
+        },
+        {
+            "id": 1023,
+            "code": "SIRIUS.PLANET.B",
+            "name": "Сириус B",
+            "designation": "B",
+            "type": "PLANET",
+            "star_system_id": 2,
+            "parent_id": 1020
+        },
+        {
+            "id": 1024,
+            "code": "SIRIUS.PLANET.C",
+            "name": "Сириус C",
+            "designation": "C",
+            "type": "PLANET",
+            "star_system_id": 2,
+            "parent_id": 1020
+        },
+        {
+            "id": 1025,
+            "code": "SIRIUS.PLANET.D",
+            "name": "Сириус D",
+            "designation": "D",
+            "type": "PLANET",
+            "star_system_id": 2,
+            "parent_id": 1020
+        },
+        {
+            "id": 1026,
+            "code": "SIRIUS.JUMP.DALLAS",
+            "name": "Гиперканал → Даллас",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 2,
+            "parent_id": 1020
+        },
+        {
+            "id": 1027,
+            "code": "SIRIUS.JUMP.RADJYA",
+            "name": "Гиперканал → Раджья",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 2,
+            "parent_id": 1020
+        },
+        {
+            "id": 1028,
+            "code": "SIRIUS.JUMP.VOLANDIS",
+            "name": "Гиперканал → Воландис",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 2,
+            "parent_id": 1020
+        },
+        {
+            "id": 1029,
+            "code": "SIRIUS.JUMP.SCRABBAD",
+            "name": "Гиперканал → Скраббад",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 2,
+            "parent_id": 1020
+        },
+        {
+            "id": 1030,
+            "code": "SIRIUS.JUMP.SOL",
+            "name": "Гиперканал → Солнце",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 2,
+            "parent_id": 1020
+        },
+        {
+            "id": 1031,
+            "code": "SIRIUS.JUMP.BRISTOL",
+            "name": "Гиперканал → Бристоль",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 2,
+            "parent_id": 1020
+        },
+        {
+            "id": 1021,
+            "code": "SIRIUS.OORT",
+            "name": "Сириус Oort Cloud",
+            "designation": null,
+            "type": "OORT",
+            "star_system_id": 2,
+            "parent_id": 1020
+        },
+        {
+            "id": 1032,
+            "code": "SOL.PLANET.A",
+            "name": "Солнце A",
+            "designation": "A",
+            "type": "PLANET",
+            "star_system_id": 3,
+            "parent_id": 1030
+        },
+        {
+            "id": 1033,
+            "code": "SOL.PLANET.B",
+            "name": "Солнце B",
+            "designation": "B",
+            "type": "PLANET",
+            "star_system_id": 3,
+            "parent_id": 1030
+        },
+        {
+            "id": 1034,
+            "code": "SOL.JUMP.KAREON",
+            "name": "Гиперканал → Кареон",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 3,
+            "parent_id": 1030
+        },
+        {
+            "id": 1035,
+            "code": "SOL.JUMP.SIRIUS",
+            "name": "Гиперканал → Сириус",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 3,
+            "parent_id": 1030
+        },
+        {
+            "id": 1036,
+            "code": "SOL.JUMP.MIRKWOOD",
+            "name": "Гиперканал → Мирквуд",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 3,
+            "parent_id": 1030
+        },
+        {
+            "id": 1031,
+            "code": "SOL.OORT",
+            "name": "Солнце Oort Cloud",
+            "designation": null,
+            "type": "OORT",
+            "star_system_id": 3,
+            "parent_id": 1030
+        },
+        {
+            "id": 1372,
+            "code": "SOLARIS.PLANET.A",
+            "name": "Солярис A",
+            "designation": "A",
+            "type": "PLANET",
+            "star_system_id": 37,
+            "parent_id": 1370
+        },
+        {
+            "id": 1373,
+            "code": "SOLARIS.PLANET.B",
+            "name": "Солярис B",
+            "designation": "B",
+            "type": "PLANET",
+            "star_system_id": 37,
+            "parent_id": 1370
+        },
+        {
+            "id": 1374,
+            "code": "SOLARIS.JUMP.ARLISS",
+            "name": "Гиперканал → Арлисс",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 37,
+            "parent_id": 1370
+        },
+        {
+            "id": 1375,
+            "code": "SOLARIS.JUMP.WRAITMIRE",
+            "name": "Гиперканал → Райтмир",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 37,
+            "parent_id": 1370
+        },
+        {
+            "id": 1376,
+            "code": "SOLARIS.JUMP.LORDAERON",
+            "name": "Гиперканал → Лордаэрон",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 37,
+            "parent_id": 1370
+        },
+        {
+            "id": 1377,
+            "code": "SOLARIS.JUMP.JORK",
+            "name": "Гиперканал → Йорк",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 37,
+            "parent_id": 1370
+        },
+        {
+            "id": 1371,
+            "code": "SOLARIS.OORT",
+            "name": "Солярис Oort Cloud",
+            "designation": null,
+            "type": "OORT",
+            "star_system_id": 37,
+            "parent_id": 1370
+        },
+        {
+            "id": 1122,
+            "code": "STONEHAVEN.PLANET.A",
+            "name": "Стоунхэйвен A",
+            "designation": "A",
+            "type": "PLANET",
+            "star_system_id": 12,
+            "parent_id": 1120
+        },
+        {
+            "id": 1123,
+            "code": "STONEHAVEN.PLANET.B",
+            "name": "Стоунхэйвен B",
+            "designation": "B",
+            "type": "PLANET",
+            "star_system_id": 12,
+            "parent_id": 1120
+        },
+        {
+            "id": 1124,
+            "code": "STONEHAVEN.PLANET.C",
+            "name": "Стоунхэйвен C",
+            "designation": "C",
+            "type": "PLANET",
+            "star_system_id": 12,
+            "parent_id": 1120
+        },
+        {
+            "id": 1125,
+            "code": "STONEHAVEN.PLANET.D",
+            "name": "Стоунхэйвен D",
+            "designation": "D",
+            "type": "PLANET",
+            "star_system_id": 12,
+            "parent_id": 1120
+        },
+        {
+            "id": 1126,
+            "code": "STONEHAVEN.ASTEROID_BELT",
+            "name": "Стоунхэйвен — пояс астероидов",
+            "designation": null,
+            "type": "ASTEROID_BELT",
+            "star_system_id": 12,
+            "parent_id": 1120
+        },
+        {
+            "id": 1127,
+            "code": "STONEHAVEN.PLANET.E",
+            "name": "Стоунхэйвен E",
+            "designation": "E",
+            "type": "PLANET",
+            "star_system_id": 12,
+            "parent_id": 1120
+        },
+        {
+            "id": 1128,
+            "code": "STONEHAVEN.JUMP.FROST",
+            "name": "Гиперканал → Фрост",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 12,
+            "parent_id": 1120
+        },
+        {
+            "id": 1129,
+            "code": "STONEHAVEN.JUMP.OLSTER",
+            "name": "Гиперканал → Ольстер",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 12,
+            "parent_id": 1120
+        },
+        {
+            "id": 1121,
+            "code": "STONEHAVEN.OORT",
+            "name": "Стоунхэйвен Oort Cloud",
+            "designation": null,
+            "type": "OORT",
+            "star_system_id": 12,
+            "parent_id": 1120
+        },
+        {
+            "id": 1652,
+            "code": "SUPREMA.PLANET.A",
+            "name": "Suprema A",
+            "designation": "A",
+            "type": "PLANET",
+            "star_system_id": 65,
+            "parent_id": 1650
+        },
+        {
+            "id": 1653,
+            "code": "SUPREMA.PLANET.B",
+            "name": "Suprema B",
+            "designation": "B",
+            "type": "PLANET",
+            "star_system_id": 65,
+            "parent_id": 1650
+        },
+        {
+            "id": 1654,
+            "code": "SUPREMA.PLANET.C",
+            "name": "Suprema C",
+            "designation": "C",
+            "type": "PLANET",
+            "star_system_id": 65,
+            "parent_id": 1650
+        },
+        {
+            "id": 1655,
+            "code": "SUPREMA.JUMP.THEFOREST",
+            "name": "Гиперканал → Лес",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 65,
+            "parent_id": 1650
+        },
+        {
+            "id": 1656,
+            "code": "SUPREMA.JUMP.VALINOR",
+            "name": "Гиперканал → Валинор",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 65,
+            "parent_id": 1650
+        },
+        {
+            "id": 1657,
+            "code": "SUPREMA.JUMP.ROKANNON",
+            "name": "Гиперканал → Роканнон",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 65,
+            "parent_id": 1650
+        },
+        {
+            "id": 1651,
+            "code": "SUPREMA.OORT",
+            "name": "Suprema Oort Cloud",
+            "designation": null,
+            "type": "OORT",
+            "star_system_id": 65,
+            "parent_id": 1650
+        },
+        {
+            "id": 1592,
+            "code": "TAIMYR.PLANET.A",
+            "name": "Таймыр A",
+            "designation": "A",
+            "type": "PLANET",
+            "star_system_id": 59,
+            "parent_id": 1590
+        },
+        {
+            "id": 1593,
+            "code": "TAIMYR.PLANET.B",
+            "name": "Таймыр B",
+            "designation": "B",
+            "type": "PLANET",
+            "star_system_id": 59,
+            "parent_id": 1590
+        },
+        {
+            "id": 1594,
+            "code": "TAIMYR.PLANET.C",
+            "name": "Таймыр C",
+            "designation": "C",
+            "type": "PLANET",
+            "star_system_id": 59,
+            "parent_id": 1590
+        },
+        {
+            "id": 1595,
+            "code": "TAIMYR.PLANET.D",
+            "name": "Таймыр D",
+            "designation": "D",
+            "type": "PLANET",
+            "star_system_id": 59,
+            "parent_id": 1590
+        },
+        {
+            "id": 1596,
+            "code": "TAIMYR.JUMP.FIN",
+            "name": "Гиперканал → Фин",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 59,
+            "parent_id": 1590
+        },
+        {
+            "id": 1597,
+            "code": "TAIMYR.JUMP.VEGA",
+            "name": "Гиперканал → Вега",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 59,
+            "parent_id": 1590
+        },
+        {
+            "id": 1598,
+            "code": "TAIMYR.JUMP.NEQUADOR",
+            "name": "Гиперканал → Новый Эквадор",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 59,
+            "parent_id": 1590
+        },
+        {
+            "id": 1599,
+            "code": "TAIMYR.JUMP.PIMON",
+            "name": "Гиперканал → Пимон",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 59,
+            "parent_id": 1590
+        },
+        {
+            "id": 1600,
+            "code": "TAIMYR.JUMP.KCDX4",
+            "name": "Гиперканал → KCD-X4",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 59,
+            "parent_id": 1590
+        },
+        {
+            "id": 1591,
+            "code": "TAIMYR.OORT",
+            "name": "Таймыр Oort Cloud",
+            "designation": null,
+            "type": "OORT",
+            "star_system_id": 59,
+            "parent_id": 1590
+        },
+        {
+            "id": 1072,
+            "code": "TERRONUS.PLANET.A",
+            "name": "K-MGJ7 A",
+            "designation": "A",
+            "type": "PLANET",
+            "star_system_id": 7,
+            "parent_id": 1070
+        },
+        {
+            "id": 1073,
+            "code": "TERRONUS.PLANET.B",
+            "name": "K-MGJ7 B",
+            "designation": "B",
+            "type": "PLANET",
+            "star_system_id": 7,
+            "parent_id": 1070
+        },
+        {
+            "id": 1074,
+            "code": "TERRONUS.PLANET.C",
+            "name": "K-MGJ7 C",
+            "designation": "C",
+            "type": "PLANET",
+            "star_system_id": 7,
+            "parent_id": 1070
+        },
+        {
+            "id": 1075,
+            "code": "TERRONUS.PLANET.D",
+            "name": "K-MGJ7 D",
+            "designation": "D",
+            "type": "PLANET",
+            "star_system_id": 7,
+            "parent_id": 1070
+        },
+        {
+            "id": 1076,
+            "code": "TERRONUS.JUMP.VAYLE",
+            "name": "Гиперканал → Вайл",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 7,
+            "parent_id": 1070
+        },
+        {
+            "id": 1077,
+            "code": "TERRONUS.JUMP.ARRAKIS",
+            "name": "Гиперканал → Арракис",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 7,
+            "parent_id": 1070
+        },
+        {
+            "id": 1078,
+            "code": "TERRONUS.JUMP.PHOENIX",
+            "name": "Гиперканал → XX9-WV",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 7,
+            "parent_id": 1070
+        },
+        {
+            "id": 1079,
+            "code": "TERRONUS.JUMP.KAREON",
+            "name": "Гиперканал → Кареон",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 7,
+            "parent_id": 1070
+        },
+        {
+            "id": 1071,
+            "code": "TERRONUS.OORT",
+            "name": "K-MGJ7 Oort Cloud",
+            "designation": null,
+            "type": "OORT",
+            "star_system_id": 7,
+            "parent_id": 1070
+        },
+        {
+            "id": 1662,
+            "code": "THEFOREST.PLANET.A",
+            "name": "Лес A",
+            "designation": "A",
+            "type": "PLANET",
+            "star_system_id": 66,
+            "parent_id": 1660
+        },
+        {
+            "id": 1663,
+            "code": "THEFOREST.PLANET.B",
+            "name": "Лес B",
+            "designation": "B",
+            "type": "PLANET",
+            "star_system_id": 66,
+            "parent_id": 1660
+        },
+        {
+            "id": 1664,
+            "code": "THEFOREST.PLANET.C",
+            "name": "Лес C",
+            "designation": "C",
+            "type": "PLANET",
+            "star_system_id": 66,
+            "parent_id": 1660
+        },
+        {
+            "id": 1665,
+            "code": "THEFOREST.PLANET.D",
+            "name": "Лес D",
+            "designation": "D",
+            "type": "PLANET",
+            "star_system_id": 66,
+            "parent_id": 1660
+        },
+        {
+            "id": 1666,
+            "code": "THEFOREST.JUMP.PELLA",
+            "name": "Гиперканал → Пелла",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 66,
+            "parent_id": 1660
+        },
+        {
+            "id": 1667,
+            "code": "THEFOREST.JUMP.SHANTIER",
+            "name": "Гиперканал → Шантьер",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 66,
+            "parent_id": 1660
+        },
+        {
+            "id": 1668,
+            "code": "THEFOREST.JUMP.SUPREMA",
+            "name": "Гиперканал → Suprema",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 66,
+            "parent_id": 1660
+        },
+        {
+            "id": 1661,
+            "code": "THEFOREST.OORT",
+            "name": "Лес Oort Cloud",
+            "designation": null,
+            "type": "OORT",
+            "star_system_id": 66,
+            "parent_id": 1660
+        },
+        {
+            "id": 1632,
+            "code": "VALINOR.PLANET.A",
+            "name": "Валинор A",
+            "designation": "A",
+            "type": "PLANET",
+            "star_system_id": 63,
+            "parent_id": 1630
+        },
+        {
+            "id": 1633,
+            "code": "VALINOR.PLANET.B",
+            "name": "Валинор B",
+            "designation": "B",
+            "type": "PLANET",
+            "star_system_id": 63,
+            "parent_id": 1630
+        },
+        {
+            "id": 1634,
+            "code": "VALINOR.PLANET.C",
+            "name": "Валинор C",
+            "designation": "C",
+            "type": "PLANET",
+            "star_system_id": 63,
+            "parent_id": 1630
+        },
+        {
+            "id": 1635,
+            "code": "VALINOR.PLANET.D",
+            "name": "Валинор D",
+            "designation": "D",
+            "type": "PLANET",
+            "star_system_id": 63,
+            "parent_id": 1630
+        },
+        {
+            "id": 1636,
+            "code": "VALINOR.PLANET.E",
+            "name": "Валинор E",
+            "designation": "E",
+            "type": "PLANET",
+            "star_system_id": 63,
+            "parent_id": 1630
+        },
+        {
+            "id": 1637,
+            "code": "VALINOR.JUMP.NEQUADOR",
+            "name": "Гиперканал → Новый Эквадор",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 63,
+            "parent_id": 1630
+        },
+        {
+            "id": 1638,
+            "code": "VALINOR.JUMP.SUPREMA",
+            "name": "Гиперканал → Suprema",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 63,
+            "parent_id": 1630
+        },
+        {
+            "id": 1631,
+            "code": "VALINOR.OORT",
+            "name": "Валинор Oort Cloud",
+            "designation": null,
+            "type": "OORT",
+            "star_system_id": 63,
+            "parent_id": 1630
+        },
+        {
+            "id": 1282,
+            "code": "VAYLE.PLANET.A",
+            "name": "Вайл A",
+            "designation": "A",
+            "type": "PLANET",
+            "star_system_id": 28,
+            "parent_id": 1280
+        },
+        {
+            "id": 1283,
+            "code": "VAYLE.PLANET.B",
+            "name": "Вайл B",
+            "designation": "B",
+            "type": "PLANET",
+            "star_system_id": 28,
+            "parent_id": 1280
+        },
+        {
+            "id": 1284,
+            "code": "VAYLE.PLANET.C",
+            "name": "Вайл C",
+            "designation": "C",
+            "type": "PLANET",
+            "star_system_id": 28,
+            "parent_id": 1280
+        },
+        {
+            "id": 1285,
+            "code": "VAYLE.PLANET.D",
+            "name": "Вайл D",
+            "designation": "D",
+            "type": "PLANET",
+            "star_system_id": 28,
+            "parent_id": 1280
+        },
+        {
+            "id": 1286,
+            "code": "VAYLE.PLANET.E",
+            "name": "Вайл E",
+            "designation": "E",
+            "type": "PLANET",
+            "star_system_id": 28,
+            "parent_id": 1280
+        },
+        {
+            "id": 1287,
+            "code": "VAYLE.JUMP.NEWFRANCE",
+            "name": "Гиперканал → НоваяФранция",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 28,
+            "parent_id": 1280
+        },
+        {
+            "id": 1288,
+            "code": "VAYLE.JUMP.TERRONUS",
+            "name": "Гиперканал → K-MGJ7",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 28,
+            "parent_id": 1280
+        },
+        {
+            "id": 1289,
+            "code": "VAYLE.JUMP.PHOENIX",
+            "name": "Гиперканал → XX9-WV",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 28,
+            "parent_id": 1280
+        },
+        {
+            "id": 1281,
+            "code": "VAYLE.OORT",
+            "name": "Вайл Oort Cloud",
+            "designation": null,
+            "type": "OORT",
+            "star_system_id": 28,
+            "parent_id": 1280
+        },
+        {
+            "id": 1012,
+            "code": "VEGA.PLANET.A",
+            "name": "Вега A",
+            "designation": "A",
+            "type": "PLANET",
+            "star_system_id": 1,
+            "parent_id": 1010
+        },
+        {
+            "id": 1013,
+            "code": "VEGA.PLANET.B",
+            "name": "Вега B",
+            "designation": "B",
+            "type": "PLANET",
+            "star_system_id": 1,
+            "parent_id": 1010
+        },
+        {
+            "id": 1014,
+            "code": "VEGA.PLANET.C",
+            "name": "Вега C",
+            "designation": "C",
+            "type": "PLANET",
+            "star_system_id": 1,
+            "parent_id": 1010
+        },
+        {
+            "id": 1015,
+            "code": "VEGA.PLANET.D",
+            "name": "Вега D",
+            "designation": "D",
+            "type": "PLANET",
+            "star_system_id": 1,
+            "parent_id": 1010
+        },
+        {
+            "id": 1016,
+            "code": "VEGA.PLANET.E",
+            "name": "Вега E",
+            "designation": "E",
+            "type": "PLANET",
+            "star_system_id": 1,
+            "parent_id": 1010
+        },
+        {
+            "id": 1017,
+            "code": "VEGA.PLANET.F",
+            "name": "Вега F",
+            "designation": "F",
+            "type": "PLANET",
+            "star_system_id": 1,
+            "parent_id": 1010
+        },
+        {
+            "id": 1018,
+            "code": "VEGA.JUMP.RADJYA",
+            "name": "Гиперканал → Раджья",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 1,
+            "parent_id": 1010
+        },
+        {
+            "id": 1019,
+            "code": "VEGA.JUMP.FIN",
+            "name": "Гиперканал → Фин",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 1,
+            "parent_id": 1010
+        },
+        {
+            "id": 1020,
+            "code": "VEGA.JUMP.RAMMEKARTI",
+            "name": "Гиперканал → Раммекарти",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 1,
+            "parent_id": 1010
+        },
+        {
+            "id": 1021,
+            "code": "VEGA.JUMP.TAIMYR",
+            "name": "Гиперканал → Таймыр",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 1,
+            "parent_id": 1010
+        },
+        {
+            "id": 1022,
+            "code": "VEGA.JUMP.KCDX4",
+            "name": "Гиперканал → KCD-X4",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 1,
+            "parent_id": 1010
+        },
+        {
+            "id": 1011,
+            "code": "VEGA.OORT",
+            "name": "Вега Oort Cloud",
+            "designation": null,
+            "type": "OORT",
+            "star_system_id": 1,
+            "parent_id": 1010
+        },
+        {
+            "id": 1102,
+            "code": "VOLANDIS.PLANET.A",
+            "name": "Воландис A",
+            "designation": "A",
+            "type": "PLANET",
+            "star_system_id": 10,
+            "parent_id": 1100
+        },
+        {
+            "id": 1103,
+            "code": "VOLANDIS.PLANET.B",
+            "name": "Воландис B",
+            "designation": "B",
+            "type": "PLANET",
+            "star_system_id": 10,
+            "parent_id": 1100
+        },
+        {
+            "id": 1104,
+            "code": "VOLANDIS.JUMP.SIRIUS",
+            "name": "Гиперканал → Сириус",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 10,
+            "parent_id": 1100
+        },
+        {
+            "id": 1105,
+            "code": "VOLANDIS.JUMP.SCRABBAD",
+            "name": "Гиперканал → Скраббад",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 10,
+            "parent_id": 1100
+        },
+        {
+            "id": 1106,
+            "code": "VOLANDIS.JUMP.FLORIA",
+            "name": "Гиперканал → Флория",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 10,
+            "parent_id": 1100
+        },
+        {
+            "id": 1101,
+            "code": "VOLANDIS.OORT",
+            "name": "Воландис Oort Cloud",
+            "designation": null,
+            "type": "OORT",
+            "star_system_id": 10,
+            "parent_id": 1100
+        },
+        {
+            "id": 1472,
+            "code": "WRAITMIRE.PLANET.A",
+            "name": "Райтмир A",
+            "designation": "A",
+            "type": "PLANET",
+            "star_system_id": 47,
+            "parent_id": 1470
+        },
+        {
+            "id": 1473,
+            "code": "WRAITMIRE.PLANET.B",
+            "name": "Райтмир B",
+            "designation": "B",
+            "type": "PLANET",
+            "star_system_id": 47,
+            "parent_id": 1470
+        },
+        {
+            "id": 1474,
+            "code": "WRAITMIRE.PLANET.C",
+            "name": "Райтмир C",
+            "designation": "C",
+            "type": "PLANET",
+            "star_system_id": 47,
+            "parent_id": 1470
+        },
+        {
+            "id": 1475,
+            "code": "WRAITMIRE.PLANET.D",
+            "name": "Райтмир D",
+            "designation": "D",
+            "type": "PLANET",
+            "star_system_id": 47,
+            "parent_id": 1470
+        },
+        {
+            "id": 1476,
+            "code": "WRAITMIRE.PLANET.E",
+            "name": "Райтмир E",
+            "designation": "E",
+            "type": "PLANET",
+            "star_system_id": 47,
+            "parent_id": 1470
+        },
+        {
+            "id": 1477,
+            "code": "WRAITMIRE.PLANET.F",
+            "name": "Райтмир F",
+            "designation": "F",
+            "type": "PLANET",
+            "star_system_id": 47,
+            "parent_id": 1470
+        },
+        {
+            "id": 1478,
+            "code": "WRAITMIRE.JUMP.SOLARIS",
+            "name": "Гиперканал → Солярис",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 47,
+            "parent_id": 1470
+        },
+        {
+            "id": 1479,
+            "code": "WRAITMIRE.JUMP.NIGHTWISH",
+            "name": "Гиперканал → Найтвиш",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 47,
+            "parent_id": 1470
+        },
+        {
+            "id": 1480,
+            "code": "WRAITMIRE.JUMP.KOLHIDA",
+            "name": "Гиперканал → Колхида",
+            "designation": null,
+            "type": "JUMPPOINT",
+            "star_system_id": 47,
+            "parent_id": 1470
+        },
+        {
+            "id": 1471,
+            "code": "WRAITMIRE.OORT",
+            "name": "Райтмир Oort Cloud",
+            "designation": null,
+            "type": "OORT",
+            "star_system_id": 47,
+            "parent_id": 1470
+        }
+    ]
 }

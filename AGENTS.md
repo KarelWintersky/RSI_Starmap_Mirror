@@ -155,17 +155,26 @@ PATCH_FOR_DCLICK.md       оба UX-патча движка (строки до/�
 
 - Стек: three.js 0.185.1 (забендорен в `three/`, `node_modules` в git не идёт),
   чистые ES-модули + import map (`"three": "/three/three.module.js"`),
-  PHP только для данных и `php -S`. Запуск: `php web_spring/make_data.php` →
+  PHP только для данных и `php -S`. Запуск: `make spring-data` (топология + лоция) →
   `php -S 0.0.0.0:8090 web_spring/server.php`.
-- Данные (Фаза 0 — реальные, из корневого `confmap.svg`): `web_spring/make_data.php`
-  парсит SVG (DOM+XPath), генерит `api/starmap/{bootup.json, star-systems/{CODE}.json, _index.json}`
-  — **73 системы** (`id="star_XXX"`, центр `sodipodi:cx/cy`, русское имя из `st_XXX`),
-  **109 гиперканалов** (Inkscape-коннекторы; 55 пунктирный → `dashed=true`), в каждой системе — STAR + OORT.
-  Легаси-имена в коннекторах резолвятся через `STAR_ALIAS`: Фоллхейм→Роканнон,
-  Хальдемар→KCD-X4 (KCDX4), Ахерон→V-AMD5 (ACHERON).
-  Формат совместим с боевым API: на систему ОДИН файл (все объекты плоским списком,
+- **Два генератора данных**:
+  - `web_spring/make_data.php` — топология из корневого `confmap.svg` (DOM+XPath) →
+    `api/starmap/bootup.json`: **73 системы** (`id="star_XXX"`, центр `sodipodi:cx/cy`,
+    русское имя из `st_XXX`), **109 гиперканалов** (Inkscape-коннекторы;
+    55 пунктирный → `dashed=true`). Легаси-имена коннекторов резолвятся через `STAR_ALIAS`:
+    Фоллхейм→Роканнон, Хальдемар→KCD-X4 (KCDX4), Ахерон→V-AMD5 (ACHERON).
+    Масштаб: `TARGET_SPAN=300` (весь размах SVG в 300 мировых единиц).
+  - `web_spring/generate_systems.php` — лоция систем из bootup.json → `star-systems/{CODE}.json`
+    + `_index.json` (системы + объекты): случайная генерация, настройки в корневом
+    `config.confmap.php` (`generation`: planets_min/max, belt_chance, generate_oort,
+    jump_radius_au, oort_radius_au, seed). В будущем генерация заменится чтением
+    текстовых описаний (меняется тело `genSystemLayout()`).
+- Формат совместим с боевым API: на систему ОДИН файл (все объекты плоским списком,
   дерево по `parent_id`, новые поля `oort_radius` в системе и тип объекта `OORT`).
-  Масштаб: `TARGET_SPAN=300` (весь размах SVG в 300 мировых единиц).
+  Лоция системы: STAR + 2..6 планет (A..Z) на орбитах «как в Солнечной системе»
+  (0.39/0.72/1/1.52/5.2/9.54 АЕ, радиусы как у Меркурия..Сатурна), с шансом
+  `belt_chance` вместо 5-й планеты — пояс астероидов, гиперканалы на орбите 6-й
+  планеты (по одному на туннель), OORT в районе «Плутона» (39.5 АЕ).
 - Движок (`web_spring/js/`): `main.js`→`App` (`app.js`: renderer/scene/camera/raycast/цикл),
   `data.js` (DataStore + SystemModel), `coords.js` (Types 0..11, `sysWorld`, `sphToCart`),
   `effects.js` (глоу/кольца/подписи/звёздное поле/орбиты/атмосфера/диск ЧД/пояса/поля/OORT),

@@ -15,9 +15,10 @@ declare(strict_types=1);
  * только STAR (обязателен движку) и OORT (лимит zoom-out).
  *
  * Результат → api/starmap/:
- *   bootup.json               — системы, гиперканалы, конфиг
- *   star-systems/{CODE}.json  — по одному файлу на систему
- *   _index.json               — поисковый индекс (фаза 3)
+ *   bootup.json  — системы, гиперканалы, конфиг (топология)
+ *
+ * Лоцию систем (star-systems/*.json, _index.json) генерит отдельный шаг —
+ * web_spring/generate_systems.php (случайная генерация, см. config.confmap.php).
  *
  * Запуск: php web_spring/make_data.php
  */
@@ -26,8 +27,6 @@ const SPRING_API = __DIR__ . '/api/starmap';
 const CONFMAP = __DIR__ . '/../confmap.svg';
 
 const TARGET_SPAN = 300.0;   // размах карты галактики в мировых единицах
-const DEFAULT_OORT = 30.0;   // временный радиус Оорта (лоция систем — позже)
-const STAR_SIZE = 2.0;       // условный размер звезды в системном виде
 
 // Старые/легаси имена звёзд в коннекторах SVG → реальные id ("star_XXX"):
 // Фоллхейм = Роканнон, Хальдемар = KCD-X4, Ахерон = V-AMD5 (star_acheron).
@@ -201,86 +200,9 @@ $bootup = [
 ];
 springWrite(SPRING_API . '/bootup.json', $bootup);
 
-$indexSystems = [];
-foreach ($systems as $code => $s) {
-    $starId = 1000 + $s['id'] * 10;
-    $star = [
-        'id' => $starId,
-        'code' => $code . '.STAR.' . $code,
-        'name' => $s['name'],
-        'designation' => null,
-        'type' => 'STAR',
-        'appearance' => 'DEFAULT',
-        'parent_id' => null,
-        'distance' => 0.0,
-        'latitude' => 0.0,
-        'longitude' => 0.0,
-        'size' => STAR_SIZE,
-        'show_label' => true,
-        'show_orbitlines' => false,
-        'shader_data' => ['sun' => ['color1' => $s['color'], 'color2' => '#ffffff']],
-        'habitable' => false,
-        'description' => null,
-        'affiliation' => [],
-    ];
-    $oort = [
-        'id' => $starId + 1,
-        'code' => $code . '.OORT',
-        'name' => $s['name'] . ' Oort Cloud',
-        'designation' => null,
-        'type' => 'OORT',
-        'appearance' => 'DEFAULT',
-        'parent_id' => $starId,
-        'distance' => DEFAULT_OORT,
-        'latitude' => 0.0,
-        'longitude' => 0.0,
-        'size' => 1,
-        'show_label' => false,
-        'show_orbitlines' => false,
-        'shader_data' => null,
-        'habitable' => false,
-        'description' => null,
-        'affiliation' => [],
-    ];
-
-    $detail = [
-        'id' => $s['id'],
-        'code' => $code,
-        'name' => $s['name'],
-        'type' => 'SINGLE_STAR',
-        'description' => null,
-        'position_x' => $s['x'],
-        'position_y' => -$s['y'],
-        'position_z' => 0.0,
-        'habitable_zone_inner' => null,
-        'habitable_zone_outer' => null,
-        'frost_line' => null,
-        'oort_radius' => DEFAULT_OORT,
-        'status' => 'P',
-        'affiliation' => [],
-        'celestial_objects' => [$star, $oort],
-    ];
-    springWrite(SPRING_API . '/star-systems/' . $code . '.json', [
-        'success' => 1, 'code' => 'OK', 'msg' => 'OK',
-        'data' => ['resultset' => [$detail]],
-    ]);
-
-    $indexSystems[] = [
-        'id' => $s['id'],
-        'code' => $code,
-        'name' => $s['name'],
-        'designation' => null,
-        'type' => 'SINGLE_STAR',
-        'star_system_id' => $s['id'],
-    ];
-}
-
-springWrite(SPRING_API . '/_index.json', ['systems' => $indexSystems, 'objects' => []]);
-
 springOut(sprintf(
-    'confmap.svg → api/starmap/: %d систем, %d гиперканалов (%d пунктирных), %d деталей систем',
+    'confmap.svg → api/starmap/: %d систем, %d гиперканалов (%d пунктирных); лоция систем — web_spring/generate_systems.php',
     count($systems),
     count($tunnels),
     count(array_filter($tunnels, fn (array $t): bool => $t['dashed'])),
-    count($systems),
 ));
