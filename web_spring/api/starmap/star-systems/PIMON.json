@@ -1,0 +1,70 @@
+{
+    "success": 1,
+    "code": "OK",
+    "msg": "OK",
+    "data": {
+        "resultset": [
+            {
+                "id": 62,
+                "code": "PIMON",
+                "name": "Пимон",
+                "type": "SINGLE_STAR",
+                "description": null,
+                "position_x": -111.82356163261547,
+                "position_y": 51.8154135716833,
+                "position_z": 0,
+                "habitable_zone_inner": null,
+                "habitable_zone_outer": null,
+                "frost_line": null,
+                "oort_radius": 30,
+                "status": "P",
+                "affiliation": [],
+                "celestial_objects": [
+                    {
+                        "id": 1620,
+                        "code": "PIMON.STAR.PIMON",
+                        "name": "Пимон",
+                        "designation": null,
+                        "type": "STAR",
+                        "appearance": "DEFAULT",
+                        "parent_id": null,
+                        "distance": 0,
+                        "latitude": 0,
+                        "longitude": 0,
+                        "size": 2,
+                        "show_label": true,
+                        "show_orbitlines": false,
+                        "shader_data": {
+                            "sun": {
+                                "color1": "#7ae0c3",
+                                "color2": "#ffffff"
+                            }
+                        },
+                        "habitable": false,
+                        "description": null,
+                        "affiliation": []
+                    },
+                    {
+                        "id": 1621,
+                        "code": "PIMON.OORT",
+                        "name": "Пимон Oort Cloud",
+                        "designation": null,
+                        "type": "OORT",
+                        "appearance": "DEFAULT",
+                        "parent_id": 1620,
+                        "distance": 30,
+                        "latitude": 0,
+                        "longitude": 0,
+                        "size": 1,
+                        "show_label": false,
+                        "show_orbitlines": false,
+                        "shader_data": null,
+                        "habitable": false,
+                        "description": null,
+                        "affiliation": []
+                    }
+                ]
+            }
+        ]
+    }
+}

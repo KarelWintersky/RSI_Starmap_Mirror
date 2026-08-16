@@ -1,0 +1,103 @@
+{
+    "success": 1,
+    "code": "OK",
+    "msg": "OK",
+    "data": {
+        "resultset": [
+            {
+                "id": 4,
+                "code": "VOID",
+                "name": "Void",
+                "type": "SINGLE_STAR",
+                "description": "Система Чёрной Дыры. Дальше — только тишина.",
+                "position_x": 200,
+                "position_y": 0,
+                "position_z": -70,
+                "habitable_zone_inner": 0,
+                "habitable_zone_outer": 0,
+                "frost_line": 0,
+                "oort_radius": 50,
+                "status": "P",
+                "affiliation": [],
+                "celestial_objects": [
+                    {
+                        "id": 400,
+                        "code": "VOID.BLACKHOLE.VOID",
+                        "name": "The Void",
+                        "designation": null,
+                        "type": "BLACKHOLE",
+                        "appearance": "DEFAULT",
+                        "parent_id": null,
+                        "distance": 0,
+                        "latitude": 0,
+                        "longitude": 0,
+                        "size": 1.5,
+                        "show_label": true,
+                        "show_orbitlines": false,
+                        "shader_data": null,
+                        "habitable": false,
+                        "description": null,
+                        "affiliation": []
+                    },
+                    {
+                        "id": 401,
+                        "code": "VOID.POI.ECHO",
+                        "name": "Sagittarius Echo",
+                        "designation": null,
+                        "type": "POI",
+                        "appearance": "DEFAULT",
+                        "parent_id": 400,
+                        "distance": 3,
+                        "latitude": 10,
+                        "longitude": 45,
+                        "size": 0.4,
+                        "show_label": true,
+                        "show_orbitlines": false,
+                        "shader_data": null,
+                        "habitable": false,
+                        "description": null,
+                        "affiliation": []
+                    },
+                    {
+                        "id": 402,
+                        "code": "VOID.JUMPPOINTS.GAMMA",
+                        "name": null,
+                        "designation": "Void - Gamma",
+                        "type": "JUMPPOINT",
+                        "appearance": "DEFAULT",
+                        "parent_id": 400,
+                        "distance": 8,
+                        "latitude": -4,
+                        "longitude": -160,
+                        "size": 0,
+                        "show_label": true,
+                        "show_orbitlines": false,
+                        "shader_data": null,
+                        "habitable": false,
+                        "description": null,
+                        "affiliation": []
+                    },
+                    {
+                        "id": 403,
+                        "code": "VOID.OORT",
+                        "name": "Void Oort Cloud",
+                        "designation": null,
+                        "type": "OORT",
+                        "appearance": "DEFAULT",
+                        "parent_id": 400,
+                        "distance": 50,
+                        "latitude": 0,
+                        "longitude": 0,
+                        "size": 1,
+                        "show_label": false,
+                        "show_orbitlines": false,
+                        "shader_data": null,
+                        "habitable": false,
+                        "description": null,
+                        "affiliation": []
+                    }
+                ]
+            }
+        ]
+    }
+}

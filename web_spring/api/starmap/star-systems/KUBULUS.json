@@ -1,0 +1,70 @@
+{
+    "success": 1,
+    "code": "OK",
+    "msg": "OK",
+    "data": {
+        "resultset": [
+            {
+                "id": 18,
+                "code": "KUBULUS",
+                "name": "Кубулус",
+                "type": "SINGLE_STAR",
+                "description": null,
+                "position_x": 91.78274453994597,
+                "position_y": -116.24964805495975,
+                "position_z": 0,
+                "habitable_zone_inner": null,
+                "habitable_zone_outer": null,
+                "frost_line": null,
+                "oort_radius": 30,
+                "status": "P",
+                "affiliation": [],
+                "celestial_objects": [
+                    {
+                        "id": 1180,
+                        "code": "KUBULUS.STAR.KUBULUS",
+                        "name": "Кубулус",
+                        "designation": null,
+                        "type": "STAR",
+                        "appearance": "DEFAULT",
+                        "parent_id": null,
+                        "distance": 0,
+                        "latitude": 0,
+                        "longitude": 0,
+                        "size": 2,
+                        "show_label": true,
+                        "show_orbitlines": false,
+                        "shader_data": {
+                            "sun": {
+                                "color1": "#ffd27a",
+                                "color2": "#ffffff"
+                            }
+                        },
+                        "habitable": false,
+                        "description": null,
+                        "affiliation": []
+                    },
+                    {
+                        "id": 1181,
+                        "code": "KUBULUS.OORT",
+                        "name": "Кубулус Oort Cloud",
+                        "designation": null,
+                        "type": "OORT",
+                        "appearance": "DEFAULT",
+                        "parent_id": 1180,
+                        "distance": 30,
+                        "latitude": 0,
+                        "longitude": 0,
+                        "size": 1,
+                        "show_label": false,
+                        "show_orbitlines": false,
+                        "shader_data": null,
+                        "habitable": false,
+                        "description": null,
+                        "affiliation": []
+                    }
+                ]
+            }
+        ]
+    }
+}

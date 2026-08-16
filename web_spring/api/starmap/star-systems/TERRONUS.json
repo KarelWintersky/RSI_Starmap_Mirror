@@ -1,0 +1,70 @@
+{
+    "success": 1,
+    "code": "OK",
+    "msg": "OK",
+    "data": {
+        "resultset": [
+            {
+                "id": 7,
+                "code": "TERRONUS",
+                "name": "K-MGJ7",
+                "type": "SINGLE_STAR",
+                "description": null,
+                "position_x": 77.75101573471619,
+                "position_y": 66.67713543186429,
+                "position_z": 0,
+                "habitable_zone_inner": null,
+                "habitable_zone_outer": null,
+                "frost_line": null,
+                "oort_radius": 30,
+                "status": "P",
+                "affiliation": [],
+                "celestial_objects": [
+                    {
+                        "id": 1070,
+                        "code": "TERRONUS.STAR.TERRONUS",
+                        "name": "K-MGJ7",
+                        "designation": null,
+                        "type": "STAR",
+                        "appearance": "DEFAULT",
+                        "parent_id": null,
+                        "distance": 0,
+                        "latitude": 0,
+                        "longitude": 0,
+                        "size": 2,
+                        "show_label": true,
+                        "show_orbitlines": false,
+                        "shader_data": {
+                            "sun": {
+                                "color1": "#ffe9a0",
+                                "color2": "#ffffff"
+                            }
+                        },
+                        "habitable": false,
+                        "description": null,
+                        "affiliation": []
+                    },
+                    {
+                        "id": 1071,
+                        "code": "TERRONUS.OORT",
+                        "name": "K-MGJ7 Oort Cloud",
+                        "designation": null,
+                        "type": "OORT",
+                        "appearance": "DEFAULT",
+                        "parent_id": 1070,
+                        "distance": 30,
+                        "latitude": 0,
+                        "longitude": 0,
+                        "size": 1,
+                        "show_label": false,
+                        "show_orbitlines": false,
+                        "shader_data": null,
+                        "habitable": false,
+                        "description": null,
+                        "affiliation": []
+                    }
+                ]
+            }
+        ]
+    }
+}

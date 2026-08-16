@@ -1,0 +1,70 @@
+{
+    "success": 1,
+    "code": "OK",
+    "msg": "OK",
+    "data": {
+        "resultset": [
+            {
+                "id": 41,
+                "code": "ALMAH",
+                "name": "Альмах",
+                "type": "SINGLE_STAR",
+                "description": null,
+                "position_x": -40.38033953951086,
+                "position_y": -80.86914640743038,
+                "position_z": 0,
+                "habitable_zone_inner": null,
+                "habitable_zone_outer": null,
+                "frost_line": null,
+                "oort_radius": 30,
+                "status": "P",
+                "affiliation": [],
+                "celestial_objects": [
+                    {
+                        "id": 1410,
+                        "code": "ALMAH.STAR.ALMAH",
+                        "name": "Альмах",
+                        "designation": null,
+                        "type": "STAR",
+                        "appearance": "DEFAULT",
+                        "parent_id": null,
+                        "distance": 0,
+                        "latitude": 0,
+                        "longitude": 0,
+                        "size": 2,
+                        "show_label": true,
+                        "show_orbitlines": false,
+                        "shader_data": {
+                            "sun": {
+                                "color1": "#ff9d7a",
+                                "color2": "#ffffff"
+                            }
+                        },
+                        "habitable": false,
+                        "description": null,
+                        "affiliation": []
+                    },
+                    {
+                        "id": 1411,
+                        "code": "ALMAH.OORT",
+                        "name": "Альмах Oort Cloud",
+                        "designation": null,
+                        "type": "OORT",
+                        "appearance": "DEFAULT",
+                        "parent_id": 1410,
+                        "distance": 30,
+                        "latitude": 0,
+                        "longitude": 0,
+                        "size": 1,
+                        "show_label": false,
+                        "show_orbitlines": false,
+                        "shader_data": null,
+                        "habitable": false,
+                        "description": null,
+                        "affiliation": []
+                    }
+                ]
+            }
+        ]
+    }
+}

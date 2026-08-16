@@ -157,10 +157,15 @@ PATCH_FOR_DCLICK.md       оба UX-патча движка (строки до/�
   чистые ES-модули + import map (`"three": "/three/three.module.js"`),
   PHP только для данных и `php -S`. Запуск: `php web_spring/make_data.php` →
   `php -S 0.0.0.0:8090 web_spring/server.php`.
-- Данные (Фаза 0 — тестовые, 5 систем): `web_spring/make_data.php` генерит
-  `api/starmap/{bootup.json, star-systems/{ALPHA,BETA,GAMMA,VOID,DELTA}.json, _index.json}`.
+- Данные (Фаза 0 — реальные, из корневого `confmap.svg`): `web_spring/make_data.php`
+  парсит SVG (DOM+XPath), генерит `api/starmap/{bootup.json, star-systems/{CODE}.json, _index.json}`
+  — **73 системы** (`id="star_XXX"`, центр `sodipodi:cx/cy`, русское имя из `st_XXX`),
+  **109 гиперканалов** (Inkscape-коннекторы; 55 пунктирный → `dashed=true`), в каждой системе — STAR + OORT.
+  Легаси-имена в коннекторах резолвятся через `STAR_ALIAS`: Фоллхейм→Роканнон,
+  Хальдемар→KCD-X4 (KCDX4), Ахерон→V-AMD5 (ACHERON).
   Формат совместим с боевым API: на систему ОДИН файл (все объекты плоским списком,
   дерево по `parent_id`, новые поля `oort_radius` в системе и тип объекта `OORT`).
+  Масштаб: `TARGET_SPAN=300` (весь размах SVG в 300 мировых единиц).
 - Движок (`web_spring/js/`): `main.js`→`App` (`app.js`: renderer/scene/camera/raycast/цикл),
   `data.js` (DataStore + SystemModel), `coords.js` (Types 0..11, `sysWorld`, `sphToCart`),
   `effects.js` (глоу/кольца/подписи/звёздное поле/орбиты/атмосфера/диск ЧД/пояса/поля/OORT),
@@ -173,7 +178,7 @@ PATCH_FOR_DCLICK.md       оба UX-патча движка (строки до/�
   - `THREE.Clock` в r185 deprecated → `THREE.Timer` (+ `.connect(document)`).
 - Проверка: `make lint` (php -l) + headless chromium с CDP-скриптом
   (`/tmp/opencode/cdp-test.mjs`): инициализация, 2D→3D, вход в систему, zoom out.
-  Сценарий кликов проверен, ошибок в консоли нет.
+  Сценарий кликов проверен на реальном датасете (73 системы), ошибок в консоли нет.
 
 ## Подводные камни старта движка (важно!)
 

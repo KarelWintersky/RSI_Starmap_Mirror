@@ -1,0 +1,70 @@
+{
+    "success": 1,
+    "code": "OK",
+    "msg": "OK",
+    "data": {
+        "resultset": [
+            {
+                "id": 19,
+                "code": "NEWLEIPZIG",
+                "name": "НовыйЛейпциг",
+                "type": "SINGLE_STAR",
+                "description": null,
+                "position_x": 53.63446177578243,
+                "position_y": -109.80116171725291,
+                "position_z": 0,
+                "habitable_zone_inner": null,
+                "habitable_zone_outer": null,
+                "frost_line": null,
+                "oort_radius": 30,
+                "status": "P",
+                "affiliation": [],
+                "celestial_objects": [
+                    {
+                        "id": 1190,
+                        "code": "NEWLEIPZIG.STAR.NEWLEIPZIG",
+                        "name": "НовыйЛейпциг",
+                        "designation": null,
+                        "type": "STAR",
+                        "appearance": "DEFAULT",
+                        "parent_id": null,
+                        "distance": 0,
+                        "latitude": 0,
+                        "longitude": 0,
+                        "size": 2,
+                        "show_label": true,
+                        "show_orbitlines": false,
+                        "shader_data": {
+                            "sun": {
+                                "color1": "#ffd27a",
+                                "color2": "#ffffff"
+                            }
+                        },
+                        "habitable": false,
+                        "description": null,
+                        "affiliation": []
+                    },
+                    {
+                        "id": 1191,
+                        "code": "NEWLEIPZIG.OORT",
+                        "name": "НовыйЛейпциг Oort Cloud",
+                        "designation": null,
+                        "type": "OORT",
+                        "appearance": "DEFAULT",
+                        "parent_id": 1190,
+                        "distance": 30,
+                        "latitude": 0,
+                        "longitude": 0,
+                        "size": 1,
+                        "show_label": false,
+                        "show_orbitlines": false,
+                        "shader_data": null,
+                        "habitable": false,
+                        "description": null,
+                        "affiliation": []
+                    }
+                ]
+            }
+        ]
+    }
+}

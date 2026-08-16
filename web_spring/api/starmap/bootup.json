@@ -1,0 +1,3451 @@
+{
+    "success": 1,
+    "code": "OK",
+    "msg": "OK",
+    "data": {
+        "config": {
+            "galaxyScale": 1,
+            "galaxyStarSize": 4,
+            "starfield": {
+                "count": 2500,
+                "color1": "#6a7394",
+                "color2": "#ffffff"
+            }
+        },
+        "systems": {
+            "resultset": [
+                {
+                    "id": 40,
+                    "code": "ACHERON",
+                    "name": "V-AMD5",
+                    "type": "SINGLE_STAR",
+                    "description": null,
+                    "position_x": -47.544831399128725,
+                    "position_y": -103.01310174069886,
+                    "position_z": 0,
+                    "status": "P",
+                    "affiliation": [],
+                    "color": "#ffc9e8",
+                    "aggregated_size": "1",
+                    "aggregated_population": 1,
+                    "aggregated_economy": 1,
+                    "aggregated_danger": 1
+                },
+                {
+                    "id": 73,
+                    "code": "AJODHJA",
+                    "name": "Айодхья",
+                    "type": "SINGLE_STAR",
+                    "description": null,
+                    "position_x": -8.637712468154328,
+                    "position_y": -35.26628375046288,
+                    "position_z": 0,
+                    "status": "P",
+                    "affiliation": [],
+                    "color": "#ffe9a0",
+                    "aggregated_size": "1",
+                    "aggregated_population": 1,
+                    "aggregated_economy": 1,
+                    "aggregated_danger": 1
+                },
+                {
+                    "id": 57,
+                    "code": "ALBERTA",
+                    "name": "Альберта",
+                    "type": "SINGLE_STAR",
+                    "description": null,
+                    "position_x": -78.67793232075546,
+                    "position_y": 47.98113233304152,
+                    "position_z": 0,
+                    "status": "P",
+                    "affiliation": [],
+                    "color": "#ffe9a0",
+                    "aggregated_size": "1",
+                    "aggregated_population": 1,
+                    "aggregated_economy": 1,
+                    "aggregated_danger": 1
+                },
+                {
+                    "id": 41,
+                    "code": "ALMAH",
+                    "name": "Альмах",
+                    "type": "SINGLE_STAR",
+                    "description": null,
+                    "position_x": -40.38033953951086,
+                    "position_y": -80.86914640743038,
+                    "position_z": 0,
+                    "status": "P",
+                    "affiliation": [],
+                    "color": "#ff9d7a",
+                    "aggregated_size": "1",
+                    "aggregated_population": 1,
+                    "aggregated_economy": 1,
+                    "aggregated_danger": 1
+                },
+                {
+                    "id": 22,
+                    "code": "ANTARA",
+                    "name": "Антара",
+                    "type": "SINGLE_STAR",
+                    "description": null,
+                    "position_x": 83.26951396603236,
+                    "position_y": -68.80489702728023,
+                    "position_z": 0,
+                    "status": "P",
+                    "affiliation": [],
+                    "color": "#9ec9ff",
+                    "aggregated_size": "1",
+                    "aggregated_population": 1,
+                    "aggregated_economy": 1,
+                    "aggregated_danger": 1
+                },
+                {
+                    "id": 42,
+                    "code": "ARDENN",
+                    "name": "Арденн",
+                    "type": "SINGLE_STAR",
+                    "description": null,
+                    "position_x": -17.801081516443737,
+                    "position_y": -62.19771547141866,
+                    "position_z": 0,
+                    "status": "P",
+                    "affiliation": [],
+                    "color": "#ff9d7a",
+                    "aggregated_size": "1",
+                    "aggregated_population": 1,
+                    "aggregated_economy": 1,
+                    "aggregated_danger": 1
+                },
+                {
+                    "id": 55,
+                    "code": "ARGOSTROLION",
+                    "name": "Аргостолион",
+                    "type": "SINGLE_STAR",
+                    "description": null,
+                    "position_x": -82.76783230864004,
+                    "position_y": 62.80719042914257,
+                    "position_z": 0,
+                    "status": "P",
+                    "affiliation": [],
+                    "color": "#9ec9ff",
+                    "aggregated_size": "1",
+                    "aggregated_population": 1,
+                    "aggregated_economy": 1,
+                    "aggregated_danger": 1
+                },
+                {
+                    "id": 30,
+                    "code": "ARKONIS",
+                    "name": "H-ADOC",
+                    "type": "SINGLE_STAR",
+                    "description": null,
+                    "position_x": 109.85864180782862,
+                    "position_y": 87.17339073663588,
+                    "position_z": 0,
+                    "status": "P",
+                    "affiliation": [],
+                    "color": "#ff9d7a",
+                    "aggregated_size": "1",
+                    "aggregated_population": 1,
+                    "aggregated_economy": 1,
+                    "aggregated_danger": 1
+                },
+                {
+                    "id": 53,
+                    "code": "ARLISS",
+                    "name": "Арлисс",
+                    "type": "SINGLE_STAR",
+                    "description": null,
+                    "position_x": -86.09104668881577,
+                    "position_y": -23.84858940427864,
+                    "position_z": 0,
+                    "status": "P",
+                    "affiliation": [],
+                    "color": "#ffe9a0",
+                    "aggregated_size": "1",
+                    "aggregated_population": 1,
+                    "aggregated_economy": 1,
+                    "aggregated_danger": 1
+                },
+                {
+                    "id": 34,
+                    "code": "ARRAKIS",
+                    "name": "Арракис",
+                    "type": "SINGLE_STAR",
+                    "description": null,
+                    "position_x": 74.46960815932316,
+                    "position_y": 87.60749894629787,
+                    "position_z": 0,
+                    "status": "P",
+                    "affiliation": [],
+                    "color": "#7ae0c3",
+                    "aggregated_size": "1",
+                    "aggregated_population": 1,
+                    "aggregated_economy": 1,
+                    "aggregated_danger": 1
+                },
+                {
+                    "id": 15,
+                    "code": "ASADAL",
+                    "name": "Асадаль",
+                    "type": "SINGLE_STAR",
+                    "description": null,
+                    "position_x": 124.64289309914695,
+                    "position_y": -109.59980649421787,
+                    "position_z": 0,
+                    "status": "P",
+                    "affiliation": [],
+                    "color": "#ffe9a0",
+                    "aggregated_size": "1",
+                    "aggregated_population": 1,
+                    "aggregated_economy": 1,
+                    "aggregated_danger": 1
+                },
+                {
+                    "id": 16,
+                    "code": "ASTRA",
+                    "name": "Астра",
+                    "type": "SINGLE_STAR",
+                    "description": null,
+                    "position_x": 117.22175865016916,
+                    "position_y": -84.16249878418988,
+                    "position_z": 0,
+                    "status": "P",
+                    "affiliation": [],
+                    "color": "#ff9d7a",
+                    "aggregated_size": "1",
+                    "aggregated_population": 1,
+                    "aggregated_economy": 1,
+                    "aggregated_danger": 1
+                },
+                {
+                    "id": 43,
+                    "code": "AVALON",
+                    "name": "Авалон",
+                    "type": "SINGLE_STAR",
+                    "description": null,
+                    "position_x": -39.077673630485876,
+                    "position_y": -54.163983352359715,
+                    "position_z": 0,
+                    "status": "P",
+                    "affiliation": [],
+                    "color": "#9ec9ff",
+                    "aggregated_size": "1",
+                    "aggregated_population": 1,
+                    "aggregated_economy": 1,
+                    "aggregated_danger": 1
+                },
+                {
+                    "id": 51,
+                    "code": "BRISTOL",
+                    "name": "Бристоль",
+                    "type": "SINGLE_STAR",
+                    "description": null,
+                    "position_x": -17.328749942409,
+                    "position_y": -7.744437561963671,
+                    "position_z": 0,
+                    "status": "P",
+                    "affiliation": [],
+                    "color": "#ffd27a",
+                    "aggregated_size": "1",
+                    "aggregated_population": 1,
+                    "aggregated_economy": 1,
+                    "aggregated_danger": 1
+                },
+                {
+                    "id": 54,
+                    "code": "CHUMATAKTION",
+                    "name": "Чуматактион",
+                    "type": "SINGLE_STAR",
+                    "description": null,
+                    "position_x": -32.66604553699563,
+                    "position_y": 51.985882951185,
+                    "position_z": 0,
+                    "status": "P",
+                    "affiliation": [],
+                    "color": "#9ec9ff",
+                    "aggregated_size": "1",
+                    "aggregated_population": 1,
+                    "aggregated_economy": 1,
+                    "aggregated_danger": 1
+                },
+                {
+                    "id": 4,
+                    "code": "DALLAS",
+                    "name": "Даллас",
+                    "type": "SINGLE_STAR",
+                    "description": null,
+                    "position_x": 26.657981089673008,
+                    "position_y": 22.453214772647755,
+                    "position_z": 0,
+                    "status": "P",
+                    "affiliation": [],
+                    "color": "#ffd27a",
+                    "aggregated_size": "1",
+                    "aggregated_population": 1,
+                    "aggregated_economy": 1,
+                    "aggregated_danger": 1
+                },
+                {
+                    "id": 39,
+                    "code": "DINUR",
+                    "name": "Динур",
+                    "type": "SINGLE_STAR",
+                    "description": null,
+                    "position_x": -73.1637000899273,
+                    "position_y": -93.24396062310912,
+                    "position_z": 0,
+                    "status": "P",
+                    "affiliation": [],
+                    "color": "#9ec9ff",
+                    "aggregated_size": "1",
+                    "aggregated_population": 1,
+                    "aggregated_economy": 1,
+                    "aggregated_danger": 1
+                },
+                {
+                    "id": 25,
+                    "code": "ELLADA",
+                    "name": "Эллада",
+                    "type": "SINGLE_STAR",
+                    "description": null,
+                    "position_x": 105.599466920579,
+                    "position_y": -33.04182045598427,
+                    "position_z": 0,
+                    "status": "P",
+                    "affiliation": [],
+                    "color": "#cfe3ff",
+                    "aggregated_size": "1",
+                    "aggregated_population": 1,
+                    "aggregated_economy": 1,
+                    "aggregated_danger": 1
+                },
+                {
+                    "id": 32,
+                    "code": "ESCALONA",
+                    "name": "Эскалона",
+                    "type": "SINGLE_STAR",
+                    "description": null,
+                    "position_x": 78.59568383134622,
+                    "position_y": 115.83164826314055,
+                    "position_z": 0,
+                    "status": "P",
+                    "affiliation": [],
+                    "color": "#ff9d7a",
+                    "aggregated_size": "1",
+                    "aggregated_population": 1,
+                    "aggregated_economy": 1,
+                    "aggregated_danger": 1
+                },
+                {
+                    "id": 60,
+                    "code": "FIN",
+                    "name": "Фин",
+                    "type": "SINGLE_STAR",
+                    "description": null,
+                    "position_x": -66.32291234734119,
+                    "position_y": 12.960851766721419,
+                    "position_z": 0,
+                    "status": "P",
+                    "affiliation": [],
+                    "color": "#ffd27a",
+                    "aggregated_size": "1",
+                    "aggregated_population": 1,
+                    "aggregated_economy": 1,
+                    "aggregated_danger": 1
+                },
+                {
+                    "id": 50,
+                    "code": "FLORIA",
+                    "name": "Флория",
+                    "type": "SINGLE_STAR",
+                    "description": null,
+                    "position_x": 40.19997303887691,
+                    "position_y": -25.38690918026242,
+                    "position_z": 0,
+                    "status": "P",
+                    "affiliation": [],
+                    "color": "#ffc9e8",
+                    "aggregated_size": "1",
+                    "aggregated_population": 1,
+                    "aggregated_economy": 1,
+                    "aggregated_danger": 1
+                },
+                {
+                    "id": 26,
+                    "code": "FOMALHAUT",
+                    "name": "Фомальгаут",
+                    "type": "SINGLE_STAR",
+                    "description": null,
+                    "position_x": 86.99117279179016,
+                    "position_y": -48.213765871654815,
+                    "position_z": 0,
+                    "status": "P",
+                    "affiliation": [],
+                    "color": "#ffd27a",
+                    "aggregated_size": "1",
+                    "aggregated_population": 1,
+                    "aggregated_economy": 1,
+                    "aggregated_danger": 1
+                },
+                {
+                    "id": 29,
+                    "code": "FORTHOPE",
+                    "name": "Форт-Надежда",
+                    "type": "SINGLE_STAR",
+                    "description": null,
+                    "position_x": 133.3335892933626,
+                    "position_y": 78.70606232797351,
+                    "position_z": 0,
+                    "status": "P",
+                    "affiliation": [],
+                    "color": "#9ec9ff",
+                    "aggregated_size": "1",
+                    "aggregated_population": 1,
+                    "aggregated_economy": 1,
+                    "aggregated_danger": 1
+                },
+                {
+                    "id": 11,
+                    "code": "FROST",
+                    "name": "Фрост",
+                    "type": "SINGLE_STAR",
+                    "description": null,
+                    "position_x": 90.40567958240975,
+                    "position_y": -7.123478530925956,
+                    "position_z": 0,
+                    "status": "P",
+                    "affiliation": [],
+                    "color": "#ffe9a0",
+                    "aggregated_size": "1",
+                    "aggregated_population": 1,
+                    "aggregated_economy": 1,
+                    "aggregated_danger": 1
+                },
+                {
+                    "id": 33,
+                    "code": "GANDER",
+                    "name": "Гандэр",
+                    "type": "SINGLE_STAR",
+                    "description": null,
+                    "position_x": 59.48912084555541,
+                    "position_y": 107.79864989616554,
+                    "position_z": 0,
+                    "status": "P",
+                    "affiliation": [],
+                    "color": "#ff9d7a",
+                    "aggregated_size": "1",
+                    "aggregated_population": 1,
+                    "aggregated_economy": 1,
+                    "aggregated_danger": 1
+                },
+                {
+                    "id": 23,
+                    "code": "GARVINI",
+                    "name": "CL-85V",
+                    "type": "SINGLE_STAR",
+                    "description": null,
+                    "position_x": 19.665153089693483,
+                    "position_y": -88.0735680316162,
+                    "position_z": 0,
+                    "status": "P",
+                    "affiliation": [],
+                    "color": "#ffc9e8",
+                    "aggregated_size": "1",
+                    "aggregated_population": 1,
+                    "aggregated_economy": 1,
+                    "aggregated_danger": 1
+                },
+                {
+                    "id": 44,
+                    "code": "GAYA",
+                    "name": "Гайя",
+                    "type": "SINGLE_STAR",
+                    "description": null,
+                    "position_x": -55.5778809581096,
+                    "position_y": -63.49969882036557,
+                    "position_z": 0,
+                    "status": "P",
+                    "affiliation": [],
+                    "color": "#ff9d7a",
+                    "aggregated_size": "1",
+                    "aggregated_population": 1,
+                    "aggregated_economy": 1,
+                    "aggregated_danger": 1
+                },
+                {
+                    "id": 21,
+                    "code": "HANNAHT",
+                    "name": "Ханнахт",
+                    "type": "SINGLE_STAR",
+                    "description": null,
+                    "position_x": 69.09786034479521,
+                    "position_y": -80.29067674125342,
+                    "position_z": 0,
+                    "status": "P",
+                    "affiliation": [],
+                    "color": "#9ec9ff",
+                    "aggregated_size": "1",
+                    "aggregated_population": 1,
+                    "aggregated_economy": 1,
+                    "aggregated_danger": 1
+                },
+                {
+                    "id": 24,
+                    "code": "HEYAN",
+                    "name": "Хэйан",
+                    "type": "SINGLE_STAR",
+                    "description": null,
+                    "position_x": 73.36044803243524,
+                    "position_y": -32.12070563060873,
+                    "position_z": 0,
+                    "status": "P",
+                    "affiliation": [],
+                    "color": "#fff7d6",
+                    "aggregated_size": "1",
+                    "aggregated_population": 1,
+                    "aggregated_economy": 1,
+                    "aggregated_danger": 1
+                },
+                {
+                    "id": 52,
+                    "code": "ITTEGOST",
+                    "name": "Иттегост",
+                    "type": "SINGLE_STAR",
+                    "description": null,
+                    "position_x": -48.59989863982842,
+                    "position_y": -5.699487568021385,
+                    "position_z": 0,
+                    "status": "P",
+                    "affiliation": [],
+                    "color": "#9ec9ff",
+                    "aggregated_size": "1",
+                    "aggregated_population": 1,
+                    "aggregated_economy": 1,
+                    "aggregated_danger": 1
+                },
+                {
+                    "id": 46,
+                    "code": "JORK",
+                    "name": "Йорк",
+                    "type": "SINGLE_STAR",
+                    "description": null,
+                    "position_x": -91.02100749280328,
+                    "position_y": -57.658690952154274,
+                    "position_z": 0,
+                    "status": "P",
+                    "affiliation": [],
+                    "color": "#fff7d6",
+                    "aggregated_size": "1",
+                    "aggregated_population": 1,
+                    "aggregated_economy": 1,
+                    "aggregated_danger": 1
+                },
+                {
+                    "id": 35,
+                    "code": "KAREON",
+                    "name": "Кареон",
+                    "type": "SINGLE_STAR",
+                    "description": null,
+                    "position_x": 14.114233254668257,
+                    "position_y": 65.89679862259375,
+                    "position_z": 0,
+                    "status": "P",
+                    "affiliation": [],
+                    "color": "#ffe9a0",
+                    "aggregated_size": "1",
+                    "aggregated_population": 1,
+                    "aggregated_economy": 1,
+                    "aggregated_danger": 1
+                },
+                {
+                    "id": 58,
+                    "code": "KCDX4",
+                    "name": "KCD-X4",
+                    "type": "SINGLE_STAR",
+                    "description": null,
+                    "position_x": -82.25676545017399,
+                    "position_y": 32.728986108196004,
+                    "position_z": 0,
+                    "status": "P",
+                    "affiliation": [],
+                    "color": "#ffd27a",
+                    "aggregated_size": "1",
+                    "aggregated_population": 1,
+                    "aggregated_economy": 1,
+                    "aggregated_danger": 1
+                },
+                {
+                    "id": 17,
+                    "code": "KITEG",
+                    "name": "Китеж",
+                    "type": "SINGLE_STAR",
+                    "description": null,
+                    "position_x": 106.16087258480381,
+                    "position_y": -67.78958891112897,
+                    "position_z": 0,
+                    "status": "P",
+                    "affiliation": [],
+                    "color": "#ffc9e8",
+                    "aggregated_size": "1",
+                    "aggregated_population": 1,
+                    "aggregated_economy": 1,
+                    "aggregated_danger": 1
+                },
+                {
+                    "id": 48,
+                    "code": "KOLHIDA",
+                    "name": "Колхида",
+                    "type": "SINGLE_STAR",
+                    "description": null,
+                    "position_x": -56.71161324780858,
+                    "position_y": -24.644966375384172,
+                    "position_z": 0,
+                    "status": "P",
+                    "affiliation": [],
+                    "color": "#fff7d6",
+                    "aggregated_size": "1",
+                    "aggregated_population": 1,
+                    "aggregated_economy": 1,
+                    "aggregated_danger": 1
+                },
+                {
+                    "id": 18,
+                    "code": "KUBULUS",
+                    "name": "Кубулус",
+                    "type": "SINGLE_STAR",
+                    "description": null,
+                    "position_x": 91.78274453994597,
+                    "position_y": -116.24964805495975,
+                    "position_z": 0,
+                    "status": "P",
+                    "affiliation": [],
+                    "color": "#ffd27a",
+                    "aggregated_size": "1",
+                    "aggregated_population": 1,
+                    "aggregated_economy": 1,
+                    "aggregated_danger": 1
+                },
+                {
+                    "id": 38,
+                    "code": "LORDAERON",
+                    "name": "Лордаэрон",
+                    "type": "SINGLE_STAR",
+                    "description": null,
+                    "position_x": -103.66372653913034,
+                    "position_y": -84.2751211970739,
+                    "position_z": 0,
+                    "status": "P",
+                    "affiliation": [],
+                    "color": "#ffc9e8",
+                    "aggregated_size": "1",
+                    "aggregated_population": 1,
+                    "aggregated_economy": 1,
+                    "aggregated_danger": 1
+                },
+                {
+                    "id": 31,
+                    "code": "MADRA",
+                    "name": "Мадра",
+                    "type": "SINGLE_STAR",
+                    "description": null,
+                    "position_x": 115.9368393031744,
+                    "position_y": 114.74612177895632,
+                    "position_z": 0,
+                    "status": "P",
+                    "affiliation": [],
+                    "color": "#cfe3ff",
+                    "aggregated_size": "1",
+                    "aggregated_population": 1,
+                    "aggregated_economy": 1,
+                    "aggregated_danger": 1
+                },
+                {
+                    "id": 56,
+                    "code": "MARUKKU",
+                    "name": "Марукку",
+                    "type": "SINGLE_STAR",
+                    "description": null,
+                    "position_x": -96.23064728878606,
+                    "position_y": 54.456750433852235,
+                    "position_z": 0,
+                    "status": "P",
+                    "affiliation": [],
+                    "color": "#cfe3ff",
+                    "aggregated_size": "1",
+                    "aggregated_population": 1,
+                    "aggregated_economy": 1,
+                    "aggregated_danger": 1
+                },
+                {
+                    "id": 14,
+                    "code": "MIKOVARRO",
+                    "name": "Миковарро",
+                    "type": "SINGLE_STAR",
+                    "description": null,
+                    "position_x": 140.28034448807142,
+                    "position_y": -87.55482237227172,
+                    "position_z": 0,
+                    "status": "P",
+                    "affiliation": [],
+                    "color": "#9ec9ff",
+                    "aggregated_size": "1",
+                    "aggregated_population": 1,
+                    "aggregated_economy": 1,
+                    "aggregated_danger": 1
+                },
+                {
+                    "id": 36,
+                    "code": "MIRKWOOD",
+                    "name": "Мирквуд",
+                    "type": "SINGLE_STAR",
+                    "description": null,
+                    "position_x": -12.785459422656563,
+                    "position_y": 116.24964805495974,
+                    "position_z": 0,
+                    "status": "P",
+                    "affiliation": [],
+                    "color": "#fff7d6",
+                    "aggregated_size": "1",
+                    "aggregated_population": 1,
+                    "aggregated_economy": 1,
+                    "aggregated_danger": 1
+                },
+                {
+                    "id": 20,
+                    "code": "NBISMARK",
+                    "name": "Neuer Bismarck",
+                    "type": "SINGLE_STAR",
+                    "description": null,
+                    "position_x": 34.76508841712609,
+                    "position_y": -82.59431700478987,
+                    "position_z": 0,
+                    "status": "P",
+                    "affiliation": [],
+                    "color": "#9ec9ff",
+                    "aggregated_size": "1",
+                    "aggregated_population": 1,
+                    "aggregated_economy": 1,
+                    "aggregated_danger": 1
+                },
+                {
+                    "id": 61,
+                    "code": "NEQUADOR",
+                    "name": "Новый Эквадор",
+                    "type": "SINGLE_STAR",
+                    "description": null,
+                    "position_x": -129.12065785140328,
+                    "position_y": 26.84975487561194,
+                    "position_z": 0,
+                    "status": "P",
+                    "affiliation": [],
+                    "color": "#7ae0c3",
+                    "aggregated_size": "1",
+                    "aggregated_population": 1,
+                    "aggregated_economy": 1,
+                    "aggregated_danger": 1
+                },
+                {
+                    "id": 6,
+                    "code": "NEVEMORE",
+                    "name": "Невемор",
+                    "type": "SINGLE_STAR",
+                    "description": null,
+                    "position_x": 77.02750205194621,
+                    "position_y": 32.57523945060738,
+                    "position_z": 0,
+                    "status": "P",
+                    "affiliation": [],
+                    "color": "#7ae0c3",
+                    "aggregated_size": "1",
+                    "aggregated_population": 1,
+                    "aggregated_economy": 1,
+                    "aggregated_danger": 1
+                },
+                {
+                    "id": 27,
+                    "code": "NEWFRANCE",
+                    "name": "НоваяФранция",
+                    "type": "SINGLE_STAR",
+                    "description": null,
+                    "position_x": 114.85156877901947,
+                    "position_y": 36.152878099889236,
+                    "position_z": 0,
+                    "status": "P",
+                    "affiliation": [],
+                    "color": "#ffe9a0",
+                    "aggregated_size": "1",
+                    "aggregated_population": 1,
+                    "aggregated_economy": 1,
+                    "aggregated_danger": 1
+                },
+                {
+                    "id": 49,
+                    "code": "NEWHAWAI",
+                    "name": "Нью-Гаваи",
+                    "type": "SINGLE_STAR",
+                    "description": null,
+                    "position_x": 62.61524600318412,
+                    "position_y": -50.082274085412166,
+                    "position_z": 0,
+                    "status": "P",
+                    "affiliation": [],
+                    "color": "#ffe9a0",
+                    "aggregated_size": "1",
+                    "aggregated_population": 1,
+                    "aggregated_economy": 1,
+                    "aggregated_danger": 1
+                },
+                {
+                    "id": 19,
+                    "code": "NEWLEIPZIG",
+                    "name": "НовыйЛейпциг",
+                    "type": "SINGLE_STAR",
+                    "description": null,
+                    "position_x": 53.63446177578243,
+                    "position_y": -109.80116171725291,
+                    "position_z": 0,
+                    "status": "P",
+                    "affiliation": [],
+                    "color": "#ffd27a",
+                    "aggregated_size": "1",
+                    "aggregated_population": 1,
+                    "aggregated_economy": 1,
+                    "aggregated_danger": 1
+                },
+                {
+                    "id": 45,
+                    "code": "NIGHTWISH",
+                    "name": "Найтвиш",
+                    "type": "SINGLE_STAR",
+                    "description": null,
+                    "position_x": -76.28846012739986,
+                    "position_y": -62.675507526078064,
+                    "position_z": 0,
+                    "status": "P",
+                    "affiliation": [],
+                    "color": "#cfe3ff",
+                    "aggregated_size": "1",
+                    "aggregated_population": 1,
+                    "aggregated_economy": 1,
+                    "aggregated_danger": 1
+                },
+                {
+                    "id": 72,
+                    "code": "OBLAKO",
+                    "name": "Облако",
+                    "type": "SINGLE_STAR",
+                    "description": null,
+                    "position_x": -125.02154330246458,
+                    "position_y": 74.0624354767426,
+                    "position_z": 0,
+                    "status": "P",
+                    "affiliation": [],
+                    "color": "#fff7d6",
+                    "aggregated_size": "1",
+                    "aggregated_population": 1,
+                    "aggregated_economy": 1,
+                    "aggregated_danger": 1
+                },
+                {
+                    "id": 13,
+                    "code": "OLSTER",
+                    "name": "Ольстер",
+                    "type": "SINGLE_STAR",
+                    "description": null,
+                    "position_x": 150,
+                    "position_y": -51.04127099512143,
+                    "position_z": 0,
+                    "status": "P",
+                    "affiliation": [],
+                    "color": "#ffe9a0",
+                    "aggregated_size": "1",
+                    "aggregated_population": 1,
+                    "aggregated_economy": 1,
+                    "aggregated_danger": 1
+                },
+                {
+                    "id": 67,
+                    "code": "PELLA",
+                    "name": "Пелла",
+                    "type": "SINGLE_STAR",
+                    "description": null,
+                    "position_x": -112.16432975159935,
+                    "position_y": 75.50297852154073,
+                    "position_z": 0,
+                    "status": "P",
+                    "affiliation": [],
+                    "color": "#ffe9a0",
+                    "aggregated_size": "1",
+                    "aggregated_population": 1,
+                    "aggregated_economy": 1,
+                    "aggregated_danger": 1
+                },
+                {
+                    "id": 8,
+                    "code": "PHOENIX",
+                    "name": "XX9-WV",
+                    "type": "SINGLE_STAR",
+                    "description": null,
+                    "position_x": 94.25873122319884,
+                    "position_y": 73.54573749763236,
+                    "position_z": 0,
+                    "status": "P",
+                    "affiliation": [],
+                    "color": "#7ae0c3",
+                    "aggregated_size": "1",
+                    "aggregated_population": 1,
+                    "aggregated_economy": 1,
+                    "aggregated_danger": 1
+                },
+                {
+                    "id": 62,
+                    "code": "PIMON",
+                    "name": "Пимон",
+                    "type": "SINGLE_STAR",
+                    "description": null,
+                    "position_x": -111.82356163261547,
+                    "position_y": 51.8154135716833,
+                    "position_z": 0,
+                    "status": "P",
+                    "affiliation": [],
+                    "color": "#7ae0c3",
+                    "aggregated_size": "1",
+                    "aggregated_population": 1,
+                    "aggregated_economy": 1,
+                    "aggregated_danger": 1
+                },
+                {
+                    "id": 71,
+                    "code": "RADJYA",
+                    "name": "Раджья",
+                    "type": "SINGLE_STAR",
+                    "description": null,
+                    "position_x": -20.481494943083028,
+                    "position_y": 21.652059880995647,
+                    "position_z": 0,
+                    "status": "P",
+                    "affiliation": [],
+                    "color": "#cfe3ff",
+                    "aggregated_size": "1",
+                    "aggregated_population": 1,
+                    "aggregated_economy": 1,
+                    "aggregated_danger": 1
+                },
+                {
+                    "id": 70,
+                    "code": "RAMMEKARTI",
+                    "name": "Раммекарти",
+                    "type": "SINGLE_STAR",
+                    "description": null,
+                    "position_x": -56.268461117111976,
+                    "position_y": 56.587020437555125,
+                    "position_z": 0,
+                    "status": "P",
+                    "affiliation": [],
+                    "color": "#7ae0c3",
+                    "aggregated_size": "1",
+                    "aggregated_population": 1,
+                    "aggregated_economy": 1,
+                    "aggregated_danger": 1
+                },
+                {
+                    "id": 5,
+                    "code": "RINGTAIL",
+                    "name": "Рингтейл",
+                    "type": "SINGLE_STAR",
+                    "description": null,
+                    "position_x": 46.78155859181029,
+                    "position_y": 46.79450163729097,
+                    "position_z": 0,
+                    "status": "P",
+                    "affiliation": [],
+                    "color": "#9ec9ff",
+                    "aggregated_size": "1",
+                    "aggregated_population": 1,
+                    "aggregated_economy": 1,
+                    "aggregated_danger": 1
+                },
+                {
+                    "id": 64,
+                    "code": "ROKANNON",
+                    "name": "Роканнон",
+                    "type": "SINGLE_STAR",
+                    "description": null,
+                    "position_x": -131.88622064778366,
+                    "position_y": 61.067686070143274,
+                    "position_z": 0,
+                    "status": "P",
+                    "affiliation": [],
+                    "color": "#ffc9e8",
+                    "aggregated_size": "1",
+                    "aggregated_population": 1,
+                    "aggregated_economy": 1,
+                    "aggregated_danger": 1
+                },
+                {
+                    "id": 9,
+                    "code": "SCRABBAD",
+                    "name": "Скраббад",
+                    "type": "SINGLE_STAR",
+                    "description": null,
+                    "position_x": 31.357407227287393,
+                    "position_y": -4.418492941475608,
+                    "position_z": 0,
+                    "status": "P",
+                    "affiliation": [],
+                    "color": "#9ec9ff",
+                    "aggregated_size": "1",
+                    "aggregated_population": 1,
+                    "aggregated_economy": 1,
+                    "aggregated_danger": 1
+                },
+                {
+                    "id": 68,
+                    "code": "SHANTIER",
+                    "name": "Шантьер",
+                    "type": "SINGLE_STAR",
+                    "description": null,
+                    "position_x": -58.82464860953983,
+                    "position_y": 76.95154164725636,
+                    "position_z": 0,
+                    "status": "P",
+                    "affiliation": [],
+                    "color": "#cfe3ff",
+                    "aggregated_size": "1",
+                    "aggregated_population": 1,
+                    "aggregated_economy": 1,
+                    "aggregated_danger": 1
+                },
+                {
+                    "id": 69,
+                    "code": "SHARD",
+                    "name": "Шард",
+                    "type": "SINGLE_STAR",
+                    "description": null,
+                    "position_x": -45.788092398157794,
+                    "position_y": 72.69117227987009,
+                    "position_z": 0,
+                    "status": "P",
+                    "affiliation": [],
+                    "color": "#ff9d7a",
+                    "aggregated_size": "1",
+                    "aggregated_population": 1,
+                    "aggregated_economy": 1,
+                    "aggregated_danger": 1
+                },
+                {
+                    "id": 2,
+                    "code": "SIRIUS",
+                    "name": "Сириус",
+                    "type": "SINGLE_STAR",
+                    "description": null,
+                    "position_x": 0.870861339626527,
+                    "position_y": 7.270007115688807,
+                    "position_z": 0,
+                    "status": "P",
+                    "affiliation": [],
+                    "color": "#ffd27a",
+                    "aggregated_size": "1",
+                    "aggregated_population": 1,
+                    "aggregated_economy": 1,
+                    "aggregated_danger": 1
+                },
+                {
+                    "id": 3,
+                    "code": "SOL",
+                    "name": "Солнце",
+                    "type": "SINGLE_STAR",
+                    "description": null,
+                    "position_x": 0.38795008438149187,
+                    "position_y": 38.4798960461001,
+                    "position_z": 0,
+                    "status": "P",
+                    "affiliation": [],
+                    "color": "#ffe9a0",
+                    "aggregated_size": "1",
+                    "aggregated_population": 1,
+                    "aggregated_economy": 1,
+                    "aggregated_danger": 1
+                },
+                {
+                    "id": 37,
+                    "code": "SOLARIS",
+                    "name": "Солярис",
+                    "type": "SINGLE_STAR",
+                    "description": null,
+                    "position_x": -100.60415098911488,
+                    "position_y": -45.56201996829509,
+                    "position_z": 0,
+                    "status": "P",
+                    "affiliation": [],
+                    "color": "#cfe3ff",
+                    "aggregated_size": "1",
+                    "aggregated_population": 1,
+                    "aggregated_economy": 1,
+                    "aggregated_danger": 1
+                },
+                {
+                    "id": 12,
+                    "code": "STONEHAVEN",
+                    "name": "Стоунхэйвен",
+                    "type": "SINGLE_STAR",
+                    "description": null,
+                    "position_x": 130.1955193343674,
+                    "position_y": -21.020060440694923,
+                    "position_z": 0,
+                    "status": "P",
+                    "affiliation": [],
+                    "color": "#9ec9ff",
+                    "aggregated_size": "1",
+                    "aggregated_population": 1,
+                    "aggregated_economy": 1,
+                    "aggregated_danger": 1
+                },
+                {
+                    "id": 65,
+                    "code": "SUPREMA",
+                    "name": "Suprema",
+                    "type": "SINGLE_STAR",
+                    "description": null,
+                    "position_x": -138.60363565625593,
+                    "position_y": 80.55511757950545,
+                    "position_z": 0,
+                    "status": "P",
+                    "affiliation": [],
+                    "color": "#7ae0c3",
+                    "aggregated_size": "1",
+                    "aggregated_population": 1,
+                    "aggregated_economy": 1,
+                    "aggregated_danger": 1
+                },
+                {
+                    "id": 59,
+                    "code": "TAIMYR",
+                    "name": "Таймыр",
+                    "type": "SINGLE_STAR",
+                    "description": null,
+                    "position_x": -97.84950915398386,
+                    "position_y": 15.431889889408199,
+                    "position_z": 0,
+                    "status": "P",
+                    "affiliation": [],
+                    "color": "#ffe9a0",
+                    "aggregated_size": "1",
+                    "aggregated_population": 1,
+                    "aggregated_economy": 1,
+                    "aggregated_danger": 1
+                },
+                {
+                    "id": 7,
+                    "code": "TERRONUS",
+                    "name": "K-MGJ7",
+                    "type": "SINGLE_STAR",
+                    "description": null,
+                    "position_x": 77.75101573471619,
+                    "position_y": 66.67713543186429,
+                    "position_z": 0,
+                    "status": "P",
+                    "affiliation": [],
+                    "color": "#ffe9a0",
+                    "aggregated_size": "1",
+                    "aggregated_population": 1,
+                    "aggregated_economy": 1,
+                    "aggregated_danger": 1
+                },
+                {
+                    "id": 66,
+                    "code": "THEFOREST",
+                    "name": "Лес",
+                    "type": "SINGLE_STAR",
+                    "description": null,
+                    "position_x": -123.24125597879971,
+                    "position_y": 87.00599287748557,
+                    "position_z": 0,
+                    "status": "P",
+                    "affiliation": [],
+                    "color": "#ffd27a",
+                    "aggregated_size": "1",
+                    "aggregated_population": 1,
+                    "aggregated_economy": 1,
+                    "aggregated_danger": 1
+                },
+                {
+                    "id": 63,
+                    "code": "VALINOR",
+                    "name": "Валинор",
+                    "type": "SINGLE_STAR",
+                    "description": null,
+                    "position_x": -150.00000000000003,
+                    "position_y": 54.48951331760031,
+                    "position_z": 0,
+                    "status": "P",
+                    "affiliation": [],
+                    "color": "#ffc9e8",
+                    "aggregated_size": "1",
+                    "aggregated_population": 1,
+                    "aggregated_economy": 1,
+                    "aggregated_danger": 1
+                },
+                {
+                    "id": 28,
+                    "code": "VAYLE",
+                    "name": "Вайл",
+                    "type": "SINGLE_STAR",
+                    "description": null,
+                    "position_x": 108.33823923389456,
+                    "position_y": 47.659646536263544,
+                    "position_z": 0,
+                    "status": "P",
+                    "affiliation": [],
+                    "color": "#7ae0c3",
+                    "aggregated_size": "1",
+                    "aggregated_population": 1,
+                    "aggregated_economy": 1,
+                    "aggregated_danger": 1
+                },
+                {
+                    "id": 1,
+                    "code": "VEGA",
+                    "name": "Вега",
+                    "type": "SINGLE_STAR",
+                    "description": null,
+                    "position_x": -44.26393574379427,
+                    "position_y": 35.98479768066083,
+                    "position_z": 0,
+                    "status": "P",
+                    "affiliation": [],
+                    "color": "#ffc9e8",
+                    "aggregated_size": "1",
+                    "aggregated_population": 1,
+                    "aggregated_economy": 1,
+                    "aggregated_danger": 1
+                },
+                {
+                    "id": 10,
+                    "code": "VOLANDIS",
+                    "name": "Воландис",
+                    "type": "SINGLE_STAR",
+                    "description": null,
+                    "position_x": 14.989616554812125,
+                    "position_y": -15.862636490685636,
+                    "position_z": 0,
+                    "status": "P",
+                    "affiliation": [],
+                    "color": "#fff7d6",
+                    "aggregated_size": "1",
+                    "aggregated_population": 1,
+                    "aggregated_economy": 1,
+                    "aggregated_danger": 1
+                },
+                {
+                    "id": 47,
+                    "code": "WRAITMIRE",
+                    "name": "Райтмир",
+                    "type": "SINGLE_STAR",
+                    "description": null,
+                    "position_x": -72.72634971989443,
+                    "position_y": -36.975584826006916,
+                    "position_z": 0,
+                    "status": "P",
+                    "affiliation": [],
+                    "color": "#fff7d6",
+                    "aggregated_size": "1",
+                    "aggregated_population": 1,
+                    "aggregated_economy": 1,
+                    "aggregated_danger": 1
+                }
+            ]
+        },
+        "tunnels": {
+            "resultset": [
+                {
+                    "id": 1,
+                    "code": "GANDER-ESCALONA",
+                    "direction": "B",
+                    "entry_id": 33,
+                    "exit_id": 32,
+                    "name": null,
+                    "size": "M",
+                    "dashed": false,
+                    "entry": {
+                        "id": 33,
+                        "code": "GANDER",
+                        "star_system_id": 33
+                    },
+                    "exit": {
+                        "id": 32,
+                        "code": "ESCALONA",
+                        "star_system_id": 32
+                    }
+                },
+                {
+                    "id": 2,
+                    "code": "MADRA-FORTHOPE",
+                    "direction": "B",
+                    "entry_id": 31,
+                    "exit_id": 29,
+                    "name": null,
+                    "size": "M",
+                    "dashed": false,
+                    "entry": {
+                        "id": 31,
+                        "code": "MADRA",
+                        "star_system_id": 31
+                    },
+                    "exit": {
+                        "id": 29,
+                        "code": "FORTHOPE",
+                        "star_system_id": 29
+                    }
+                },
+                {
+                    "id": 3,
+                    "code": "SIRIUS-DALLAS",
+                    "direction": "B",
+                    "entry_id": 2,
+                    "exit_id": 4,
+                    "name": null,
+                    "size": "M",
+                    "dashed": false,
+                    "entry": {
+                        "id": 2,
+                        "code": "SIRIUS",
+                        "star_system_id": 2
+                    },
+                    "exit": {
+                        "id": 4,
+                        "code": "DALLAS",
+                        "star_system_id": 4
+                    }
+                },
+                {
+                    "id": 4,
+                    "code": "DALLAS-RINGTAIL",
+                    "direction": "B",
+                    "entry_id": 4,
+                    "exit_id": 5,
+                    "name": null,
+                    "size": "M",
+                    "dashed": false,
+                    "entry": {
+                        "id": 4,
+                        "code": "DALLAS",
+                        "star_system_id": 4
+                    },
+                    "exit": {
+                        "id": 5,
+                        "code": "RINGTAIL",
+                        "star_system_id": 5
+                    }
+                },
+                {
+                    "id": 5,
+                    "code": "RINGTAIL-NEVEMORE",
+                    "direction": "B",
+                    "entry_id": 5,
+                    "exit_id": 6,
+                    "name": null,
+                    "size": "M",
+                    "dashed": false,
+                    "entry": {
+                        "id": 5,
+                        "code": "RINGTAIL",
+                        "star_system_id": 5
+                    },
+                    "exit": {
+                        "id": 6,
+                        "code": "NEVEMORE",
+                        "star_system_id": 6
+                    }
+                },
+                {
+                    "id": 6,
+                    "code": "NEVEMORE-NEWFRANCE",
+                    "direction": "B",
+                    "entry_id": 6,
+                    "exit_id": 27,
+                    "name": null,
+                    "size": "M",
+                    "dashed": false,
+                    "entry": {
+                        "id": 6,
+                        "code": "NEVEMORE",
+                        "star_system_id": 6
+                    },
+                    "exit": {
+                        "id": 27,
+                        "code": "NEWFRANCE",
+                        "star_system_id": 27
+                    }
+                },
+                {
+                    "id": 7,
+                    "code": "NEWFRANCE-VAYLE",
+                    "direction": "B",
+                    "entry_id": 27,
+                    "exit_id": 28,
+                    "name": null,
+                    "size": "M",
+                    "dashed": false,
+                    "entry": {
+                        "id": 27,
+                        "code": "NEWFRANCE",
+                        "star_system_id": 27
+                    },
+                    "exit": {
+                        "id": 28,
+                        "code": "VAYLE",
+                        "star_system_id": 28
+                    }
+                },
+                {
+                    "id": 8,
+                    "code": "NEWFRANCE-FORTHOPE",
+                    "direction": "B",
+                    "entry_id": 27,
+                    "exit_id": 29,
+                    "name": null,
+                    "size": "M",
+                    "dashed": false,
+                    "entry": {
+                        "id": 27,
+                        "code": "NEWFRANCE",
+                        "star_system_id": 27
+                    },
+                    "exit": {
+                        "id": 29,
+                        "code": "FORTHOPE",
+                        "star_system_id": 29
+                    }
+                },
+                {
+                    "id": 9,
+                    "code": "MADRA-ESCALONA",
+                    "direction": "B",
+                    "entry_id": 31,
+                    "exit_id": 32,
+                    "name": null,
+                    "size": "M",
+                    "dashed": true,
+                    "entry": {
+                        "id": 31,
+                        "code": "MADRA",
+                        "star_system_id": 31
+                    },
+                    "exit": {
+                        "id": 32,
+                        "code": "ESCALONA",
+                        "star_system_id": 32
+                    }
+                },
+                {
+                    "id": 10,
+                    "code": "ESCALONA-ARRAKIS",
+                    "direction": "B",
+                    "entry_id": 32,
+                    "exit_id": 34,
+                    "name": null,
+                    "size": "M",
+                    "dashed": true,
+                    "entry": {
+                        "id": 32,
+                        "code": "ESCALONA",
+                        "star_system_id": 32
+                    },
+                    "exit": {
+                        "id": 34,
+                        "code": "ARRAKIS",
+                        "star_system_id": 34
+                    }
+                },
+                {
+                    "id": 11,
+                    "code": "GANDER-ARRAKIS",
+                    "direction": "B",
+                    "entry_id": 33,
+                    "exit_id": 34,
+                    "name": null,
+                    "size": "M",
+                    "dashed": true,
+                    "entry": {
+                        "id": 33,
+                        "code": "GANDER",
+                        "star_system_id": 33
+                    },
+                    "exit": {
+                        "id": 34,
+                        "code": "ARRAKIS",
+                        "star_system_id": 34
+                    }
+                },
+                {
+                    "id": 12,
+                    "code": "FORTHOPE-ARKONIS",
+                    "direction": "B",
+                    "entry_id": 29,
+                    "exit_id": 30,
+                    "name": null,
+                    "size": "M",
+                    "dashed": true,
+                    "entry": {
+                        "id": 29,
+                        "code": "FORTHOPE",
+                        "star_system_id": 29
+                    },
+                    "exit": {
+                        "id": 30,
+                        "code": "ARKONIS",
+                        "star_system_id": 30
+                    }
+                },
+                {
+                    "id": 13,
+                    "code": "VAYLE-TERRONUS",
+                    "direction": "B",
+                    "entry_id": 28,
+                    "exit_id": 7,
+                    "name": null,
+                    "size": "M",
+                    "dashed": true,
+                    "entry": {
+                        "id": 28,
+                        "code": "VAYLE",
+                        "star_system_id": 28
+                    },
+                    "exit": {
+                        "id": 7,
+                        "code": "TERRONUS",
+                        "star_system_id": 7
+                    }
+                },
+                {
+                    "id": 14,
+                    "code": "VAYLE-PHOENIX",
+                    "direction": "B",
+                    "entry_id": 28,
+                    "exit_id": 8,
+                    "name": null,
+                    "size": "M",
+                    "dashed": true,
+                    "entry": {
+                        "id": 28,
+                        "code": "VAYLE",
+                        "star_system_id": 28
+                    },
+                    "exit": {
+                        "id": 8,
+                        "code": "PHOENIX",
+                        "star_system_id": 8
+                    }
+                },
+                {
+                    "id": 15,
+                    "code": "ARRAKIS-TERRONUS",
+                    "direction": "B",
+                    "entry_id": 34,
+                    "exit_id": 7,
+                    "name": null,
+                    "size": "M",
+                    "dashed": true,
+                    "entry": {
+                        "id": 34,
+                        "code": "ARRAKIS",
+                        "star_system_id": 34
+                    },
+                    "exit": {
+                        "id": 7,
+                        "code": "TERRONUS",
+                        "star_system_id": 7
+                    }
+                },
+                {
+                    "id": 16,
+                    "code": "ARRAKIS-PHOENIX",
+                    "direction": "B",
+                    "entry_id": 34,
+                    "exit_id": 8,
+                    "name": null,
+                    "size": "M",
+                    "dashed": true,
+                    "entry": {
+                        "id": 34,
+                        "code": "ARRAKIS",
+                        "star_system_id": 34
+                    },
+                    "exit": {
+                        "id": 8,
+                        "code": "PHOENIX",
+                        "star_system_id": 8
+                    }
+                },
+                {
+                    "id": 17,
+                    "code": "TERRONUS-PHOENIX",
+                    "direction": "B",
+                    "entry_id": 7,
+                    "exit_id": 8,
+                    "name": null,
+                    "size": "M",
+                    "dashed": true,
+                    "entry": {
+                        "id": 7,
+                        "code": "TERRONUS",
+                        "star_system_id": 7
+                    },
+                    "exit": {
+                        "id": 8,
+                        "code": "PHOENIX",
+                        "star_system_id": 8
+                    }
+                },
+                {
+                    "id": 18,
+                    "code": "GANDER-RINGTAIL",
+                    "direction": "B",
+                    "entry_id": 33,
+                    "exit_id": 5,
+                    "name": null,
+                    "size": "M",
+                    "dashed": false,
+                    "entry": {
+                        "id": 33,
+                        "code": "GANDER",
+                        "star_system_id": 33
+                    },
+                    "exit": {
+                        "id": 5,
+                        "code": "RINGTAIL",
+                        "star_system_id": 5
+                    }
+                },
+                {
+                    "id": 19,
+                    "code": "KAREON-TERRONUS",
+                    "direction": "B",
+                    "entry_id": 35,
+                    "exit_id": 7,
+                    "name": null,
+                    "size": "M",
+                    "dashed": true,
+                    "entry": {
+                        "id": 35,
+                        "code": "KAREON",
+                        "star_system_id": 35
+                    },
+                    "exit": {
+                        "id": 7,
+                        "code": "TERRONUS",
+                        "star_system_id": 7
+                    }
+                },
+                {
+                    "id": 20,
+                    "code": "KAREON-GANDER",
+                    "direction": "B",
+                    "entry_id": 35,
+                    "exit_id": 33,
+                    "name": null,
+                    "size": "M",
+                    "dashed": true,
+                    "entry": {
+                        "id": 35,
+                        "code": "KAREON",
+                        "star_system_id": 35
+                    },
+                    "exit": {
+                        "id": 33,
+                        "code": "GANDER",
+                        "star_system_id": 33
+                    }
+                },
+                {
+                    "id": 21,
+                    "code": "SIRIUS-RADJYA",
+                    "direction": "B",
+                    "entry_id": 2,
+                    "exit_id": 71,
+                    "name": null,
+                    "size": "M",
+                    "dashed": false,
+                    "entry": {
+                        "id": 2,
+                        "code": "SIRIUS",
+                        "star_system_id": 2
+                    },
+                    "exit": {
+                        "id": 71,
+                        "code": "RADJYA",
+                        "star_system_id": 71
+                    }
+                },
+                {
+                    "id": 22,
+                    "code": "RADJYA-VEGA",
+                    "direction": "B",
+                    "entry_id": 71,
+                    "exit_id": 1,
+                    "name": null,
+                    "size": "M",
+                    "dashed": false,
+                    "entry": {
+                        "id": 71,
+                        "code": "RADJYA",
+                        "star_system_id": 71
+                    },
+                    "exit": {
+                        "id": 1,
+                        "code": "VEGA",
+                        "star_system_id": 1
+                    }
+                },
+                {
+                    "id": 23,
+                    "code": "FIN-VEGA",
+                    "direction": "B",
+                    "entry_id": 60,
+                    "exit_id": 1,
+                    "name": null,
+                    "size": "M",
+                    "dashed": false,
+                    "entry": {
+                        "id": 60,
+                        "code": "FIN",
+                        "star_system_id": 60
+                    },
+                    "exit": {
+                        "id": 1,
+                        "code": "VEGA",
+                        "star_system_id": 1
+                    }
+                },
+                {
+                    "id": 24,
+                    "code": "TAIMYR-FIN",
+                    "direction": "B",
+                    "entry_id": 59,
+                    "exit_id": 60,
+                    "name": null,
+                    "size": "M",
+                    "dashed": false,
+                    "entry": {
+                        "id": 59,
+                        "code": "TAIMYR",
+                        "star_system_id": 59
+                    },
+                    "exit": {
+                        "id": 60,
+                        "code": "FIN",
+                        "star_system_id": 60
+                    }
+                },
+                {
+                    "id": 25,
+                    "code": "MARUKKU-ALBERTA",
+                    "direction": "B",
+                    "entry_id": 56,
+                    "exit_id": 57,
+                    "name": null,
+                    "size": "M",
+                    "dashed": false,
+                    "entry": {
+                        "id": 56,
+                        "code": "MARUKKU",
+                        "star_system_id": 56
+                    },
+                    "exit": {
+                        "id": 57,
+                        "code": "ALBERTA",
+                        "star_system_id": 57
+                    }
+                },
+                {
+                    "id": 26,
+                    "code": "ARGOSTROLION-ALBERTA",
+                    "direction": "B",
+                    "entry_id": 55,
+                    "exit_id": 57,
+                    "name": null,
+                    "size": "M",
+                    "dashed": false,
+                    "entry": {
+                        "id": 55,
+                        "code": "ARGOSTROLION",
+                        "star_system_id": 55
+                    },
+                    "exit": {
+                        "id": 57,
+                        "code": "ALBERTA",
+                        "star_system_id": 57
+                    }
+                },
+                {
+                    "id": 27,
+                    "code": "VEGA-RAMMEKARTI",
+                    "direction": "B",
+                    "entry_id": 1,
+                    "exit_id": 70,
+                    "name": null,
+                    "size": "M",
+                    "dashed": false,
+                    "entry": {
+                        "id": 1,
+                        "code": "VEGA",
+                        "star_system_id": 1
+                    },
+                    "exit": {
+                        "id": 70,
+                        "code": "RAMMEKARTI",
+                        "star_system_id": 70
+                    }
+                },
+                {
+                    "id": 28,
+                    "code": "SHARD-RAMMEKARTI",
+                    "direction": "B",
+                    "entry_id": 69,
+                    "exit_id": 70,
+                    "name": null,
+                    "size": "M",
+                    "dashed": false,
+                    "entry": {
+                        "id": 69,
+                        "code": "SHARD",
+                        "star_system_id": 69
+                    },
+                    "exit": {
+                        "id": 70,
+                        "code": "RAMMEKARTI",
+                        "star_system_id": 70
+                    }
+                },
+                {
+                    "id": 29,
+                    "code": "SHARD-SHANTIER",
+                    "direction": "B",
+                    "entry_id": 69,
+                    "exit_id": 68,
+                    "name": null,
+                    "size": "M",
+                    "dashed": false,
+                    "entry": {
+                        "id": 69,
+                        "code": "SHARD",
+                        "star_system_id": 69
+                    },
+                    "exit": {
+                        "id": 68,
+                        "code": "SHANTIER",
+                        "star_system_id": 68
+                    }
+                },
+                {
+                    "id": 30,
+                    "code": "TAIMYR-VEGA",
+                    "direction": "B",
+                    "entry_id": 59,
+                    "exit_id": 1,
+                    "name": null,
+                    "size": "M",
+                    "dashed": true,
+                    "entry": {
+                        "id": 59,
+                        "code": "TAIMYR",
+                        "star_system_id": 59
+                    },
+                    "exit": {
+                        "id": 1,
+                        "code": "VEGA",
+                        "star_system_id": 1
+                    }
+                },
+                {
+                    "id": 31,
+                    "code": "ALBERTA-FIN",
+                    "direction": "B",
+                    "entry_id": 57,
+                    "exit_id": 60,
+                    "name": null,
+                    "size": "M",
+                    "dashed": true,
+                    "entry": {
+                        "id": 57,
+                        "code": "ALBERTA",
+                        "star_system_id": 57
+                    },
+                    "exit": {
+                        "id": 60,
+                        "code": "FIN",
+                        "star_system_id": 60
+                    }
+                },
+                {
+                    "id": 32,
+                    "code": "VALINOR-NEQUADOR",
+                    "direction": "B",
+                    "entry_id": 63,
+                    "exit_id": 61,
+                    "name": null,
+                    "size": "M",
+                    "dashed": false,
+                    "entry": {
+                        "id": 63,
+                        "code": "VALINOR",
+                        "star_system_id": 63
+                    },
+                    "exit": {
+                        "id": 61,
+                        "code": "NEQUADOR",
+                        "star_system_id": 61
+                    }
+                },
+                {
+                    "id": 33,
+                    "code": "ROKANNON-NEQUADOR",
+                    "direction": "B",
+                    "entry_id": 64,
+                    "exit_id": 61,
+                    "name": null,
+                    "size": "M",
+                    "dashed": true,
+                    "entry": {
+                        "id": 64,
+                        "code": "ROKANNON",
+                        "star_system_id": 64
+                    },
+                    "exit": {
+                        "id": 61,
+                        "code": "NEQUADOR",
+                        "star_system_id": 61
+                    }
+                },
+                {
+                    "id": 34,
+                    "code": "TAIMYR-NEQUADOR",
+                    "direction": "B",
+                    "entry_id": 59,
+                    "exit_id": 61,
+                    "name": null,
+                    "size": "M",
+                    "dashed": false,
+                    "entry": {
+                        "id": 59,
+                        "code": "TAIMYR",
+                        "star_system_id": 59
+                    },
+                    "exit": {
+                        "id": 61,
+                        "code": "NEQUADOR",
+                        "star_system_id": 61
+                    }
+                },
+                {
+                    "id": 35,
+                    "code": "TAIMYR-PIMON",
+                    "direction": "B",
+                    "entry_id": 59,
+                    "exit_id": 62,
+                    "name": null,
+                    "size": "M",
+                    "dashed": true,
+                    "entry": {
+                        "id": 59,
+                        "code": "TAIMYR",
+                        "star_system_id": 59
+                    },
+                    "exit": {
+                        "id": 62,
+                        "code": "PIMON",
+                        "star_system_id": 62
+                    }
+                },
+                {
+                    "id": 36,
+                    "code": "KCDX4-ROKANNON",
+                    "direction": "B",
+                    "entry_id": 58,
+                    "exit_id": 64,
+                    "name": null,
+                    "size": "M",
+                    "dashed": false,
+                    "entry": {
+                        "id": 58,
+                        "code": "KCDX4",
+                        "star_system_id": 58
+                    },
+                    "exit": {
+                        "id": 64,
+                        "code": "ROKANNON",
+                        "star_system_id": 64
+                    }
+                },
+                {
+                    "id": 37,
+                    "code": "THEFOREST-PELLA",
+                    "direction": "B",
+                    "entry_id": 66,
+                    "exit_id": 67,
+                    "name": null,
+                    "size": "M",
+                    "dashed": false,
+                    "entry": {
+                        "id": 66,
+                        "code": "THEFOREST",
+                        "star_system_id": 66
+                    },
+                    "exit": {
+                        "id": 67,
+                        "code": "PELLA",
+                        "star_system_id": 67
+                    }
+                },
+                {
+                    "id": 38,
+                    "code": "PELLA-PIMON",
+                    "direction": "B",
+                    "entry_id": 67,
+                    "exit_id": 62,
+                    "name": null,
+                    "size": "M",
+                    "dashed": true,
+                    "entry": {
+                        "id": 67,
+                        "code": "PELLA",
+                        "star_system_id": 67
+                    },
+                    "exit": {
+                        "id": 62,
+                        "code": "PIMON",
+                        "star_system_id": 62
+                    }
+                },
+                {
+                    "id": 39,
+                    "code": "THEFOREST-SHANTIER",
+                    "direction": "B",
+                    "entry_id": 66,
+                    "exit_id": 68,
+                    "name": null,
+                    "size": "M",
+                    "dashed": false,
+                    "entry": {
+                        "id": 66,
+                        "code": "THEFOREST",
+                        "star_system_id": 66
+                    },
+                    "exit": {
+                        "id": 68,
+                        "code": "SHANTIER",
+                        "star_system_id": 68
+                    }
+                },
+                {
+                    "id": 40,
+                    "code": "PELLA-SHANTIER",
+                    "direction": "B",
+                    "entry_id": 67,
+                    "exit_id": 68,
+                    "name": null,
+                    "size": "M",
+                    "dashed": false,
+                    "entry": {
+                        "id": 67,
+                        "code": "PELLA",
+                        "star_system_id": 67
+                    },
+                    "exit": {
+                        "id": 68,
+                        "code": "SHANTIER",
+                        "star_system_id": 68
+                    }
+                },
+                {
+                    "id": 41,
+                    "code": "PELLA-ARGOSTROLION",
+                    "direction": "B",
+                    "entry_id": 67,
+                    "exit_id": 55,
+                    "name": null,
+                    "size": "M",
+                    "dashed": true,
+                    "entry": {
+                        "id": 67,
+                        "code": "PELLA",
+                        "star_system_id": 67
+                    },
+                    "exit": {
+                        "id": 55,
+                        "code": "ARGOSTROLION",
+                        "star_system_id": 55
+                    }
+                },
+                {
+                    "id": 42,
+                    "code": "ARGOSTROLION-SHANTIER",
+                    "direction": "B",
+                    "entry_id": 55,
+                    "exit_id": 68,
+                    "name": null,
+                    "size": "M",
+                    "dashed": true,
+                    "entry": {
+                        "id": 55,
+                        "code": "ARGOSTROLION",
+                        "star_system_id": 55
+                    },
+                    "exit": {
+                        "id": 68,
+                        "code": "SHANTIER",
+                        "star_system_id": 68
+                    }
+                },
+                {
+                    "id": 43,
+                    "code": "CHUMATAKTION-RADJYA",
+                    "direction": "B",
+                    "entry_id": 54,
+                    "exit_id": 71,
+                    "name": null,
+                    "size": "M",
+                    "dashed": true,
+                    "entry": {
+                        "id": 54,
+                        "code": "CHUMATAKTION",
+                        "star_system_id": 54
+                    },
+                    "exit": {
+                        "id": 71,
+                        "code": "RADJYA",
+                        "star_system_id": 71
+                    }
+                },
+                {
+                    "id": 44,
+                    "code": "SHARD-CHUMATAKTION",
+                    "direction": "B",
+                    "entry_id": 69,
+                    "exit_id": 54,
+                    "name": null,
+                    "size": "M",
+                    "dashed": false,
+                    "entry": {
+                        "id": 69,
+                        "code": "SHARD",
+                        "star_system_id": 69
+                    },
+                    "exit": {
+                        "id": 54,
+                        "code": "CHUMATAKTION",
+                        "star_system_id": 54
+                    }
+                },
+                {
+                    "id": 45,
+                    "code": "GARVINI-NBISMARK",
+                    "direction": "B",
+                    "entry_id": 23,
+                    "exit_id": 20,
+                    "name": null,
+                    "size": "M",
+                    "dashed": true,
+                    "entry": {
+                        "id": 23,
+                        "code": "GARVINI",
+                        "star_system_id": 23
+                    },
+                    "exit": {
+                        "id": 20,
+                        "code": "NBISMARK",
+                        "star_system_id": 20
+                    }
+                },
+                {
+                    "id": 46,
+                    "code": "SIRIUS-VOLANDIS",
+                    "direction": "B",
+                    "entry_id": 2,
+                    "exit_id": 10,
+                    "name": null,
+                    "size": "M",
+                    "dashed": false,
+                    "entry": {
+                        "id": 2,
+                        "code": "SIRIUS",
+                        "star_system_id": 2
+                    },
+                    "exit": {
+                        "id": 10,
+                        "code": "VOLANDIS",
+                        "star_system_id": 10
+                    }
+                },
+                {
+                    "id": 47,
+                    "code": "SIRIUS-SCRABBAD",
+                    "direction": "B",
+                    "entry_id": 2,
+                    "exit_id": 9,
+                    "name": null,
+                    "size": "M",
+                    "dashed": true,
+                    "entry": {
+                        "id": 2,
+                        "code": "SIRIUS",
+                        "star_system_id": 2
+                    },
+                    "exit": {
+                        "id": 9,
+                        "code": "SCRABBAD",
+                        "star_system_id": 9
+                    }
+                },
+                {
+                    "id": 48,
+                    "code": "VOLANDIS-SCRABBAD",
+                    "direction": "B",
+                    "entry_id": 10,
+                    "exit_id": 9,
+                    "name": null,
+                    "size": "M",
+                    "dashed": false,
+                    "entry": {
+                        "id": 10,
+                        "code": "VOLANDIS",
+                        "star_system_id": 10
+                    },
+                    "exit": {
+                        "id": 9,
+                        "code": "SCRABBAD",
+                        "star_system_id": 9
+                    }
+                },
+                {
+                    "id": 49,
+                    "code": "VOLANDIS-FLORIA",
+                    "direction": "B",
+                    "entry_id": 10,
+                    "exit_id": 50,
+                    "name": null,
+                    "size": "M",
+                    "dashed": true,
+                    "entry": {
+                        "id": 10,
+                        "code": "VOLANDIS",
+                        "star_system_id": 10
+                    },
+                    "exit": {
+                        "id": 50,
+                        "code": "FLORIA",
+                        "star_system_id": 50
+                    }
+                },
+                {
+                    "id": 50,
+                    "code": "FLORIA-FROST",
+                    "direction": "B",
+                    "entry_id": 50,
+                    "exit_id": 11,
+                    "name": null,
+                    "size": "M",
+                    "dashed": false,
+                    "entry": {
+                        "id": 50,
+                        "code": "FLORIA",
+                        "star_system_id": 50
+                    },
+                    "exit": {
+                        "id": 11,
+                        "code": "FROST",
+                        "star_system_id": 11
+                    }
+                },
+                {
+                    "id": 51,
+                    "code": "FLORIA-HEYAN",
+                    "direction": "B",
+                    "entry_id": 50,
+                    "exit_id": 24,
+                    "name": null,
+                    "size": "M",
+                    "dashed": true,
+                    "entry": {
+                        "id": 50,
+                        "code": "FLORIA",
+                        "star_system_id": 50
+                    },
+                    "exit": {
+                        "id": 24,
+                        "code": "HEYAN",
+                        "star_system_id": 24
+                    }
+                },
+                {
+                    "id": 52,
+                    "code": "FROST-HEYAN",
+                    "direction": "B",
+                    "entry_id": 11,
+                    "exit_id": 24,
+                    "name": null,
+                    "size": "M",
+                    "dashed": true,
+                    "entry": {
+                        "id": 11,
+                        "code": "FROST",
+                        "star_system_id": 11
+                    },
+                    "exit": {
+                        "id": 24,
+                        "code": "HEYAN",
+                        "star_system_id": 24
+                    }
+                },
+                {
+                    "id": 53,
+                    "code": "FROST-STONEHAVEN",
+                    "direction": "B",
+                    "entry_id": 11,
+                    "exit_id": 12,
+                    "name": null,
+                    "size": "M",
+                    "dashed": false,
+                    "entry": {
+                        "id": 11,
+                        "code": "FROST",
+                        "star_system_id": 11
+                    },
+                    "exit": {
+                        "id": 12,
+                        "code": "STONEHAVEN",
+                        "star_system_id": 12
+                    }
+                },
+                {
+                    "id": 54,
+                    "code": "FROST-ELLADA",
+                    "direction": "B",
+                    "entry_id": 11,
+                    "exit_id": 25,
+                    "name": null,
+                    "size": "M",
+                    "dashed": false,
+                    "entry": {
+                        "id": 11,
+                        "code": "FROST",
+                        "star_system_id": 11
+                    },
+                    "exit": {
+                        "id": 25,
+                        "code": "ELLADA",
+                        "star_system_id": 25
+                    }
+                },
+                {
+                    "id": 55,
+                    "code": "ELLADA-FOMALHAUT",
+                    "direction": "B",
+                    "entry_id": 25,
+                    "exit_id": 26,
+                    "name": null,
+                    "size": "M",
+                    "dashed": true,
+                    "entry": {
+                        "id": 25,
+                        "code": "ELLADA",
+                        "star_system_id": 25
+                    },
+                    "exit": {
+                        "id": 26,
+                        "code": "FOMALHAUT",
+                        "star_system_id": 26
+                    }
+                },
+                {
+                    "id": 56,
+                    "code": "STONEHAVEN-OLSTER",
+                    "direction": "B",
+                    "entry_id": 12,
+                    "exit_id": 13,
+                    "name": null,
+                    "size": "M",
+                    "dashed": false,
+                    "entry": {
+                        "id": 12,
+                        "code": "STONEHAVEN",
+                        "star_system_id": 12
+                    },
+                    "exit": {
+                        "id": 13,
+                        "code": "OLSTER",
+                        "star_system_id": 13
+                    }
+                },
+                {
+                    "id": 57,
+                    "code": "OLSTER-MIKOVARRO",
+                    "direction": "B",
+                    "entry_id": 13,
+                    "exit_id": 14,
+                    "name": null,
+                    "size": "M",
+                    "dashed": true,
+                    "entry": {
+                        "id": 13,
+                        "code": "OLSTER",
+                        "star_system_id": 13
+                    },
+                    "exit": {
+                        "id": 14,
+                        "code": "MIKOVARRO",
+                        "star_system_id": 14
+                    }
+                },
+                {
+                    "id": 58,
+                    "code": "FOMALHAUT-ANTARA",
+                    "direction": "B",
+                    "entry_id": 26,
+                    "exit_id": 22,
+                    "name": null,
+                    "size": "M",
+                    "dashed": true,
+                    "entry": {
+                        "id": 26,
+                        "code": "FOMALHAUT",
+                        "star_system_id": 26
+                    },
+                    "exit": {
+                        "id": 22,
+                        "code": "ANTARA",
+                        "star_system_id": 22
+                    }
+                },
+                {
+                    "id": 59,
+                    "code": "ANTARA-KITEG",
+                    "direction": "B",
+                    "entry_id": 22,
+                    "exit_id": 17,
+                    "name": null,
+                    "size": "M",
+                    "dashed": false,
+                    "entry": {
+                        "id": 22,
+                        "code": "ANTARA",
+                        "star_system_id": 22
+                    },
+                    "exit": {
+                        "id": 17,
+                        "code": "KITEG",
+                        "star_system_id": 17
+                    }
+                },
+                {
+                    "id": 60,
+                    "code": "KITEG-ASTRA",
+                    "direction": "B",
+                    "entry_id": 17,
+                    "exit_id": 16,
+                    "name": null,
+                    "size": "M",
+                    "dashed": true,
+                    "entry": {
+                        "id": 17,
+                        "code": "KITEG",
+                        "star_system_id": 17
+                    },
+                    "exit": {
+                        "id": 16,
+                        "code": "ASTRA",
+                        "star_system_id": 16
+                    }
+                },
+                {
+                    "id": 61,
+                    "code": "ASTRA-MIKOVARRO",
+                    "direction": "B",
+                    "entry_id": 16,
+                    "exit_id": 14,
+                    "name": null,
+                    "size": "M",
+                    "dashed": true,
+                    "entry": {
+                        "id": 16,
+                        "code": "ASTRA",
+                        "star_system_id": 16
+                    },
+                    "exit": {
+                        "id": 14,
+                        "code": "MIKOVARRO",
+                        "star_system_id": 14
+                    }
+                },
+                {
+                    "id": 62,
+                    "code": "MIKOVARRO-ASADAL",
+                    "direction": "B",
+                    "entry_id": 14,
+                    "exit_id": 15,
+                    "name": null,
+                    "size": "M",
+                    "dashed": true,
+                    "entry": {
+                        "id": 14,
+                        "code": "MIKOVARRO",
+                        "star_system_id": 14
+                    },
+                    "exit": {
+                        "id": 15,
+                        "code": "ASADAL",
+                        "star_system_id": 15
+                    }
+                },
+                {
+                    "id": 63,
+                    "code": "ASTRA-ASADAL",
+                    "direction": "B",
+                    "entry_id": 16,
+                    "exit_id": 15,
+                    "name": null,
+                    "size": "M",
+                    "dashed": false,
+                    "entry": {
+                        "id": 16,
+                        "code": "ASTRA",
+                        "star_system_id": 16
+                    },
+                    "exit": {
+                        "id": 15,
+                        "code": "ASADAL",
+                        "star_system_id": 15
+                    }
+                },
+                {
+                    "id": 64,
+                    "code": "ASADAL-KUBULUS",
+                    "direction": "B",
+                    "entry_id": 15,
+                    "exit_id": 18,
+                    "name": null,
+                    "size": "M",
+                    "dashed": false,
+                    "entry": {
+                        "id": 15,
+                        "code": "ASADAL",
+                        "star_system_id": 15
+                    },
+                    "exit": {
+                        "id": 18,
+                        "code": "KUBULUS",
+                        "star_system_id": 18
+                    }
+                },
+                {
+                    "id": 65,
+                    "code": "KUBULUS-NEWLEIPZIG",
+                    "direction": "B",
+                    "entry_id": 18,
+                    "exit_id": 19,
+                    "name": null,
+                    "size": "M",
+                    "dashed": true,
+                    "entry": {
+                        "id": 18,
+                        "code": "KUBULUS",
+                        "star_system_id": 18
+                    },
+                    "exit": {
+                        "id": 19,
+                        "code": "NEWLEIPZIG",
+                        "star_system_id": 19
+                    }
+                },
+                {
+                    "id": 66,
+                    "code": "HANNAHT-NEWLEIPZIG",
+                    "direction": "B",
+                    "entry_id": 21,
+                    "exit_id": 19,
+                    "name": null,
+                    "size": "M",
+                    "dashed": true,
+                    "entry": {
+                        "id": 21,
+                        "code": "HANNAHT",
+                        "star_system_id": 21
+                    },
+                    "exit": {
+                        "id": 19,
+                        "code": "NEWLEIPZIG",
+                        "star_system_id": 19
+                    }
+                },
+                {
+                    "id": 67,
+                    "code": "HANNAHT-KUBULUS",
+                    "direction": "B",
+                    "entry_id": 21,
+                    "exit_id": 18,
+                    "name": null,
+                    "size": "M",
+                    "dashed": false,
+                    "entry": {
+                        "id": 21,
+                        "code": "HANNAHT",
+                        "star_system_id": 21
+                    },
+                    "exit": {
+                        "id": 18,
+                        "code": "KUBULUS",
+                        "star_system_id": 18
+                    }
+                },
+                {
+                    "id": 68,
+                    "code": "HANNAHT-ANTARA",
+                    "direction": "B",
+                    "entry_id": 21,
+                    "exit_id": 22,
+                    "name": null,
+                    "size": "M",
+                    "dashed": false,
+                    "entry": {
+                        "id": 21,
+                        "code": "HANNAHT",
+                        "star_system_id": 21
+                    },
+                    "exit": {
+                        "id": 22,
+                        "code": "ANTARA",
+                        "star_system_id": 22
+                    }
+                },
+                {
+                    "id": 69,
+                    "code": "NEWLEIPZIG-NBISMARK",
+                    "direction": "B",
+                    "entry_id": 19,
+                    "exit_id": 20,
+                    "name": null,
+                    "size": "M",
+                    "dashed": false,
+                    "entry": {
+                        "id": 19,
+                        "code": "NEWLEIPZIG",
+                        "star_system_id": 19
+                    },
+                    "exit": {
+                        "id": 20,
+                        "code": "NBISMARK",
+                        "star_system_id": 20
+                    }
+                },
+                {
+                    "id": 70,
+                    "code": "FLORIA-NBISMARK",
+                    "direction": "B",
+                    "entry_id": 50,
+                    "exit_id": 20,
+                    "name": null,
+                    "size": "M",
+                    "dashed": false,
+                    "entry": {
+                        "id": 50,
+                        "code": "FLORIA",
+                        "star_system_id": 50
+                    },
+                    "exit": {
+                        "id": 20,
+                        "code": "NBISMARK",
+                        "star_system_id": 20
+                    }
+                },
+                {
+                    "id": 71,
+                    "code": "SCRABBAD-FLORIA",
+                    "direction": "B",
+                    "entry_id": 9,
+                    "exit_id": 50,
+                    "name": null,
+                    "size": "M",
+                    "dashed": false,
+                    "entry": {
+                        "id": 9,
+                        "code": "SCRABBAD",
+                        "star_system_id": 9
+                    },
+                    "exit": {
+                        "id": 50,
+                        "code": "FLORIA",
+                        "star_system_id": 50
+                    }
+                },
+                {
+                    "id": 72,
+                    "code": "MIRKWOOD-SHARD",
+                    "direction": "B",
+                    "entry_id": 36,
+                    "exit_id": 69,
+                    "name": null,
+                    "size": "M",
+                    "dashed": true,
+                    "entry": {
+                        "id": 36,
+                        "code": "MIRKWOOD",
+                        "star_system_id": 36
+                    },
+                    "exit": {
+                        "id": 69,
+                        "code": "SHARD",
+                        "star_system_id": 69
+                    }
+                },
+                {
+                    "id": 73,
+                    "code": "SUPREMA-THEFOREST",
+                    "direction": "B",
+                    "entry_id": 65,
+                    "exit_id": 66,
+                    "name": null,
+                    "size": "M",
+                    "dashed": true,
+                    "entry": {
+                        "id": 65,
+                        "code": "SUPREMA",
+                        "star_system_id": 65
+                    },
+                    "exit": {
+                        "id": 66,
+                        "code": "THEFOREST",
+                        "star_system_id": 66
+                    }
+                },
+                {
+                    "id": 74,
+                    "code": "SUPREMA-VALINOR",
+                    "direction": "B",
+                    "entry_id": 65,
+                    "exit_id": 63,
+                    "name": null,
+                    "size": "M",
+                    "dashed": true,
+                    "entry": {
+                        "id": 65,
+                        "code": "SUPREMA",
+                        "star_system_id": 65
+                    },
+                    "exit": {
+                        "id": 63,
+                        "code": "VALINOR",
+                        "star_system_id": 63
+                    }
+                },
+                {
+                    "id": 75,
+                    "code": "SUPREMA-ROKANNON",
+                    "direction": "B",
+                    "entry_id": 65,
+                    "exit_id": 64,
+                    "name": null,
+                    "size": "M",
+                    "dashed": true,
+                    "entry": {
+                        "id": 65,
+                        "code": "SUPREMA",
+                        "star_system_id": 65
+                    },
+                    "exit": {
+                        "id": 64,
+                        "code": "ROKANNON",
+                        "star_system_id": 64
+                    }
+                },
+                {
+                    "id": 76,
+                    "code": "PELLA-OBLAKO",
+                    "direction": "B",
+                    "entry_id": 67,
+                    "exit_id": 72,
+                    "name": null,
+                    "size": "M",
+                    "dashed": true,
+                    "entry": {
+                        "id": 67,
+                        "code": "PELLA",
+                        "star_system_id": 67
+                    },
+                    "exit": {
+                        "id": 72,
+                        "code": "OBLAKO",
+                        "star_system_id": 72
+                    }
+                },
+                {
+                    "id": 77,
+                    "code": "OBLAKO-PIMON",
+                    "direction": "B",
+                    "entry_id": 72,
+                    "exit_id": 62,
+                    "name": null,
+                    "size": "M",
+                    "dashed": true,
+                    "entry": {
+                        "id": 72,
+                        "code": "OBLAKO",
+                        "star_system_id": 72
+                    },
+                    "exit": {
+                        "id": 62,
+                        "code": "PIMON",
+                        "star_system_id": 62
+                    }
+                },
+                {
+                    "id": 78,
+                    "code": "ESCALONA-ARKONIS",
+                    "direction": "B",
+                    "entry_id": 32,
+                    "exit_id": 30,
+                    "name": null,
+                    "size": "M",
+                    "dashed": true,
+                    "entry": {
+                        "id": 32,
+                        "code": "ESCALONA",
+                        "star_system_id": 32
+                    },
+                    "exit": {
+                        "id": 30,
+                        "code": "ARKONIS",
+                        "star_system_id": 30
+                    }
+                },
+                {
+                    "id": 79,
+                    "code": "TAIMYR-KCDX4",
+                    "direction": "B",
+                    "entry_id": 59,
+                    "exit_id": 58,
+                    "name": null,
+                    "size": "M",
+                    "dashed": true,
+                    "entry": {
+                        "id": 59,
+                        "code": "TAIMYR",
+                        "star_system_id": 59
+                    },
+                    "exit": {
+                        "id": 58,
+                        "code": "KCDX4",
+                        "star_system_id": 58
+                    }
+                },
+                {
+                    "id": 80,
+                    "code": "VEGA-KCDX4",
+                    "direction": "B",
+                    "entry_id": 1,
+                    "exit_id": 58,
+                    "name": null,
+                    "size": "M",
+                    "dashed": true,
+                    "entry": {
+                        "id": 1,
+                        "code": "VEGA",
+                        "star_system_id": 1
+                    },
+                    "exit": {
+                        "id": 58,
+                        "code": "KCDX4",
+                        "star_system_id": 58
+                    }
+                },
+                {
+                    "id": 81,
+                    "code": "FIN-KCDX4",
+                    "direction": "B",
+                    "entry_id": 60,
+                    "exit_id": 58,
+                    "name": null,
+                    "size": "M",
+                    "dashed": true,
+                    "entry": {
+                        "id": 60,
+                        "code": "FIN",
+                        "star_system_id": 60
+                    },
+                    "exit": {
+                        "id": 58,
+                        "code": "KCDX4",
+                        "star_system_id": 58
+                    }
+                },
+                {
+                    "id": 82,
+                    "code": "KCDX4-RAMMEKARTI",
+                    "direction": "B",
+                    "entry_id": 58,
+                    "exit_id": 70,
+                    "name": null,
+                    "size": "M",
+                    "dashed": true,
+                    "entry": {
+                        "id": 58,
+                        "code": "KCDX4",
+                        "star_system_id": 58
+                    },
+                    "exit": {
+                        "id": 70,
+                        "code": "RAMMEKARTI",
+                        "star_system_id": 70
+                    }
+                },
+                {
+                    "id": 83,
+                    "code": "KAREON-SOL",
+                    "direction": "B",
+                    "entry_id": 35,
+                    "exit_id": 3,
+                    "name": null,
+                    "size": "M",
+                    "dashed": false,
+                    "entry": {
+                        "id": 35,
+                        "code": "KAREON",
+                        "star_system_id": 35
+                    },
+                    "exit": {
+                        "id": 3,
+                        "code": "SOL",
+                        "star_system_id": 3
+                    }
+                },
+                {
+                    "id": 84,
+                    "code": "SIRIUS-SOL",
+                    "direction": "B",
+                    "entry_id": 2,
+                    "exit_id": 3,
+                    "name": null,
+                    "size": "M",
+                    "dashed": true,
+                    "entry": {
+                        "id": 2,
+                        "code": "SIRIUS",
+                        "star_system_id": 2
+                    },
+                    "exit": {
+                        "id": 3,
+                        "code": "SOL",
+                        "star_system_id": 3
+                    }
+                },
+                {
+                    "id": 85,
+                    "code": "SOL-MIRKWOOD",
+                    "direction": "B",
+                    "entry_id": 3,
+                    "exit_id": 36,
+                    "name": null,
+                    "size": "M",
+                    "dashed": true,
+                    "entry": {
+                        "id": 3,
+                        "code": "SOL",
+                        "star_system_id": 3
+                    },
+                    "exit": {
+                        "id": 36,
+                        "code": "MIRKWOOD",
+                        "star_system_id": 36
+                    }
+                },
+                {
+                    "id": 86,
+                    "code": "FLORIA-NEWHAWAI",
+                    "direction": "B",
+                    "entry_id": 50,
+                    "exit_id": 49,
+                    "name": null,
+                    "size": "M",
+                    "dashed": false,
+                    "entry": {
+                        "id": 50,
+                        "code": "FLORIA",
+                        "star_system_id": 50
+                    },
+                    "exit": {
+                        "id": 49,
+                        "code": "NEWHAWAI",
+                        "star_system_id": 49
+                    }
+                },
+                {
+                    "id": 87,
+                    "code": "FOMALHAUT-NEWHAWAI",
+                    "direction": "B",
+                    "entry_id": 26,
+                    "exit_id": 49,
+                    "name": null,
+                    "size": "M",
+                    "dashed": false,
+                    "entry": {
+                        "id": 26,
+                        "code": "FOMALHAUT",
+                        "star_system_id": 26
+                    },
+                    "exit": {
+                        "id": 49,
+                        "code": "NEWHAWAI",
+                        "star_system_id": 49
+                    }
+                },
+                {
+                    "id": 88,
+                    "code": "ANTARA-NEWHAWAI",
+                    "direction": "B",
+                    "entry_id": 22,
+                    "exit_id": 49,
+                    "name": null,
+                    "size": "M",
+                    "dashed": false,
+                    "entry": {
+                        "id": 22,
+                        "code": "ANTARA",
+                        "star_system_id": 22
+                    },
+                    "exit": {
+                        "id": 49,
+                        "code": "NEWHAWAI",
+                        "star_system_id": 49
+                    }
+                },
+                {
+                    "id": 89,
+                    "code": "SIRIUS-BRISTOL",
+                    "direction": "B",
+                    "entry_id": 2,
+                    "exit_id": 51,
+                    "name": null,
+                    "size": "M",
+                    "dashed": false,
+                    "entry": {
+                        "id": 2,
+                        "code": "SIRIUS",
+                        "star_system_id": 2
+                    },
+                    "exit": {
+                        "id": 51,
+                        "code": "BRISTOL",
+                        "star_system_id": 51
+                    }
+                },
+                {
+                    "id": 90,
+                    "code": "BRISTOL-AJODHJA",
+                    "direction": "B",
+                    "entry_id": 51,
+                    "exit_id": 73,
+                    "name": null,
+                    "size": "M",
+                    "dashed": false,
+                    "entry": {
+                        "id": 51,
+                        "code": "BRISTOL",
+                        "star_system_id": 51
+                    },
+                    "exit": {
+                        "id": 73,
+                        "code": "AJODHJA",
+                        "star_system_id": 73
+                    }
+                },
+                {
+                    "id": 91,
+                    "code": "BRISTOL-NIGHTWISH",
+                    "direction": "B",
+                    "entry_id": 51,
+                    "exit_id": 45,
+                    "name": null,
+                    "size": "M",
+                    "dashed": false,
+                    "entry": {
+                        "id": 51,
+                        "code": "BRISTOL",
+                        "star_system_id": 51
+                    },
+                    "exit": {
+                        "id": 45,
+                        "code": "NIGHTWISH",
+                        "star_system_id": 45
+                    }
+                },
+                {
+                    "id": 92,
+                    "code": "GAYA-ALMAH",
+                    "direction": "B",
+                    "entry_id": 44,
+                    "exit_id": 41,
+                    "name": null,
+                    "size": "M",
+                    "dashed": false,
+                    "entry": {
+                        "id": 44,
+                        "code": "GAYA",
+                        "star_system_id": 44
+                    },
+                    "exit": {
+                        "id": 41,
+                        "code": "ALMAH",
+                        "star_system_id": 41
+                    }
+                },
+                {
+                    "id": 93,
+                    "code": "ARDENN-ALMAH",
+                    "direction": "B",
+                    "entry_id": 42,
+                    "exit_id": 41,
+                    "name": null,
+                    "size": "M",
+                    "dashed": true,
+                    "entry": {
+                        "id": 42,
+                        "code": "ARDENN",
+                        "star_system_id": 42
+                    },
+                    "exit": {
+                        "id": 41,
+                        "code": "ALMAH",
+                        "star_system_id": 41
+                    }
+                },
+                {
+                    "id": 94,
+                    "code": "AVALON-ARDENN",
+                    "direction": "B",
+                    "entry_id": 43,
+                    "exit_id": 42,
+                    "name": null,
+                    "size": "M",
+                    "dashed": true,
+                    "entry": {
+                        "id": 43,
+                        "code": "AVALON",
+                        "star_system_id": 43
+                    },
+                    "exit": {
+                        "id": 42,
+                        "code": "ARDENN",
+                        "star_system_id": 42
+                    }
+                },
+                {
+                    "id": 95,
+                    "code": "ARDENN-AJODHJA",
+                    "direction": "B",
+                    "entry_id": 42,
+                    "exit_id": 73,
+                    "name": null,
+                    "size": "M",
+                    "dashed": false,
+                    "entry": {
+                        "id": 42,
+                        "code": "ARDENN",
+                        "star_system_id": 42
+                    },
+                    "exit": {
+                        "id": 73,
+                        "code": "AJODHJA",
+                        "star_system_id": 73
+                    }
+                },
+                {
+                    "id": 96,
+                    "code": "ITTEGOST-ARLISS",
+                    "direction": "B",
+                    "entry_id": 52,
+                    "exit_id": 53,
+                    "name": null,
+                    "size": "M",
+                    "dashed": true,
+                    "entry": {
+                        "id": 52,
+                        "code": "ITTEGOST",
+                        "star_system_id": 52
+                    },
+                    "exit": {
+                        "id": 53,
+                        "code": "ARLISS",
+                        "star_system_id": 53
+                    }
+                },
+                {
+                    "id": 97,
+                    "code": "ARLISS-SOLARIS",
+                    "direction": "B",
+                    "entry_id": 53,
+                    "exit_id": 37,
+                    "name": null,
+                    "size": "M",
+                    "dashed": false,
+                    "entry": {
+                        "id": 53,
+                        "code": "ARLISS",
+                        "star_system_id": 53
+                    },
+                    "exit": {
+                        "id": 37,
+                        "code": "SOLARIS",
+                        "star_system_id": 37
+                    }
+                },
+                {
+                    "id": 98,
+                    "code": "NIGHTWISH-GAYA",
+                    "direction": "B",
+                    "entry_id": 45,
+                    "exit_id": 44,
+                    "name": null,
+                    "size": "M",
+                    "dashed": false,
+                    "entry": {
+                        "id": 45,
+                        "code": "NIGHTWISH",
+                        "star_system_id": 45
+                    },
+                    "exit": {
+                        "id": 44,
+                        "code": "GAYA",
+                        "star_system_id": 44
+                    }
+                },
+                {
+                    "id": 99,
+                    "code": "SOLARIS-WRAITMIRE",
+                    "direction": "B",
+                    "entry_id": 37,
+                    "exit_id": 47,
+                    "name": null,
+                    "size": "M",
+                    "dashed": true,
+                    "entry": {
+                        "id": 37,
+                        "code": "SOLARIS",
+                        "star_system_id": 37
+                    },
+                    "exit": {
+                        "id": 47,
+                        "code": "WRAITMIRE",
+                        "star_system_id": 47
+                    }
+                },
+                {
+                    "id": 100,
+                    "code": "WRAITMIRE-NIGHTWISH",
+                    "direction": "B",
+                    "entry_id": 47,
+                    "exit_id": 45,
+                    "name": null,
+                    "size": "M",
+                    "dashed": false,
+                    "entry": {
+                        "id": 47,
+                        "code": "WRAITMIRE",
+                        "star_system_id": 47
+                    },
+                    "exit": {
+                        "id": 45,
+                        "code": "NIGHTWISH",
+                        "star_system_id": 45
+                    }
+                },
+                {
+                    "id": 101,
+                    "code": "KOLHIDA-WRAITMIRE",
+                    "direction": "B",
+                    "entry_id": 48,
+                    "exit_id": 47,
+                    "name": null,
+                    "size": "M",
+                    "dashed": true,
+                    "entry": {
+                        "id": 48,
+                        "code": "KOLHIDA",
+                        "star_system_id": 48
+                    },
+                    "exit": {
+                        "id": 47,
+                        "code": "WRAITMIRE",
+                        "star_system_id": 47
+                    }
+                },
+                {
+                    "id": 102,
+                    "code": "SOLARIS-LORDAERON",
+                    "direction": "B",
+                    "entry_id": 37,
+                    "exit_id": 38,
+                    "name": null,
+                    "size": "M",
+                    "dashed": true,
+                    "entry": {
+                        "id": 37,
+                        "code": "SOLARIS",
+                        "star_system_id": 37
+                    },
+                    "exit": {
+                        "id": 38,
+                        "code": "LORDAERON",
+                        "star_system_id": 38
+                    }
+                },
+                {
+                    "id": 103,
+                    "code": "LORDAERON-DINUR",
+                    "direction": "B",
+                    "entry_id": 38,
+                    "exit_id": 39,
+                    "name": null,
+                    "size": "M",
+                    "dashed": false,
+                    "entry": {
+                        "id": 38,
+                        "code": "LORDAERON",
+                        "star_system_id": 38
+                    },
+                    "exit": {
+                        "id": 39,
+                        "code": "DINUR",
+                        "star_system_id": 39
+                    }
+                },
+                {
+                    "id": 104,
+                    "code": "JORK-NIGHTWISH",
+                    "direction": "B",
+                    "entry_id": 46,
+                    "exit_id": 45,
+                    "name": null,
+                    "size": "M",
+                    "dashed": false,
+                    "entry": {
+                        "id": 46,
+                        "code": "JORK",
+                        "star_system_id": 46
+                    },
+                    "exit": {
+                        "id": 45,
+                        "code": "NIGHTWISH",
+                        "star_system_id": 45
+                    }
+                },
+                {
+                    "id": 105,
+                    "code": "SOLARIS-JORK",
+                    "direction": "B",
+                    "entry_id": 37,
+                    "exit_id": 46,
+                    "name": null,
+                    "size": "M",
+                    "dashed": false,
+                    "entry": {
+                        "id": 37,
+                        "code": "SOLARIS",
+                        "star_system_id": 37
+                    },
+                    "exit": {
+                        "id": 46,
+                        "code": "JORK",
+                        "star_system_id": 46
+                    }
+                },
+                {
+                    "id": 106,
+                    "code": "DINUR-ACHERON",
+                    "direction": "B",
+                    "entry_id": 39,
+                    "exit_id": 40,
+                    "name": null,
+                    "size": "M",
+                    "dashed": true,
+                    "entry": {
+                        "id": 39,
+                        "code": "DINUR",
+                        "star_system_id": 39
+                    },
+                    "exit": {
+                        "id": 40,
+                        "code": "ACHERON",
+                        "star_system_id": 40
+                    }
+                },
+                {
+                    "id": 107,
+                    "code": "DINUR-ALMAH",
+                    "direction": "B",
+                    "entry_id": 39,
+                    "exit_id": 41,
+                    "name": null,
+                    "size": "M",
+                    "dashed": true,
+                    "entry": {
+                        "id": 39,
+                        "code": "DINUR",
+                        "star_system_id": 39
+                    },
+                    "exit": {
+                        "id": 41,
+                        "code": "ALMAH",
+                        "star_system_id": 41
+                    }
+                },
+                {
+                    "id": 108,
+                    "code": "ACHERON-ALMAH",
+                    "direction": "B",
+                    "entry_id": 40,
+                    "exit_id": 41,
+                    "name": null,
+                    "size": "M",
+                    "dashed": true,
+                    "entry": {
+                        "id": 40,
+                        "code": "ACHERON",
+                        "star_system_id": 40
+                    },
+                    "exit": {
+                        "id": 41,
+                        "code": "ALMAH",
+                        "star_system_id": 41
+                    }
+                },
+                {
+                    "id": 109,
+                    "code": "BRISTOL-ITTEGOST",
+                    "direction": "B",
+                    "entry_id": 51,
+                    "exit_id": 52,
+                    "name": null,
+                    "size": "M",
+                    "dashed": true,
+                    "entry": {
+                        "id": 51,
+                        "code": "BRISTOL",
+                        "star_system_id": 51
+                    },
+                    "exit": {
+                        "id": 52,
+                        "code": "ITTEGOST",
+                        "star_system_id": 52
+                    }
+                }
+            ]
+        },
+        "species": {
+            "resultset": []
+        },
+        "affiliations": {
+            "resultset": []
+        }
+    }
+}

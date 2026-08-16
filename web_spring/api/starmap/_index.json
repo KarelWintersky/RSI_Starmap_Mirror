@@ -1,0 +1,589 @@
+{
+    "systems": [
+        {
+            "id": 40,
+            "code": "ACHERON",
+            "name": "V-AMD5",
+            "designation": null,
+            "type": "SINGLE_STAR",
+            "star_system_id": 40
+        },
+        {
+            "id": 73,
+            "code": "AJODHJA",
+            "name": "Айодхья",
+            "designation": null,
+            "type": "SINGLE_STAR",
+            "star_system_id": 73
+        },
+        {
+            "id": 57,
+            "code": "ALBERTA",
+            "name": "Альберта",
+            "designation": null,
+            "type": "SINGLE_STAR",
+            "star_system_id": 57
+        },
+        {
+            "id": 41,
+            "code": "ALMAH",
+            "name": "Альмах",
+            "designation": null,
+            "type": "SINGLE_STAR",
+            "star_system_id": 41
+        },
+        {
+            "id": 22,
+            "code": "ANTARA",
+            "name": "Антара",
+            "designation": null,
+            "type": "SINGLE_STAR",
+            "star_system_id": 22
+        },
+        {
+            "id": 42,
+            "code": "ARDENN",
+            "name": "Арденн",
+            "designation": null,
+            "type": "SINGLE_STAR",
+            "star_system_id": 42
+        },
+        {
+            "id": 55,
+            "code": "ARGOSTROLION",
+            "name": "Аргостолион",
+            "designation": null,
+            "type": "SINGLE_STAR",
+            "star_system_id": 55
+        },
+        {
+            "id": 30,
+            "code": "ARKONIS",
+            "name": "H-ADOC",
+            "designation": null,
+            "type": "SINGLE_STAR",
+            "star_system_id": 30
+        },
+        {
+            "id": 53,
+            "code": "ARLISS",
+            "name": "Арлисс",
+            "designation": null,
+            "type": "SINGLE_STAR",
+            "star_system_id": 53
+        },
+        {
+            "id": 34,
+            "code": "ARRAKIS",
+            "name": "Арракис",
+            "designation": null,
+            "type": "SINGLE_STAR",
+            "star_system_id": 34
+        },
+        {
+            "id": 15,
+            "code": "ASADAL",
+            "name": "Асадаль",
+            "designation": null,
+            "type": "SINGLE_STAR",
+            "star_system_id": 15
+        },
+        {
+            "id": 16,
+            "code": "ASTRA",
+            "name": "Астра",
+            "designation": null,
+            "type": "SINGLE_STAR",
+            "star_system_id": 16
+        },
+        {
+            "id": 43,
+            "code": "AVALON",
+            "name": "Авалон",
+            "designation": null,
+            "type": "SINGLE_STAR",
+            "star_system_id": 43
+        },
+        {
+            "id": 51,
+            "code": "BRISTOL",
+            "name": "Бристоль",
+            "designation": null,
+            "type": "SINGLE_STAR",
+            "star_system_id": 51
+        },
+        {
+            "id": 54,
+            "code": "CHUMATAKTION",
+            "name": "Чуматактион",
+            "designation": null,
+            "type": "SINGLE_STAR",
+            "star_system_id": 54
+        },
+        {
+            "id": 4,
+            "code": "DALLAS",
+            "name": "Даллас",
+            "designation": null,
+            "type": "SINGLE_STAR",
+            "star_system_id": 4
+        },
+        {
+            "id": 39,
+            "code": "DINUR",
+            "name": "Динур",
+            "designation": null,
+            "type": "SINGLE_STAR",
+            "star_system_id": 39
+        },
+        {
+            "id": 25,
+            "code": "ELLADA",
+            "name": "Эллада",
+            "designation": null,
+            "type": "SINGLE_STAR",
+            "star_system_id": 25
+        },
+        {
+            "id": 32,
+            "code": "ESCALONA",
+            "name": "Эскалона",
+            "designation": null,
+            "type": "SINGLE_STAR",
+            "star_system_id": 32
+        },
+        {
+            "id": 60,
+            "code": "FIN",
+            "name": "Фин",
+            "designation": null,
+            "type": "SINGLE_STAR",
+            "star_system_id": 60
+        },
+        {
+            "id": 50,
+            "code": "FLORIA",
+            "name": "Флория",
+            "designation": null,
+            "type": "SINGLE_STAR",
+            "star_system_id": 50
+        },
+        {
+            "id": 26,
+            "code": "FOMALHAUT",
+            "name": "Фомальгаут",
+            "designation": null,
+            "type": "SINGLE_STAR",
+            "star_system_id": 26
+        },
+        {
+            "id": 29,
+            "code": "FORTHOPE",
+            "name": "Форт-Надежда",
+            "designation": null,
+            "type": "SINGLE_STAR",
+            "star_system_id": 29
+        },
+        {
+            "id": 11,
+            "code": "FROST",
+            "name": "Фрост",
+            "designation": null,
+            "type": "SINGLE_STAR",
+            "star_system_id": 11
+        },
+        {
+            "id": 33,
+            "code": "GANDER",
+            "name": "Гандэр",
+            "designation": null,
+            "type": "SINGLE_STAR",
+            "star_system_id": 33
+        },
+        {
+            "id": 23,
+            "code": "GARVINI",
+            "name": "CL-85V",
+            "designation": null,
+            "type": "SINGLE_STAR",
+            "star_system_id": 23
+        },
+        {
+            "id": 44,
+            "code": "GAYA",
+            "name": "Гайя",
+            "designation": null,
+            "type": "SINGLE_STAR",
+            "star_system_id": 44
+        },
+        {
+            "id": 21,
+            "code": "HANNAHT",
+            "name": "Ханнахт",
+            "designation": null,
+            "type": "SINGLE_STAR",
+            "star_system_id": 21
+        },
+        {
+            "id": 24,
+            "code": "HEYAN",
+            "name": "Хэйан",
+            "designation": null,
+            "type": "SINGLE_STAR",
+            "star_system_id": 24
+        },
+        {
+            "id": 52,
+            "code": "ITTEGOST",
+            "name": "Иттегост",
+            "designation": null,
+            "type": "SINGLE_STAR",
+            "star_system_id": 52
+        },
+        {
+            "id": 46,
+            "code": "JORK",
+            "name": "Йорк",
+            "designation": null,
+            "type": "SINGLE_STAR",
+            "star_system_id": 46
+        },
+        {
+            "id": 35,
+            "code": "KAREON",
+            "name": "Кареон",
+            "designation": null,
+            "type": "SINGLE_STAR",
+            "star_system_id": 35
+        },
+        {
+            "id": 58,
+            "code": "KCDX4",
+            "name": "KCD-X4",
+            "designation": null,
+            "type": "SINGLE_STAR",
+            "star_system_id": 58
+        },
+        {
+            "id": 17,
+            "code": "KITEG",
+            "name": "Китеж",
+            "designation": null,
+            "type": "SINGLE_STAR",
+            "star_system_id": 17
+        },
+        {
+            "id": 48,
+            "code": "KOLHIDA",
+            "name": "Колхида",
+            "designation": null,
+            "type": "SINGLE_STAR",
+            "star_system_id": 48
+        },
+        {
+            "id": 18,
+            "code": "KUBULUS",
+            "name": "Кубулус",
+            "designation": null,
+            "type": "SINGLE_STAR",
+            "star_system_id": 18
+        },
+        {
+            "id": 38,
+            "code": "LORDAERON",
+            "name": "Лордаэрон",
+            "designation": null,
+            "type": "SINGLE_STAR",
+            "star_system_id": 38
+        },
+        {
+            "id": 31,
+            "code": "MADRA",
+            "name": "Мадра",
+            "designation": null,
+            "type": "SINGLE_STAR",
+            "star_system_id": 31
+        },
+        {
+            "id": 56,
+            "code": "MARUKKU",
+            "name": "Марукку",
+            "designation": null,
+            "type": "SINGLE_STAR",
+            "star_system_id": 56
+        },
+        {
+            "id": 14,
+            "code": "MIKOVARRO",
+            "name": "Миковарро",
+            "designation": null,
+            "type": "SINGLE_STAR",
+            "star_system_id": 14
+        },
+        {
+            "id": 36,
+            "code": "MIRKWOOD",
+            "name": "Мирквуд",
+            "designation": null,
+            "type": "SINGLE_STAR",
+            "star_system_id": 36
+        },
+        {
+            "id": 20,
+            "code": "NBISMARK",
+            "name": "Neuer Bismarck",
+            "designation": null,
+            "type": "SINGLE_STAR",
+            "star_system_id": 20
+        },
+        {
+            "id": 61,
+            "code": "NEQUADOR",
+            "name": "Новый Эквадор",
+            "designation": null,
+            "type": "SINGLE_STAR",
+            "star_system_id": 61
+        },
+        {
+            "id": 6,
+            "code": "NEVEMORE",
+            "name": "Невемор",
+            "designation": null,
+            "type": "SINGLE_STAR",
+            "star_system_id": 6
+        },
+        {
+            "id": 27,
+            "code": "NEWFRANCE",
+            "name": "НоваяФранция",
+            "designation": null,
+            "type": "SINGLE_STAR",
+            "star_system_id": 27
+        },
+        {
+            "id": 49,
+            "code": "NEWHAWAI",
+            "name": "Нью-Гаваи",
+            "designation": null,
+            "type": "SINGLE_STAR",
+            "star_system_id": 49
+        },
+        {
+            "id": 19,
+            "code": "NEWLEIPZIG",
+            "name": "НовыйЛейпциг",
+            "designation": null,
+            "type": "SINGLE_STAR",
+            "star_system_id": 19
+        },
+        {
+            "id": 45,
+            "code": "NIGHTWISH",
+            "name": "Найтвиш",
+            "designation": null,
+            "type": "SINGLE_STAR",
+            "star_system_id": 45
+        },
+        {
+            "id": 72,
+            "code": "OBLAKO",
+            "name": "Облако",
+            "designation": null,
+            "type": "SINGLE_STAR",
+            "star_system_id": 72
+        },
+        {
+            "id": 13,
+            "code": "OLSTER",
+            "name": "Ольстер",
+            "designation": null,
+            "type": "SINGLE_STAR",
+            "star_system_id": 13
+        },
+        {
+            "id": 67,
+            "code": "PELLA",
+            "name": "Пелла",
+            "designation": null,
+            "type": "SINGLE_STAR",
+            "star_system_id": 67
+        },
+        {
+            "id": 8,
+            "code": "PHOENIX",
+            "name": "XX9-WV",
+            "designation": null,
+            "type": "SINGLE_STAR",
+            "star_system_id": 8
+        },
+        {
+            "id": 62,
+            "code": "PIMON",
+            "name": "Пимон",
+            "designation": null,
+            "type": "SINGLE_STAR",
+            "star_system_id": 62
+        },
+        {
+            "id": 71,
+            "code": "RADJYA",
+            "name": "Раджья",
+            "designation": null,
+            "type": "SINGLE_STAR",
+            "star_system_id": 71
+        },
+        {
+            "id": 70,
+            "code": "RAMMEKARTI",
+            "name": "Раммекарти",
+            "designation": null,
+            "type": "SINGLE_STAR",
+            "star_system_id": 70
+        },
+        {
+            "id": 5,
+            "code": "RINGTAIL",
+            "name": "Рингтейл",
+            "designation": null,
+            "type": "SINGLE_STAR",
+            "star_system_id": 5
+        },
+        {
+            "id": 64,
+            "code": "ROKANNON",
+            "name": "Роканнон",
+            "designation": null,
+            "type": "SINGLE_STAR",
+            "star_system_id": 64
+        },
+        {
+            "id": 9,
+            "code": "SCRABBAD",
+            "name": "Скраббад",
+            "designation": null,
+            "type": "SINGLE_STAR",
+            "star_system_id": 9
+        },
+        {
+            "id": 68,
+            "code": "SHANTIER",
+            "name": "Шантьер",
+            "designation": null,
+            "type": "SINGLE_STAR",
+            "star_system_id": 68
+        },
+        {
+            "id": 69,
+            "code": "SHARD",
+            "name": "Шард",
+            "designation": null,
+            "type": "SINGLE_STAR",
+            "star_system_id": 69
+        },
+        {
+            "id": 2,
+            "code": "SIRIUS",
+            "name": "Сириус",
+            "designation": null,
+            "type": "SINGLE_STAR",
+            "star_system_id": 2
+        },
+        {
+            "id": 3,
+            "code": "SOL",
+            "name": "Солнце",
+            "designation": null,
+            "type": "SINGLE_STAR",
+            "star_system_id": 3
+        },
+        {
+            "id": 37,
+            "code": "SOLARIS",
+            "name": "Солярис",
+            "designation": null,
+            "type": "SINGLE_STAR",
+            "star_system_id": 37
+        },
+        {
+            "id": 12,
+            "code": "STONEHAVEN",
+            "name": "Стоунхэйвен",
+            "designation": null,
+            "type": "SINGLE_STAR",
+            "star_system_id": 12
+        },
+        {
+            "id": 65,
+            "code": "SUPREMA",
+            "name": "Suprema",
+            "designation": null,
+            "type": "SINGLE_STAR",
+            "star_system_id": 65
+        },
+        {
+            "id": 59,
+            "code": "TAIMYR",
+            "name": "Таймыр",
+            "designation": null,
+            "type": "SINGLE_STAR",
+            "star_system_id": 59
+        },
+        {
+            "id": 7,
+            "code": "TERRONUS",
+            "name": "K-MGJ7",
+            "designation": null,
+            "type": "SINGLE_STAR",
+            "star_system_id": 7
+        },
+        {
+            "id": 66,
+            "code": "THEFOREST",
+            "name": "Лес",
+            "designation": null,
+            "type": "SINGLE_STAR",
+            "star_system_id": 66
+        },
+        {
+            "id": 63,
+            "code": "VALINOR",
+            "name": "Валинор",
+            "designation": null,
+            "type": "SINGLE_STAR",
+            "star_system_id": 63
+        },
+        {
+            "id": 28,
+            "code": "VAYLE",
+            "name": "Вайл",
+            "designation": null,
+            "type": "SINGLE_STAR",
+            "star_system_id": 28
+        },
+        {
+            "id": 1,
+            "code": "VEGA",
+            "name": "Вега",
+            "designation": null,
+            "type": "SINGLE_STAR",
+            "star_system_id": 1
+        },
+        {
+            "id": 10,
+            "code": "VOLANDIS",
+            "name": "Воландис",
+            "designation": null,
+            "type": "SINGLE_STAR",
+            "star_system_id": 10
+        },
+        {
+            "id": 47,
+            "code": "WRAITMIRE",
+            "name": "Райтмир",
+            "designation": null,
+            "type": "SINGLE_STAR",
+            "star_system_id": 47
+        }
+    ],
+    "objects": []
+}

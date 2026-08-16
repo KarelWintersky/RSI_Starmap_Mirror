@@ -1,0 +1,177 @@
+{
+    "success": 1,
+    "code": "OK",
+    "msg": "OK",
+    "data": {
+        "resultset": [
+            {
+                "id": 3,
+                "code": "GAMMA",
+                "name": "Gamma",
+                "type": "SINGLE_STAR",
+                "description": "Жёлтая звезда, станция-форпост перед системой Чёрной Дыры.",
+                "position_x": 130,
+                "position_y": 0,
+                "position_z": -20,
+                "habitable_zone_inner": 0.6,
+                "habitable_zone_outer": 1.1,
+                "frost_line": 2.2,
+                "oort_radius": 30,
+                "status": "P",
+                "affiliation": [
+                    {
+                        "id": 1,
+                        "code": "myfaction",
+                        "color": "#48bbd4",
+                        "name": "My Faction"
+                    }
+                ],
+                "celestial_objects": [
+                    {
+                        "id": 300,
+                        "code": "GAMMA.STAR.GAMMA",
+                        "name": "Gamma",
+                        "designation": null,
+                        "type": "STAR",
+                        "appearance": "DEFAULT",
+                        "parent_id": null,
+                        "distance": 0,
+                        "latitude": 0,
+                        "longitude": 0,
+                        "size": 1.9,
+                        "show_label": true,
+                        "show_orbitlines": false,
+                        "shader_data": {
+                            "sun": {
+                                "color1": "#ffd27a",
+                                "color2": "#fff7d6"
+                            }
+                        },
+                        "habitable": false,
+                        "description": null,
+                        "affiliation": []
+                    },
+                    {
+                        "id": 301,
+                        "code": "GAMMA.PLANETS.GAEL",
+                        "name": "Gael",
+                        "designation": "Gamma I",
+                        "type": "PLANET",
+                        "appearance": "PLANET_BLUE",
+                        "parent_id": 300,
+                        "distance": 0.9,
+                        "latitude": -2,
+                        "longitude": 30,
+                        "size": 5800,
+                        "show_label": true,
+                        "show_orbitlines": true,
+                        "shader_data": null,
+                        "habitable": true,
+                        "description": null,
+                        "affiliation": [],
+                        "texture": {
+                            "slug": "t",
+                            "source": "/media/planet-one.jpg",
+                            "images": []
+                        }
+                    },
+                    {
+                        "id": 302,
+                        "code": "GAMMA.MANMADE.OUTPOST",
+                        "name": "Forward Outpost",
+                        "designation": null,
+                        "type": "MANMADE",
+                        "appearance": "DEFAULT",
+                        "parent_id": 300,
+                        "distance": 0.45,
+                        "latitude": -6,
+                        "longitude": -140,
+                        "size": 1.2,
+                        "show_label": true,
+                        "show_orbitlines": true,
+                        "shader_data": null,
+                        "habitable": false,
+                        "description": null,
+                        "affiliation": []
+                    },
+                    {
+                        "id": 303,
+                        "code": "GAMMA.BELTS.GAMMA",
+                        "name": "Gamma Belt",
+                        "designation": null,
+                        "type": "ASTEROID_BELT",
+                        "appearance": "DEFAULT",
+                        "parent_id": 300,
+                        "distance": 2,
+                        "latitude": 0,
+                        "longitude": 0,
+                        "size": 1,
+                        "show_label": true,
+                        "show_orbitlines": false,
+                        "shader_data": null,
+                        "habitable": false,
+                        "description": null,
+                        "affiliation": []
+                    },
+                    {
+                        "id": 304,
+                        "code": "GAMMA.JUMPPOINTS.BETA",
+                        "name": null,
+                        "designation": "Gamma - Beta",
+                        "type": "JUMPPOINT",
+                        "appearance": "DEFAULT",
+                        "parent_id": 300,
+                        "distance": 5,
+                        "latitude": -3,
+                        "longitude": 110,
+                        "size": 0,
+                        "show_label": true,
+                        "show_orbitlines": false,
+                        "shader_data": null,
+                        "habitable": false,
+                        "description": null,
+                        "affiliation": []
+                    },
+                    {
+                        "id": 305,
+                        "code": "GAMMA.JUMPPOINTS.VOID",
+                        "name": null,
+                        "designation": "Gamma - Void",
+                        "type": "JUMPPOINT",
+                        "appearance": "DEFAULT",
+                        "parent_id": 300,
+                        "distance": 7,
+                        "latitude": 5,
+                        "longitude": -90,
+                        "size": 0,
+                        "show_label": true,
+                        "show_orbitlines": false,
+                        "shader_data": null,
+                        "habitable": false,
+                        "description": null,
+                        "affiliation": []
+                    },
+                    {
+                        "id": 306,
+                        "code": "GAMMA.OORT",
+                        "name": "Gamma Oort Cloud",
+                        "designation": null,
+                        "type": "OORT",
+                        "appearance": "DEFAULT",
+                        "parent_id": 300,
+                        "distance": 30,
+                        "latitude": 0,
+                        "longitude": 0,
+                        "size": 1,
+                        "show_label": false,
+                        "show_orbitlines": false,
+                        "shader_data": null,
+                        "habitable": false,
+                        "description": null,
+                        "affiliation": []
+                    }
+                ]
+            }
+        ]
+    }
+}

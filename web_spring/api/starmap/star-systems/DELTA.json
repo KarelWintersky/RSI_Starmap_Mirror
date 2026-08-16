@@ -1,0 +1,89 @@
+{
+    "success": 1,
+    "code": "OK",
+    "msg": "OK",
+    "data": {
+        "resultset": [
+            {
+                "id": 5,
+                "code": "DELTA",
+                "name": "Delta",
+                "type": "SINGLE_STAR",
+                "description": "Холодный красный карлик, почти мёртвая система.",
+                "position_x": -90,
+                "position_y": 0,
+                "position_z": 20,
+                "habitable_zone_inner": 0.2,
+                "habitable_zone_outer": 0.5,
+                "frost_line": 1,
+                "oort_radius": 25,
+                "status": "P",
+                "affiliation": [],
+                "celestial_objects": [
+                    {
+                        "id": 500,
+                        "code": "DELTA.STAR.DELTA",
+                        "name": "Delta",
+                        "designation": null,
+                        "type": "STAR",
+                        "appearance": "DEFAULT",
+                        "parent_id": null,
+                        "distance": 0,
+                        "latitude": 0,
+                        "longitude": 0,
+                        "size": 1.2,
+                        "show_label": true,
+                        "show_orbitlines": false,
+                        "shader_data": {
+                            "sun": {
+                                "color1": "#ff9d7a",
+                                "color2": "#ffd9c8"
+                            }
+                        },
+                        "habitable": false,
+                        "description": null,
+                        "affiliation": []
+                    },
+                    {
+                        "id": 501,
+                        "code": "DELTA.JUMPPOINTS.ALPHA",
+                        "name": null,
+                        "designation": "Delta - Alpha",
+                        "type": "JUMPPOINT",
+                        "appearance": "DEFAULT",
+                        "parent_id": 500,
+                        "distance": 4,
+                        "latitude": 0,
+                        "longitude": 0,
+                        "size": 0,
+                        "show_label": true,
+                        "show_orbitlines": false,
+                        "shader_data": null,
+                        "habitable": false,
+                        "description": null,
+                        "affiliation": []
+                    },
+                    {
+                        "id": 502,
+                        "code": "DELTA.OORT",
+                        "name": "Delta Oort Cloud",
+                        "designation": null,
+                        "type": "OORT",
+                        "appearance": "DEFAULT",
+                        "parent_id": 500,
+                        "distance": 25,
+                        "latitude": 0,
+                        "longitude": 0,
+                        "size": 1,
+                        "show_label": false,
+                        "show_orbitlines": false,
+                        "shader_data": null,
+                        "habitable": false,
+                        "description": null,
+                        "affiliation": []
+                    }
+                ]
+            }
+        ]
+    }
+}

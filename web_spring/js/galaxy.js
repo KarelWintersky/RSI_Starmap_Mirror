@@ -47,7 +47,7 @@ export class GalaxyScene {
     const starSize = cfg.galaxyStarSize || 2.5;
     for (const s of systems) {
       const p = pos.get(s.code);
-      const color = s.affiliation?.[0]?.color || '#cfd8ff';
+      const color = s.color || s.affiliation?.[0]?.color || '#cfd8ff';
       const sprite = makeGlowSprite(color, starSize);
       sprite.position.copy(p);
       sprite.userData.system = s;
@@ -69,10 +69,26 @@ export class GalaxyScene {
       const b = this.systemSprites.get(this.systemCodeOf(t.exit?.code));
       if (!a || !b) continue;
       const geo = new THREE.BufferGeometry().setFromPoints([a.position, b.position]);
-      const line = new THREE.Line(
-        geo,
-        new THREE.LineBasicMaterial({ color: '#35506e', transparent: true, opacity: 0.35, depthWrite: false }),
-      );
+      let line;
+      if (t.dashed) {
+        line = new THREE.Line(
+          geo,
+          new THREE.LineDashedMaterial({
+            color: '#48618c',
+            dashSize: 5,
+            gapSize: 7,
+            transparent: true,
+            opacity: 0.4,
+            depthWrite: false,
+          }),
+        );
+        line.computeLineDistances();
+      } else {
+        line = new THREE.Line(
+          geo,
+          new THREE.LineBasicMaterial({ color: '#35506e', transparent: true, opacity: 0.35, depthWrite: false }),
+        );
+      }
       this.group.add(line);
     }
   }
