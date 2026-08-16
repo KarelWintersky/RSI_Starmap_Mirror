@@ -427,6 +427,16 @@ final class StarmapGrabber
             $page
         );
 
+        // предзагрузка шрифта: движок ждёт Electrolize (FontDetect, msTimeout=2000)
+        // перед t.start(); без preload в медленных условиях старт может не случиться.
+        if (!str_contains($page, '/static/fonts/electrolize/Electrolize-Regular.woff2" as="font"')) {
+            $page = str_replace(
+                'href="/assets/fonts.css"',
+                "href=\"/assets/fonts.css\"\n  <link rel=\"preload\" href=\"/static/fonts/electrolize/Electrolize-Regular.woff2\" as=\"font\" type=\"font/woff2\" crossorigin>",
+                $page
+            );
+        }
+
         $out = Util::webPath('index.html');
         file_put_contents($out, $page);
         Util::out('build: web/index.html');
@@ -445,8 +455,37 @@ final class StarmapGrabber
             '/static/starmap',
             $content
         );
+        $content = $this->patchBundle($content);
         file_put_contents($src, $content);
         Util::out('build: starmap.bundle.js (resourcePath -> /static/starmap)');
+    }
+
+    /**
+     * UX-патчи движка. Идемпотентно: каждый патч применяется только если
+     * ещё не был применён.
+     */
+    private function patchBundle(string $content): string
+    {
+        // клик по пустому месту в системе/на объекте больше не «вылетает» сразу:
+        // zoom out теперь только по двойному клику (окно 400 мс)
+        $from = 'this.defaultSelectNothing=function(e){t.goal.isGalacticView&&2===e.button?t.releaseSystemPivot():t.goal.isPlanetaryView?t.gotoSystemView().setSystemCode(t.goal.systemCode):t.gotoGalacticView()}';
+        $to = 'this.defaultSelectNothing=function(e){if(t.goal.isGalacticView&&2===e.button)t.releaseSystemPivot();else if(t.goal.isGalacticView)t.gotoGalacticView();else{var n=Date.now();t._dblClickTime&&n-t._dblClickTime<400?(t._dblClickTime=0,t.goal.isPlanetaryView?t.gotoSystemView().setSystemCode(t.goal.systemCode):t.gotoGalacticView()):t._dblClickTime=n}}';
+        if (str_contains($content, $from)) {
+            $content = str_replace($from, $to, $content);
+            Util::out('build: патч движка — zoom out по двойному клику (controlAPI)');
+        }
+
+        // Второй путь выхода: старый API переизлучает selectNothing в CustomEvent
+        // "select:none", который слушает View (_onSelectNone) и при скрытом диске
+        // вызывает goToParentLocation() -> gotoGalacticView() сразу на один клик.
+        // Ограничиваем навигацию двойным кликом (окно 400 мс).
+        $from = '{key:"_onSelectNone",value:function(t){t.detail.mouseButton===m.default.Mouse.LEFT_BUTTON?this._disc.hidden?this.model.goToParentLocation(this.model.get("location")):(this._disc.hidden=!0,this._trackingDisc=!1,this.model.unselectLocation()):this._disc.hidden||(this._disc.hidden=!0,this._trackingDisc=!1,this.model.unselectLocation())}}';
+        $to = '{key:"_onSelectNone",value:function(t){if(t.detail.mouseButton===m.default.Mouse.LEFT_BUTTON){if(this._disc.hidden){var n=Date.now();if(this._noneDblClick&&n-this._noneDblClick<400)this._noneDblClick=0,this.model.goToParentLocation(this.model.get("location"));else this._noneDblClick=n}else this._disc.hidden=!0,this._trackingDisc=!1,this.model.unselectLocation()}else this._disc.hidden||(this._disc.hidden=!0,this._trackingDisc=!1,this.model.unselectLocation())}}';
+        if (str_contains($content, $from)) {
+            $content = str_replace($from, $to, $content);
+            Util::out('build: патч движка — zoom out по двойному клику (_onSelectNone)');
+        }
+        return $content;
     }
 
     private function rewriteCss(string $path, string $from, string $to): void

@@ -260,9 +260,12 @@ final class HttpClient
                     if ($err === null && $code >= 200 && $code < 300) {
                         rename($tmp, $path);
                         $ok[] = $path;
+                        $size = is_file($path) ? (int) filesize($path) : 0;
+                        Util::out(sprintf('  ✓ %s (%s)', $path, Util::bytes($size)));
                     } else {
                         @unlink($tmp);
                         $fail[] = ['url' => $task['url'], 'err' => $err, 'code' => $code];
+                        Util::err(sprintf('  ✗ %s (%s)', $task['url'], $err ?? 'HTTP ' . $code));
                     }
 
                     if ($idx < count($tasks)) {

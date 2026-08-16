@@ -48,6 +48,12 @@ all: fetch index assets media build ##@setup Полная сборка: данн
 serve:  ##@run Поднять локальный сервер офлайн-зеркала. Порт: make serve PORT=9000
 	$(PHP) grab.php serve $(PORT)
 
+demo:   ##@run Поднять демо-песочницу на данных своего сеттинга (web_demo/). Порт: make demo PORT=8099
+	$(PHP) -S 0.0.0.0:$(PORT) web_demo/server.php
+
+demo-data: ##@setup Перегенерировать данные демо (web_demo/api/starmap) из web_demo/make_data.php
+	$(PHP) web_demo/make_data.php
+
 ##@ Проверки
 lint:   ##@check Проверить синтаксис всех PHP-файлов проекта
 	find . -name '*.php' -not -path './vendor/*' -print0 | xargs -0 -n1 $(PHP) -l

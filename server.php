@@ -17,9 +17,20 @@ require __DIR__ . '/src/StarmapGrabber.php';
 require __DIR__ . '/src/OfflineRouter.php';
 require __DIR__ . '/src/StarmapLocalSearch.php';
 
-$web = realpath(__DIR__ . '/web') ?: (__DIR__ . '/web');
+// Корень зеркала: по умолчанию web/, можно переопределить env STARMAP_WEB
+// (используется web_demo/server.php для запуска демо на своих данных).
+$webRoot = getenv('STARMAP_WEB') ?: __DIR__ . '/web';
+$web = realpath($webRoot) ?: $webRoot;
 $uri = rawurldecode((string) parse_url($_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH));
 $method = $_SERVER['REQUEST_METHOD'] ?? 'GET';
+
+// Отладочный лог запросов: STARMAP_LOG=/path/log.txt
+$debugLog = getenv('STARMAP_LOG');
+if ($debugLog) {
+    $srv = $_SERVER['SERVER_ADDR'] ?? '-';
+    $line = sprintf("[%s] %s %s (%s:%d)\n", date('H:i:s'), $method, $uri, $srv, $_SERVER['REMOTE_PORT'] ?? 0);
+    @file_put_contents($debugLog, $line, FILE_APPEND);
+}
 
 // ------------------------------------------------ статические файлы
 $safe = static function (string $path): bool {
@@ -68,6 +79,19 @@ if ($uri === '/en/starmap' || $uri === '/starmap' || $uri === '/' || $uri === '/
     } else {
         http_response_code(404);
         echo 'Нет web/index.html. Запустите: php grab.php all';
+    }
+    exit;
+}
+
+// dev-страница: грузит распакованный (де-минифицированный) бандл
+if ($uri === '/starmap-dev' || $uri === '/index_dev.html' || $uri === '/dev') {
+    header('Content-Type: text/html; charset=utf-8');
+    $f = $web . '/index_dev.html';
+    if (is_file($f)) {
+        readfile($f);
+    } else {
+        http_response_code(404);
+        echo 'Нет web/index_dev.html. См. web/static/starmap/UNPACKED.md';
     }
     exit;
 }
