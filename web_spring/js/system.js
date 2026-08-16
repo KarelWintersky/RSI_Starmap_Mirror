@@ -51,16 +51,22 @@ export class SystemScene {
 
   bodyRadius(b, pr) {
     switch (b.type) {
-      case 'STAR': return Math.max(1.2, b.size || 2);
-      case 'BLACKHOLE': return 1.2;
+      // радиусы тел привязаны к масштабу системы (орбиты 0.4..10 АЕ,
+      // oort_radius ~ 40): иначе звезда/планеты «глотают» внутренние орбиты
+      case 'STAR': return clamp(this.system.oortRadius * 0.004, 0.08, 0.25);
+      case 'BLACKHOLE': return 0.12;
       case 'PLANET': {
-        if (pr.min === pr.max) return 1.3;
+        if (pr.min === pr.max) return 0.12;
         const n = (b.size - pr.min) / (pr.max - pr.min);
-        return lerp(0.6, 2.6, Math.pow(n, 0.8));
+        const r = lerp(0.08, 0.4, Math.pow(n, 0.8));
+        // кап по орбите: планета не должна «налезать» на звезду или вытягивать
+        // орбиту — диаметр не больше ~44% радиуса орбиты
+        const orbit = b.worldPos.distanceTo(this.system.star.worldPos);
+        return Math.min(r, Math.max(orbit * 0.22, 0.06));
       }
-      case 'SATELLITE': return clamp(b.size / 4000, 0.2, 0.9);
-      case 'MANMADE': return clamp(b.size * 0.8, 0.4, 2.2);
-      case 'JUMPPOINT': return 0.5;
+      case 'SATELLITE': return clamp(b.size / 4000, 0.04, 0.14);
+      case 'MANMADE': return clamp(b.size * 0.01, 0.1, 0.5);
+      case 'JUMPPOINT': return 0.6;
       case 'LZ': return 0.2;
       case 'POI': return 0.3;
       case 'ANOMALY': return 0.7;
@@ -206,10 +212,10 @@ export class SystemScene {
   }
 
   buildJumpPoint(b) {
-    const ring = makeRingSprite('#55ddff', 2.4);
+    const ring = makeRingSprite('#55ddff', 0.9);
     ring.position.copy(b.worldPos);
     this.group.add(ring);
-    const glow = makeGlowSprite('#66ccff', 1.4);
+    const glow = makeGlowSprite('#66ccff', 0.5);
     glow.position.copy(b.worldPos);
     this.group.add(glow);
     this.addClick(ring, b);
