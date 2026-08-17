@@ -13,6 +13,11 @@ const HUD = {
     el.textContent = text || '';
     el.classList.toggle('on', !!text);
   },
+  setHover(text) {
+    const el = document.getElementById('hud-hover');
+    el.textContent = text || '';
+    el.classList.toggle('on', !!text);
+  },
   showLoader(text) {
     const el = document.getElementById('loader');
     el.textContent = text || 'Загрузка…';
@@ -102,6 +107,7 @@ export class App {
     this.state = next;
     next.onEnter();
     this.hud.setSelected(null);
+    this.hud.setHover(null);
   }
 
   goGalaxy2D() {

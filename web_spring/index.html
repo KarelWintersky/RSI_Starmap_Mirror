@@ -43,6 +43,30 @@
       color: #9fb6d8;
       text-shadow: 0 0 12px rgba(60, 120, 255, 0.35);
     }
+    #hud-hover {
+      position: absolute;
+      top: 12px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 14px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #e8f2ff;
+      text-shadow: 0 0 12px rgba(80, 140, 255, 0.5);
+      background: rgba(12, 20, 40, 0.65);
+      border: 1px solid rgba(60, 100, 160, 0.3);
+      padding: 4px 16px;
+      border-radius: 4px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      opacity: 0;
+      transition: opacity 0.15s;
+      pointer-events: none;
+    }
+    #hud-hover.on {
+      opacity: 1;
+    }
     #btn-back {
       pointer-events: auto;
       background: rgba(20, 32, 56, 0.6);
@@ -115,6 +139,7 @@
       <div id="hud-level">SpringGalaxy</div>
       <button id="btn-back">← назад</button>
     </div>
+    <div id="hud-hover"></div>
     <div id="hud-selected"></div>
     <div id="hud-hint"></div>
   </div>

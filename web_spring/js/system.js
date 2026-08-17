@@ -6,10 +6,11 @@ import {
   makeBlackHoleDisk,
   makeField,
   makeGlowSprite,
-  makeLabelSprite,
   makeOortShell,
   makeOrbitLine,
   makeRingSprite,
+  makeStarMaterial,
+  planetTexture,
 } from './effects.js';
 
 // Система: тела (звёзды, планеты, спутники, гиперканалы, пояса, ЧД, OORT),
@@ -22,7 +23,6 @@ export class SystemScene {
     this.group.visible = false;
     app.scene.add(this.group);
     this.clickables = [];
-    this.labelFor = new Map();
     this.animations = [];
     this._hovered = null;
     this.textureLoader = new THREE.TextureLoader();
@@ -90,16 +90,6 @@ export class SystemScene {
     this.clickables.push(obj);
   }
 
-  addLabel(body, offsetY, height) {
-    const name = body.name || body.row.designation || body.code;
-    const label = makeLabelSprite(String(name).toUpperCase(), { color: '#cfe3ff', height });
-    label.position.copy(body.worldPos);
-    label.position.y += offsetY;
-    label.visible = false;
-    this.group.add(label);
-    this.labelFor.set(body, label);
-  }
-
   build() {
     const pr = this.planetRadii();
     const star = this.system.star;
@@ -129,9 +119,6 @@ export class SystemScene {
         line.position.copy(center);
         this.group.add(line);
       }
-      if (b.row.show_label !== false) {
-        this.addLabel(b, r * 1.5 + 0.4, Math.max(r * 0.8, 1.6));
-      }
     }
 
     // свет звезды подсвечивает планеты
@@ -149,15 +136,26 @@ export class SystemScene {
 
   buildStar(b, r) {
     const color = this.sunColor(b);
-    const mesh = new THREE.Mesh(
-      new THREE.SphereGeometry(r, 32, 32),
-      new THREE.MeshBasicMaterial({ color: new THREE.Color(color) }),
-    );
+    // animated star surface shader
+    const mat = makeStarMaterial(color);
+    const mesh = new THREE.Mesh(new THREE.SphereGeometry(r, 48, 48), mat);
     mesh.position.copy(b.worldPos);
     this.group.add(mesh);
-    const glow = makeGlowSprite(color, r * 8);
-    glow.position.copy(b.worldPos);
-    this.group.add(glow);
+    this.starMesh = mesh;
+    this.animations.push((t) => { mat.uniforms.uTime.value = t; });
+
+    // multi-layer glow: inner core + outer corona
+    const core = makeGlowSprite(color, r * 6);
+    core.position.copy(b.worldPos);
+    this.group.add(core);
+    // corona: lighter, slightly desaturated version of star color
+    const hsl = {};
+    const cc = new THREE.Color(color);
+    cc.getHSL(hsl);
+    cc.setHSL(hsl.h, Math.max(0, hsl.s - 0.1), Math.min(1, hsl.l + 0.2));
+    const corona = makeGlowSprite('#' + cc.getHexString(), r * 12);
+    corona.position.copy(b.worldPos);
+    this.group.add(corona);
     this.addClick(mesh, b, r * 1.8);
   }
 
@@ -179,10 +177,16 @@ export class SystemScene {
   }
 
   buildPlanet(b, r) {
-    const mat = new THREE.MeshStandardMaterial({ color: '#aab6cc', roughness: 1, metalness: 0 });
+    const seed = b.id * 7 + (b.row.longitude || 0);
+    const tex = planetTexture(b.appearance, seed);
+    const mat = new THREE.MeshStandardMaterial({
+      map: tex,
+      roughness: 0.85,
+      metalness: 0.05,
+    });
     if (b.textureSource) {
-      this.textureLoader.load(b.textureSource, (tex) => {
-        mat.map = tex;
+      this.textureLoader.load(b.textureSource, (loaded) => {
+        mat.map = loaded;
         mat.needsUpdate = true;
       });
     }
@@ -267,19 +271,18 @@ export class SystemScene {
   }
 
   setHover(body) {
-    if (this._hovered === body) return;
+    if (this._hovered === body) return this._hoveredName;
     this.clearHover();
-    if (!body) return;
-    const label = this.labelFor.get(body);
-    if (label) label.visible = true;
+    if (!body) return null;
     this._hovered = body;
+    this._hoveredName = body.name || body.row.designation || body.code;
+    return this._hoveredName;
   }
 
   clearHover() {
     if (!this._hovered) return;
-    const label = this.labelFor.get(this._hovered);
-    if (label) label.visible = false;
     this._hovered = null;
+    this._hoveredName = null;
   }
 
   update(t) {

@@ -18,7 +18,6 @@ export class State2D extends State {
   onEnter() {
     const g = this.app.galaxy;
     g.show();
-    g.setLabelsVisible(true);
     this.app.rig.enableRotate = false;
     this.app.rig.setLimits(g.viewRadius2D * 0.12, g.viewRadius2D * 2);
     this.app.hud.setLevel('Карта галактики');
@@ -33,11 +32,13 @@ export class State2D extends State {
 
   onHover(e) {
     const hit = this.app.raycastGalaxy(e);
-    this.app.galaxy.setHover(hit ? hit.object.userData.system.code : null);
+    const name = this.app.galaxy.setHover(hit ? hit.object.userData.system.code : null);
+    this.app.hud.setHover(name);
   }
 
   onHoverEnd() {
     this.app.galaxy.clearHover();
+    this.app.hud.setHover(null);
   }
 
   onDouble(e) {
@@ -56,10 +57,13 @@ export class State3D extends State {
     this.focusSystem = system;
   }
 
+  update(_t, _dt) {
+    // galaxy has no per-frame animations currently
+  }
+
   onEnter() {
     const g = this.app.galaxy;
     g.show();
-    g.setLabelsVisible(false);
     this.app.rig.enableRotate = true;
     this.app.rig.setTarget(g.center);
     this.app.rig.setLimits(g.viewRadius3D * 0.05, g.viewRadius3D * 2.5);
@@ -75,11 +79,13 @@ export class State3D extends State {
 
   onHover(e) {
     const hit = this.app.raycastGalaxy(e);
-    this.app.galaxy.setHover(hit ? hit.object.userData.system.code : null);
+    const name = this.app.galaxy.setHover(hit ? hit.object.userData.system.code : null);
+    this.app.hud.setHover(name);
   }
 
   onHoverEnd() {
     this.app.galaxy.clearHover();
+    this.app.hud.setHover(null);
   }
 
   onSingle(e) {
@@ -127,11 +133,13 @@ export class StateSystem extends State {
 
   onHover(e) {
     const hit = this.app.raycastSystem(e);
-    this.scene.setHover(hit ? hit.object.userData.body : null);
+    const name = this.scene.setHover(hit ? hit.object.userData.body : null);
+    this.app.hud.setHover(name);
   }
 
   onHoverEnd() {
     this.scene.clearHover();
+    this.app.hud.setHover(null);
   }
 
   onSingle(e) {

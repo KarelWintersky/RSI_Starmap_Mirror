@@ -1,6 +1,6 @@
 import * as THREE from 'three';
 import { sysWorld } from './coords.js';
-import { makeGlowSprite, makeLabelSprite, makeStarfield } from './effects.js';
+import { makeGlowSprite, makeStarfield } from './effects.js';
 
 // Галактика: спрайты систем, подписи, линии туннелей, звёздное поле фона.
 export class GalaxyScene {
@@ -10,7 +10,6 @@ export class GalaxyScene {
     app.scene.add(this.group);
     this.clickables = [];
     this.systemSprites = new Map();
-    this.systemLabels = new Map();
     this.center = new THREE.Vector3();
     this.viewRadius2D = 100;
     this.viewRadius3D = 150;
@@ -55,13 +54,6 @@ export class GalaxyScene {
       this.group.add(sprite);
       this.systemSprites.set(s.code, sprite);
       this.clickables.push(sprite);
-
-      const label = makeLabelSprite(s.name.toUpperCase(), { color: '#cfe3ff', height: 4 });
-      label.position.copy(p);
-      label.position.y += starSize * 0.8;
-      label.visible = false;
-      this.group.add(label);
-      this.systemLabels.set(s.code, label);
     }
 
     for (const t of this.app.data.tunnelsList) {
@@ -106,29 +98,25 @@ export class GalaxyScene {
     this.clearHover();
   }
 
-  setLabelsVisible(v) {
-    for (const l of this.systemLabels.values()) l.visible = v;
-  }
-
   setHover(systemCode) {
-    if (this._hovered === systemCode) return;
+    if (this._hovered === systemCode) return this._hoveredName;
     this.clearHover();
-    if (!systemCode) return;
+    if (!systemCode) return null;
     const sprite = this.systemSprites.get(systemCode);
-    const label = this.systemLabels.get(systemCode);
     if (sprite) {
       sprite.scale.setScalar(sprite.userData.baseScale * 1.45);
       this._hovered = systemCode;
+      this._hoveredName = sprite.userData.system.name;
+      return this._hoveredName;
     }
-    if (label) label.visible = true;
+    return null;
   }
 
   clearHover() {
     if (!this._hovered) return;
     const sprite = this.systemSprites.get(this._hovered);
     if (sprite) sprite.scale.setScalar(sprite.userData.baseScale);
-    const label = this.systemLabels.get(this._hovered);
-    if (label) label.visible = false;
     this._hovered = null;
+    this._hoveredName = null;
   }
 }
