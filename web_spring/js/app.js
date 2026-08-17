@@ -45,6 +45,11 @@ export class App {
     this.camera = new THREE.PerspectiveCamera(55, window.innerWidth / window.innerHeight, 0.05, 3000);
     this.rig = new CameraRig(this.camera, this.renderer.domElement);
 
+    // Skybox: отдельная сцена + камера (как в оригинале)
+    this.skyScene = new THREE.Scene();
+    this.skyCamera = new THREE.PerspectiveCamera(55, window.innerWidth / window.innerHeight, 0.1, 100);
+    this.skybox = null;
+
     this.raycaster = new THREE.Raycaster();
     this.data = new DataStore();
     this.galaxy = new GalaxyScene(this);
@@ -76,6 +81,8 @@ export class App {
     const h = window.innerHeight;
     this.camera.aspect = w / h;
     this.camera.updateProjectionMatrix();
+    this.skyCamera.aspect = w / h;
+    this.skyCamera.updateProjectionMatrix();
     this.renderer.setSize(w, h);
   }
 
@@ -143,7 +150,7 @@ export class App {
     try {
       await this.data.loadBootup();
       await this.galaxy.build();
-      this.loadSkybox();
+      await this.loadSkybox();
       this.changeState(new State2D(this));
     } catch (err) {
       console.error(err);
@@ -159,23 +166,27 @@ export class App {
     ];
     for (const url of urls) {
       try {
-        const scene = await loadGenericModel(url);
-        if (!scene) continue;
-        // make all meshes additive, depthWrite=false (nebula/starfield layers)
-        scene.traverse((c) => {
-          if (c.isMesh && c.material) {
-            c.material.transparent = true;
-            c.material.depthWrite = false;
-            c.material.side = THREE.DoubleSide;
-            c.material.blending = THREE.NormalBlending;
-            c.material.needsUpdate = true;
+        const collada = await loadGenericModel(url);
+        if (!collada) continue;
+        collada.traverse((c) => {
+          if (!c.isMesh) return;
+          const mat = c.material;
+          if (!mat) return;
+          // Original engine: "Additive*" materials → additive blending, no depth write
+          if (mat.name && mat.name.startsWith('Additive')) {
+            mat.transparent = true;
+            mat.blending = THREE.AdditiveBlending;
+            mat.depthWrite = false;
+            mat.side = THREE.DoubleSide;
+            mat.needsUpdate = true;
           }
         });
-        this.scene.add(scene);
+        this.skyScene.add(collada);
       } catch (err) {
         console.warn(`Skybox ${url} failed:`, err);
       }
     }
+    this.skybox = this.skyScene;
   }
 
   loop() {
@@ -185,6 +196,20 @@ export class App {
     this.time += dt;
     if (this.state) this.state.update(this.time, dt);
     this.rig.update(dt);
+
+    // Render main scene
     this.renderer.render(this.scene, this.camera);
+
+    // Render skybox on top (follows camera rotation, like original)
+    if (this.skybox) {
+      this.skyCamera.rotation.copy(this.camera.rotation);
+      // subtle FOV breathing (original: fov2amplitude * sin(time * PI * fov2frequency))
+      this.skyCamera.fov = this.camera.fov + 3 * Math.sin(this.time * 0.3);
+      this.skyCamera.updateProjectionMatrix();
+      this.renderer.autoClear = false;
+      this.renderer.clearDepth();
+      this.renderer.render(this.skyScene, this.skyCamera);
+      this.renderer.autoClear = true;
+    }
   }
 }
