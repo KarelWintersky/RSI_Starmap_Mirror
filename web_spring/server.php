@@ -75,6 +75,15 @@ foreach (['/js/', '/three/', '/media/', '/fonts/'] as $prefix) {
     }
 }
 
+// DAE-модели и текстуры из оригинального стarmap (../web/static/starmap/)
+if (preg_match('#^/static/starmap/(models|sourceimages)/#', $uri) && !str_contains($uri, '..')) {
+    $base = realpath(__DIR__ . '/../web/static/starmap');
+    $real = realpath(__DIR__ . '/../web' . $uri);
+    if ($real && $base && str_starts_with($real, $base) && $serve($real)) {
+        exit;
+    }
+}
+
 // API-данные: GET с .json, POST/GET без расширения — из api/starmap/
 if (preg_match('#^/api/starmap/([a-z-]+)(/[^/]+)?\.json$#', $uri, $m) && !str_contains($uri, '..')) {
     if ($serve($web . $uri)) {

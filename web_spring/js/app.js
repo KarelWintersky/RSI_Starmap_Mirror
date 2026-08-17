@@ -4,6 +4,7 @@ import { GalaxyScene } from './galaxy.js';
 import { SystemScene } from './system.js';
 import { CameraRig, Clicker } from './rig.js';
 import { State2D, State3D, StateSystem } from './states.js';
+import { loadGenericModel } from './models.js';
 
 const HUD = {
   setLevel(text) { document.getElementById('hud-level').textContent = text; },
@@ -142,12 +143,39 @@ export class App {
     try {
       await this.data.loadBootup();
       await this.galaxy.build();
+      this.loadSkybox();
       this.changeState(new State2D(this));
     } catch (err) {
       console.error(err);
       this.hud.showLoader('Ошибка загрузки данных (нужен php -S web_spring/server.php)');
     }
     this.loop();
+  }
+
+  async loadSkybox() {
+    const urls = [
+      '/static/starmap/models/SpaceCube_Back.dae',
+      '/static/starmap/models/SpaceCube_Nebulas.dae',
+    ];
+    for (const url of urls) {
+      try {
+        const scene = await loadGenericModel(url);
+        if (!scene) continue;
+        // make all meshes additive, depthWrite=false (nebula/starfield layers)
+        scene.traverse((c) => {
+          if (c.isMesh && c.material) {
+            c.material.transparent = true;
+            c.material.depthWrite = false;
+            c.material.side = THREE.DoubleSide;
+            c.material.blending = THREE.NormalBlending;
+            c.material.needsUpdate = true;
+          }
+        });
+        this.scene.add(scene);
+      } catch (err) {
+        console.warn(`Skybox ${url} failed:`, err);
+      }
+    }
   }
 
   loop() {

@@ -12,6 +12,7 @@ import {
   makeStarMaterial,
   planetTexture,
 } from './effects.js';
+import { loadPlanetModel, loadGenericModel, MODEL_MAP, TEXTURE_MAP } from './models.js';
 
 // Система: тела (звёзды, планеты, спутники, гиперканалы, пояса, ЧД, OORT),
 // орбиты, подписи, анимации. Позиции — мировые (тела вокруг system.position).
@@ -51,16 +52,12 @@ export class SystemScene {
 
   bodyRadius(b, pr) {
     switch (b.type) {
-      // радиусы тел привязаны к масштабу системы (орбиты 0.4..10 АЕ,
-      // oort_radius ~ 40): иначе звезда/планеты «глотают» внутренние орбиты
       case 'STAR': return clamp(this.system.oortRadius * 0.004, 0.08, 0.25);
       case 'BLACKHOLE': return 0.12;
       case 'PLANET': {
         if (pr.min === pr.max) return 0.12;
         const n = (b.size - pr.min) / (pr.max - pr.min);
         const r = lerp(0.08, 0.4, Math.pow(n, 0.8));
-        // кап по орбите: планета не должна «налезать» на звезду или вытягивать
-        // орбиту — диаметр не больше ~44% радиуса орбиты
         const orbit = b.worldPos.distanceTo(this.system.star.worldPos);
         return Math.min(r, Math.max(orbit * 0.22, 0.06));
       }
@@ -103,7 +100,7 @@ export class SystemScene {
         case 'PLANET': this.buildPlanet(b, r); break;
         case 'SATELLITE': this.buildPlanet(b, r); break;
         case 'MANMADE': this.buildManmade(b, r); break;
-        case 'JUMPPOINT': this.buildJumpPoint(b); break;
+        case 'JUMPPOINT': this.buildJumpPoint(b, r); break;
         case 'ASTEROID_BELT': this.buildBelt(b); break;
         case 'ASTEROID_FIELD': this.buildField(b); break;
         case 'ANOMALY': this.buildAnomaly(b); break;
@@ -121,7 +118,6 @@ export class SystemScene {
       }
     }
 
-    // свет звезды подсвечивает планеты
     if (star && star.isStar) {
       const color = star.shaderData?.sun?.color1 || '#ffe9a0';
       const light = new THREE.PointLight(new THREE.Color(color), 1.2, this.system.oortRadius * 1.6);
@@ -136,7 +132,6 @@ export class SystemScene {
 
   buildStar(b, r) {
     const color = this.sunColor(b);
-    // animated star surface shader
     const mat = makeStarMaterial(color);
     const mesh = new THREE.Mesh(new THREE.SphereGeometry(r, 48, 48), mat);
     mesh.position.copy(b.worldPos);
@@ -144,11 +139,9 @@ export class SystemScene {
     this.starMesh = mesh;
     this.animations.push((t) => { mat.uniforms.uTime.value = t; });
 
-    // multi-layer glow: inner core + outer corona
     const core = makeGlowSprite(color, r * 6);
     core.position.copy(b.worldPos);
     this.group.add(core);
-    // corona: lighter, slightly desaturated version of star color
     const hsl = {};
     const cc = new THREE.Color(color);
     cc.getHSL(hsl);
@@ -160,12 +153,15 @@ export class SystemScene {
   }
 
   buildBlackHole(b, r) {
+    // placeholder sphere (instant), DAE model loads async
     const mesh = new THREE.Mesh(
       new THREE.SphereGeometry(r, 32, 32),
       new THREE.MeshBasicMaterial({ color: '#000000' }),
     );
     mesh.position.copy(b.worldPos);
     this.group.add(mesh);
+    this.addClick(mesh, b, r * 2);
+
     const disk = makeBlackHoleDisk(r);
     disk.mesh.position.copy(b.worldPos);
     this.group.add(disk.mesh);
@@ -173,10 +169,26 @@ export class SystemScene {
     const glow = makeGlowSprite('#3a1d66', r * 6);
     glow.position.copy(b.worldPos);
     this.group.add(glow);
-    this.addClick(mesh, b, r * 2);
+
+    // load DAE model, replace placeholder
+    if (MODEL_MAP.BLACKHOLE) {
+      loadGenericModel(MODEL_MAP.BLACKHOLE).then((scene) => {
+        if (!scene) return;
+        const box = new THREE.Box3().setFromObject(scene);
+        const size = box.getSize(new THREE.Vector3());
+        const maxDim = Math.max(size.x, size.y, size.z);
+        if (maxDim > 0) scene.scale.setScalar((r * 2) / maxDim);
+        scene.position.copy(b.worldPos);
+        this.group.remove(mesh);
+        this.group.add(scene);
+        // re-wire click target
+        scene.traverse((c) => { if (c.isMesh) c.userData.body = b; });
+      });
+    }
   }
 
   buildPlanet(b, r) {
+    // placeholder sphere with procedural texture (instant)
     const seed = b.id * 7 + (b.row.longitude || 0);
     const tex = planetTexture(b.appearance, seed);
     const mat = new THREE.MeshStandardMaterial({
@@ -184,25 +196,37 @@ export class SystemScene {
       roughness: 0.85,
       metalness: 0.05,
     });
-    if (b.textureSource) {
-      this.textureLoader.load(b.textureSource, (loaded) => {
-        mat.map = loaded;
-        mat.needsUpdate = true;
-      });
-    }
     const mesh = new THREE.Mesh(new THREE.SphereGeometry(r, 32, 32), mat);
     mesh.position.copy(b.worldPos);
     mesh.rotation.y = (b.row.longitude || 0) * Math.PI / 180;
     this.group.add(mesh);
+    this.addClick(mesh, b, Math.max(r * 1.6, 0.6));
+
+    // atmosphere for blue/green planets
     if (b.isPlanet && (b.appearance === 'PLANET_BLUE' || b.appearance === 'PLANET_GREEN')) {
       const atm = makeAtmosphereMesh(r, b.appearance === 'PLANET_BLUE' ? '#4aa8ff' : '#6fbf6a');
       atm.position.copy(b.worldPos);
       this.group.add(atm);
     }
-    this.addClick(mesh, b, Math.max(r * 1.6, 0.6));
+
+    // load DAE model async, replace placeholder
+    const modelUrl = MODEL_MAP[b.appearance];
+    const texUrl = TEXTURE_MAP[b.appearance];
+    if (modelUrl) {
+      loadPlanetModel(b.appearance, r, this.textureLoader).then((daeScene) => {
+        if (!daeScene) return;
+        daeScene.position.copy(b.worldPos);
+        daeScene.rotation.y = (b.row.longitude || 0) * Math.PI / 180;
+        this.group.remove(mesh);
+        this.group.add(daeScene);
+        // re-wire click target
+        daeScene.traverse((c) => { if (c.isMesh) c.userData.body = b; });
+      });
+    }
   }
 
   buildManmade(b, r) {
+    // placeholder
     const mesh = new THREE.Mesh(
       new THREE.OctahedronGeometry(r, 0),
       new THREE.MeshStandardMaterial({ color: '#c8d2e4', roughness: 0.6, metalness: 0.5 }),
@@ -213,9 +237,25 @@ export class SystemScene {
     glow.position.copy(b.worldPos);
     this.group.add(glow);
     this.addClick(mesh, b, r * 1.6);
+
+    // load SpaceStation.dae async
+    if (MODEL_MAP.MANMADE) {
+      loadGenericModel(MODEL_MAP.MANMADE).then((scene) => {
+        if (!scene) return;
+        const box = new THREE.Box3().setFromObject(scene);
+        const size = box.getSize(new THREE.Vector3());
+        const maxDim = Math.max(size.x, size.y, size.z);
+        if (maxDim > 0) scene.scale.setScalar((r * 2) / maxDim);
+        scene.position.copy(b.worldPos);
+        this.group.remove(mesh);
+        this.group.add(scene);
+        scene.traverse((c) => { if (c.isMesh) c.userData.body = b; });
+      });
+    }
   }
 
-  buildJumpPoint(b) {
+  buildJumpPoint(b, r) {
+    // ring sprite (instant)
     const ring = makeRingSprite('#55ddff', 0.9);
     ring.position.copy(b.worldPos);
     this.group.add(ring);
@@ -223,6 +263,19 @@ export class SystemScene {
     glow.position.copy(b.worldPos);
     this.group.add(glow);
     this.addClick(ring, b);
+
+    // load JumpHead.dae async
+    if (MODEL_MAP.JUMPPOINT) {
+      loadGenericModel(MODEL_MAP.JUMPPOINT).then((scene) => {
+        if (!scene) return;
+        const box = new THREE.Box3().setFromObject(scene);
+        const size = box.getSize(new THREE.Vector3());
+        const maxDim = Math.max(size.x, size.y, size.z);
+        if (maxDim > 0) scene.scale.setScalar((r * 1.5) / maxDim);
+        scene.position.copy(b.worldPos);
+        this.group.add(scene);
+      });
+    }
   }
 
   buildBelt(b) {
