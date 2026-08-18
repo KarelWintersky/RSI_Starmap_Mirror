@@ -168,6 +168,7 @@ export class App {
     const urls = [
       '/static/starmap/models/SpaceCube_Back.dae',
       '/static/starmap/models/SpaceCube_Nebulas.dae',
+      '/static/starmap/models/Middle_Nebula.dae',
     ];
     for (const url of urls) {
       try {

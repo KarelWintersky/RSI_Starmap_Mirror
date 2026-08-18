@@ -41,7 +41,7 @@ export class GalaxyScene {
       cfg.starfield?.count || 1500,
       cfg.starfield?.radius || maxDist * 2.5,
     );
-    this.app.scene.add(this.starfield);
+    this.group.add(this.starfield);
 
     const starSize = cfg.galaxyStarSize || 2.5;
     for (const s of systems) {

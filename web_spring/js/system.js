@@ -112,7 +112,7 @@ export class SystemScene {
         const center = b.parentId != null && this.system.bodyById.has(b.parentId)
           ? this.system.bodyById.get(b.parentId).worldPos
           : this.system.position;
-        const line = makeOrbitLine(b.distance, '#3a4a6a', 0.4);
+        const line = makeOrbitLine(b.distance, '#3a4a6a', 0.15);
         line.position.copy(center);
         this.group.add(line);
       }
