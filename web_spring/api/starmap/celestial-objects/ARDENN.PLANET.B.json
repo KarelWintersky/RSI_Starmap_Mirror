@@ -1,0 +1,48 @@
+{
+    "success": 1,
+    "code": "OK",
+    "msg": "OK",
+    "data": {
+        "rowcount": 1,
+        "pagecount": null,
+        "startrow": 0,
+        "resultset": [
+            {
+                "id": 1423,
+                "code": "ARDENN.PLANET.B",
+                "name": "Арденн B",
+                "designation": "B",
+                "type": "PLANET",
+                "appearance": "PLANET_GREEN",
+                "parent_id": 1420,
+                "distance": 0.712512,
+                "latitude": 0.493,
+                "longitude": 353.79,
+                "size": 6468.518999999999,
+                "show_label": true,
+                "show_orbitlines": true,
+                "shader_data": null,
+                "habitable": false,
+                "description": null,
+                "affiliation": [],
+                "time_modified": "2026-08-19 02:15:02",
+                "info_url": "",
+                "orbit_period": 0,
+                "age": null,
+                "axial_tilt": null,
+                "fairchanceact": false,
+                "population": [],
+                "sensor_danger": 0,
+                "sensor_economy": 0,
+                "sensor_population": 0,
+                "subtype": null,
+                "subtype_id": null
+            }
+        ],
+        "totalrows": 1,
+        "pagesize": 0,
+        "page": 1,
+        "offset": 0,
+        "estimatedrows": false
+    }
+}

@@ -1,0 +1,185 @@
+{
+    "success": 1,
+    "code": "OK",
+    "msg": "OK",
+    "data": {
+        "rowcount": 1,
+        "pagecount": null,
+        "startrow": 0,
+        "resultset": [
+            {
+                "id": 61,
+                "code": "NEQUADOR",
+                "name": "Новый Эквадор",
+                "type": "SINGLE_STAR",
+                "description": null,
+                "position_x": -129.12065785140328,
+                "position_y": 26.84975487561194,
+                "position_z": 0,
+                "habitable_zone_inner": 0.7,
+                "habitable_zone_outer": 1.6,
+                "frost_line": 2.7,
+                "oort_radius": 39.5,
+                "status": "P",
+                "affiliation": [],
+                "celestial_objects": [
+                    {
+                        "id": 1610,
+                        "code": "NEQUADOR.STAR.NEQUADOR",
+                        "name": "Новый Эквадор",
+                        "designation": null,
+                        "type": "STAR",
+                        "appearance": "DEFAULT",
+                        "parent_id": null,
+                        "distance": 0,
+                        "latitude": 0,
+                        "longitude": 0,
+                        "size": 2,
+                        "show_label": true,
+                        "show_orbitlines": false,
+                        "shader_data": {
+                            "sun": {
+                                "color1": "#7ae0c3",
+                                "color2": "#ffffff"
+                            }
+                        },
+                        "habitable": false,
+                        "description": null,
+                        "affiliation": []
+                    },
+                    {
+                        "id": 1612,
+                        "code": "NEQUADOR.PLANET.A",
+                        "name": "Новый Эквадор A",
+                        "designation": "A",
+                        "type": "PLANET",
+                        "appearance": "PLANET_DEFAULT",
+                        "parent_id": 1610,
+                        "distance": 0.39253499999999997,
+                        "latitude": 0.116,
+                        "longitude": 18.62,
+                        "size": 2583.1449,
+                        "show_label": true,
+                        "show_orbitlines": true,
+                        "shader_data": null,
+                        "habitable": false,
+                        "description": null,
+                        "affiliation": []
+                    },
+                    {
+                        "id": 1613,
+                        "code": "NEQUADOR.PLANET.B",
+                        "name": "Новый Эквадор B",
+                        "designation": "B",
+                        "type": "PLANET",
+                        "appearance": "PLANET_BLUE",
+                        "parent_id": 1610,
+                        "distance": 0.7678079999999999,
+                        "latitude": -0.292,
+                        "longitude": 92.67,
+                        "size": 5907.5913,
+                        "show_label": true,
+                        "show_orbitlines": true,
+                        "shader_data": null,
+                        "habitable": false,
+                        "description": null,
+                        "affiliation": []
+                    },
+                    {
+                        "id": 1614,
+                        "code": "NEQUADOR.JUMP.VALINOR",
+                        "name": "Гиперканал → Валинор",
+                        "designation": null,
+                        "type": "JUMPPOINT",
+                        "appearance": "DEFAULT",
+                        "parent_id": 1610,
+                        "distance": 9.8262,
+                        "latitude": -0.076,
+                        "longitude": 323.86,
+                        "size": 1,
+                        "show_label": true,
+                        "show_orbitlines": false,
+                        "shader_data": null,
+                        "habitable": false,
+                        "description": null,
+                        "affiliation": []
+                    },
+                    {
+                        "id": 1615,
+                        "code": "NEQUADOR.JUMP.ROKANNON",
+                        "name": "Гиперканал → Роканнон",
+                        "designation": null,
+                        "type": "JUMPPOINT",
+                        "appearance": "DEFAULT",
+                        "parent_id": 1610,
+                        "distance": 8.700479999999999,
+                        "latitude": 0.066,
+                        "longitude": 103.26,
+                        "size": 1,
+                        "show_label": true,
+                        "show_orbitlines": false,
+                        "shader_data": null,
+                        "habitable": false,
+                        "description": null,
+                        "affiliation": []
+                    },
+                    {
+                        "id": 1616,
+                        "code": "NEQUADOR.JUMP.TAIMYR",
+                        "name": "Гиперканал → Таймыр",
+                        "designation": null,
+                        "type": "JUMPPOINT",
+                        "appearance": "DEFAULT",
+                        "parent_id": 1610,
+                        "distance": 9.32535,
+                        "latitude": 0.268,
+                        "longitude": 192.58,
+                        "size": 1,
+                        "show_label": true,
+                        "show_orbitlines": false,
+                        "shader_data": null,
+                        "habitable": false,
+                        "description": null,
+                        "affiliation": []
+                    }
+                ],
+                "time_modified": "2026-08-19 02:15:02",
+                "info_url": "",
+                "thumbnail": {
+                    "slug": "nequador",
+                    "source": "",
+                    "images": {
+                        "post": "",
+                        "product_thumb_large": "",
+                        "subscribers_vault_thumbnail": ""
+                    }
+                },
+                "shader_data": {
+                    "lightColor": "#ffffff",
+                    "starfield": {
+                        "radius": 30,
+                        "count": 500,
+                        "sizeMin": 1,
+                        "sizeMax": 1,
+                        "color1": "#808080",
+                        "color2": "rgb(100,100,100)"
+                    },
+                    "planetsSize": {
+                        "min": 0.03,
+                        "max": 0.05,
+                        "kFactor": 0.3
+                    }
+                },
+                "aggregated_danger": 0,
+                "aggregated_economy": 0,
+                "aggregated_population": 0,
+                "aggregated_size": 0
+            }
+        ],
+        "totalrows": 1,
+        "pagesize": 0,
+        "page": 1,
+        "offset": 0,
+        "estimatedrows": false
+    }
+}

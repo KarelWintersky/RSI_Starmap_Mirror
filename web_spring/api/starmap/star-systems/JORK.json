@@ -1,0 +1,185 @@
+{
+    "success": 1,
+    "code": "OK",
+    "msg": "OK",
+    "data": {
+        "rowcount": 1,
+        "pagecount": null,
+        "startrow": 0,
+        "resultset": [
+            {
+                "id": 46,
+                "code": "JORK",
+                "name": "Йорк",
+                "type": "SINGLE_STAR",
+                "description": null,
+                "position_x": -91.02100749280328,
+                "position_y": -57.658690952154274,
+                "position_z": 0,
+                "habitable_zone_inner": 0.7,
+                "habitable_zone_outer": 1.6,
+                "frost_line": 2.7,
+                "oort_radius": 39.5,
+                "status": "P",
+                "affiliation": [],
+                "celestial_objects": [
+                    {
+                        "id": 1460,
+                        "code": "JORK.STAR.JORK",
+                        "name": "Йорк",
+                        "designation": null,
+                        "type": "STAR",
+                        "appearance": "DEFAULT",
+                        "parent_id": null,
+                        "distance": 0,
+                        "latitude": 0,
+                        "longitude": 0,
+                        "size": 2,
+                        "show_label": true,
+                        "show_orbitlines": false,
+                        "shader_data": {
+                            "sun": {
+                                "color1": "#fff7d6",
+                                "color2": "#ffffff"
+                            }
+                        },
+                        "habitable": false,
+                        "description": null,
+                        "affiliation": []
+                    },
+                    {
+                        "id": 1462,
+                        "code": "JORK.PLANET.A",
+                        "name": "Йорк A",
+                        "designation": "A",
+                        "type": "PLANET",
+                        "appearance": "PLANET_GREEN",
+                        "parent_id": 1460,
+                        "distance": 0.412269,
+                        "latitude": 0.008,
+                        "longitude": 258.38,
+                        "size": 2798.2647,
+                        "show_label": true,
+                        "show_orbitlines": true,
+                        "shader_data": null,
+                        "habitable": false,
+                        "description": null,
+                        "affiliation": []
+                    },
+                    {
+                        "id": 1463,
+                        "code": "JORK.PLANET.B",
+                        "name": "Йорк B",
+                        "designation": "B",
+                        "type": "PLANET",
+                        "appearance": "PLANET_DEFAULT",
+                        "parent_id": 1460,
+                        "distance": 0.75096,
+                        "latitude": 0.45,
+                        "longitude": 3.48,
+                        "size": 5673.4176,
+                        "show_label": true,
+                        "show_orbitlines": true,
+                        "shader_data": null,
+                        "habitable": false,
+                        "description": null,
+                        "affiliation": []
+                    },
+                    {
+                        "id": 1464,
+                        "code": "JORK.PLANET.C",
+                        "name": "Йорк C",
+                        "designation": "C",
+                        "type": "PLANET",
+                        "appearance": "PLANET_DEFAULT",
+                        "parent_id": 1460,
+                        "distance": 0.9705,
+                        "latitude": -0.279,
+                        "longitude": 57.32,
+                        "size": 6448.407650000001,
+                        "show_label": true,
+                        "show_orbitlines": true,
+                        "shader_data": null,
+                        "habitable": false,
+                        "description": null,
+                        "affiliation": []
+                    },
+                    {
+                        "id": 1465,
+                        "code": "JORK.JUMP.NIGHTWISH",
+                        "name": "Гиперканал → Найтвиш",
+                        "designation": null,
+                        "type": "JUMPPOINT",
+                        "appearance": "DEFAULT",
+                        "parent_id": 1460,
+                        "distance": 9.918738,
+                        "latitude": -0.034,
+                        "longitude": 330.88,
+                        "size": 1,
+                        "show_label": true,
+                        "show_orbitlines": false,
+                        "shader_data": null,
+                        "habitable": false,
+                        "description": null,
+                        "affiliation": []
+                    },
+                    {
+                        "id": 1466,
+                        "code": "JORK.JUMP.SOLARIS",
+                        "name": "Гиперканал → Солярис",
+                        "designation": null,
+                        "type": "JUMPPOINT",
+                        "appearance": "DEFAULT",
+                        "parent_id": 1460,
+                        "distance": 9.686916,
+                        "latitude": 0.068,
+                        "longitude": 116.1,
+                        "size": 1,
+                        "show_label": true,
+                        "show_orbitlines": false,
+                        "shader_data": null,
+                        "habitable": false,
+                        "description": null,
+                        "affiliation": []
+                    }
+                ],
+                "time_modified": "2026-08-19 02:15:02",
+                "info_url": "",
+                "thumbnail": {
+                    "slug": "jork",
+                    "source": "",
+                    "images": {
+                        "post": "",
+                        "product_thumb_large": "",
+                        "subscribers_vault_thumbnail": ""
+                    }
+                },
+                "shader_data": {
+                    "lightColor": "#ffffff",
+                    "starfield": {
+                        "radius": 30,
+                        "count": 500,
+                        "sizeMin": 1,
+                        "sizeMax": 1,
+                        "color1": "#808080",
+                        "color2": "rgb(100,100,100)"
+                    },
+                    "planetsSize": {
+                        "min": 0.03,
+                        "max": 0.05,
+                        "kFactor": 0.3
+                    }
+                },
+                "aggregated_danger": 0,
+                "aggregated_economy": 0,
+                "aggregated_population": 0,
+                "aggregated_size": 0
+            }
+        ],
+        "totalrows": 1,
+        "pagesize": 0,
+        "page": 1,
+        "offset": 0,
+        "estimatedrows": false
+    }
+}

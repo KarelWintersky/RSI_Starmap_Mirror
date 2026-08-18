@@ -1,0 +1,166 @@
+{
+    "success": 1,
+    "code": "OK",
+    "msg": "OK",
+    "data": {
+        "rowcount": 1,
+        "pagecount": null,
+        "startrow": 0,
+        "resultset": [
+            {
+                "id": 24,
+                "code": "HEYAN",
+                "name": "Хэйан",
+                "type": "SINGLE_STAR",
+                "description": null,
+                "position_x": 73.36044803243524,
+                "position_y": -32.12070563060873,
+                "position_z": 0,
+                "habitable_zone_inner": 0.7,
+                "habitable_zone_outer": 1.6,
+                "frost_line": 2.7,
+                "oort_radius": 39.5,
+                "status": "P",
+                "affiliation": [],
+                "celestial_objects": [
+                    {
+                        "id": 1240,
+                        "code": "HEYAN.STAR.HEYAN",
+                        "name": "Хэйан",
+                        "designation": null,
+                        "type": "STAR",
+                        "appearance": "DEFAULT",
+                        "parent_id": null,
+                        "distance": 0,
+                        "latitude": 0,
+                        "longitude": 0,
+                        "size": 2,
+                        "show_label": true,
+                        "show_orbitlines": false,
+                        "shader_data": {
+                            "sun": {
+                                "color1": "#fff7d6",
+                                "color2": "#ffffff"
+                            }
+                        },
+                        "habitable": false,
+                        "description": null,
+                        "affiliation": []
+                    },
+                    {
+                        "id": 1242,
+                        "code": "HEYAN.PLANET.A",
+                        "name": "Хэйан A",
+                        "designation": "A",
+                        "type": "PLANET",
+                        "appearance": "PLANET_GREEN",
+                        "parent_id": 1240,
+                        "distance": 0.37521899999999997,
+                        "latitude": 0.423,
+                        "longitude": 101.93,
+                        "size": 2167.5393,
+                        "show_label": true,
+                        "show_orbitlines": true,
+                        "shader_data": null,
+                        "habitable": false,
+                        "description": null,
+                        "affiliation": []
+                    },
+                    {
+                        "id": 1243,
+                        "code": "HEYAN.PLANET.B",
+                        "name": "Хэйан B",
+                        "designation": "B",
+                        "type": "PLANET",
+                        "appearance": "PLANET_BLUE",
+                        "parent_id": 1240,
+                        "distance": 0.65628,
+                        "latitude": 0.439,
+                        "longitude": 91.92,
+                        "size": 5785.966200000001,
+                        "show_label": true,
+                        "show_orbitlines": true,
+                        "shader_data": null,
+                        "habitable": false,
+                        "description": null,
+                        "affiliation": []
+                    },
+                    {
+                        "id": 1244,
+                        "code": "HEYAN.JUMP.FLORIA",
+                        "name": "Гиперканал → Флория",
+                        "designation": null,
+                        "type": "JUMPPOINT",
+                        "appearance": "DEFAULT",
+                        "parent_id": 1240,
+                        "distance": 9.697409999999998,
+                        "latitude": -0.341,
+                        "longitude": 338.87,
+                        "size": 1,
+                        "show_label": true,
+                        "show_orbitlines": false,
+                        "shader_data": null,
+                        "habitable": false,
+                        "description": null,
+                        "affiliation": []
+                    },
+                    {
+                        "id": 1245,
+                        "code": "HEYAN.JUMP.FROST",
+                        "name": "Гиперканал → Фрост",
+                        "designation": null,
+                        "type": "JUMPPOINT",
+                        "appearance": "DEFAULT",
+                        "parent_id": 1240,
+                        "distance": 9.917784,
+                        "latitude": 0.21,
+                        "longitude": 50.2,
+                        "size": 1,
+                        "show_label": true,
+                        "show_orbitlines": false,
+                        "shader_data": null,
+                        "habitable": false,
+                        "description": null,
+                        "affiliation": []
+                    }
+                ],
+                "time_modified": "2026-08-19 02:15:02",
+                "info_url": "",
+                "thumbnail": {
+                    "slug": "heyan",
+                    "source": "",
+                    "images": {
+                        "post": "",
+                        "product_thumb_large": "",
+                        "subscribers_vault_thumbnail": ""
+                    }
+                },
+                "shader_data": {
+                    "lightColor": "#ffffff",
+                    "starfield": {
+                        "radius": 30,
+                        "count": 500,
+                        "sizeMin": 1,
+                        "sizeMax": 1,
+                        "color1": "#808080",
+                        "color2": "rgb(100,100,100)"
+                    },
+                    "planetsSize": {
+                        "min": 0.03,
+                        "max": 0.05,
+                        "kFactor": 0.3
+                    }
+                },
+                "aggregated_danger": 0,
+                "aggregated_economy": 0,
+                "aggregated_population": 0,
+                "aggregated_size": 0
+            }
+        ],
+        "totalrows": 1,
+        "pagesize": 0,
+        "page": 1,
+        "offset": 0,
+        "estimatedrows": false
+    }
+}

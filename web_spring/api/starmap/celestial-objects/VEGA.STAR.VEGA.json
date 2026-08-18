@@ -1,0 +1,53 @@
+{
+    "success": 1,
+    "code": "OK",
+    "msg": "OK",
+    "data": {
+        "rowcount": 1,
+        "pagecount": null,
+        "startrow": 0,
+        "resultset": [
+            {
+                "id": 1010,
+                "code": "VEGA.STAR.VEGA",
+                "name": "Вега",
+                "designation": null,
+                "type": "STAR",
+                "appearance": "DEFAULT",
+                "parent_id": null,
+                "distance": 0,
+                "latitude": 0,
+                "longitude": 0,
+                "size": 2,
+                "show_label": true,
+                "show_orbitlines": false,
+                "shader_data": {
+                    "sun": {
+                        "color1": "#ffc9e8",
+                        "color2": "#ffffff"
+                    }
+                },
+                "habitable": false,
+                "description": null,
+                "affiliation": [],
+                "time_modified": "2026-08-19 02:15:02",
+                "info_url": "",
+                "orbit_period": 0,
+                "age": null,
+                "axial_tilt": null,
+                "fairchanceact": false,
+                "population": [],
+                "sensor_danger": 0,
+                "sensor_economy": 0,
+                "sensor_population": 0,
+                "subtype": null,
+                "subtype_id": null
+            }
+        ],
+        "totalrows": 1,
+        "pagesize": 0,
+        "page": 1,
+        "offset": 0,
+        "estimatedrows": false
+    }
+}

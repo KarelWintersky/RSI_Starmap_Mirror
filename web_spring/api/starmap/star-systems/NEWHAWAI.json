@@ -1,0 +1,185 @@
+{
+    "success": 1,
+    "code": "OK",
+    "msg": "OK",
+    "data": {
+        "rowcount": 1,
+        "pagecount": null,
+        "startrow": 0,
+        "resultset": [
+            {
+                "id": 49,
+                "code": "NEWHAWAI",
+                "name": "Нью-Гаваи",
+                "type": "SINGLE_STAR",
+                "description": null,
+                "position_x": 62.61524600318412,
+                "position_y": -50.082274085412166,
+                "position_z": 0,
+                "habitable_zone_inner": 0.7,
+                "habitable_zone_outer": 1.6,
+                "frost_line": 2.7,
+                "oort_radius": 39.5,
+                "status": "P",
+                "affiliation": [],
+                "celestial_objects": [
+                    {
+                        "id": 1490,
+                        "code": "NEWHAWAI.STAR.NEWHAWAI",
+                        "name": "Нью-Гаваи",
+                        "designation": null,
+                        "type": "STAR",
+                        "appearance": "DEFAULT",
+                        "parent_id": null,
+                        "distance": 0,
+                        "latitude": 0,
+                        "longitude": 0,
+                        "size": 2,
+                        "show_label": true,
+                        "show_orbitlines": false,
+                        "shader_data": {
+                            "sun": {
+                                "color1": "#ffe9a0",
+                                "color2": "#ffffff"
+                            }
+                        },
+                        "habitable": false,
+                        "description": null,
+                        "affiliation": []
+                    },
+                    {
+                        "id": 1492,
+                        "code": "NEWHAWAI.PLANET.A",
+                        "name": "Нью-Гаваи A",
+                        "designation": "A",
+                        "type": "PLANET",
+                        "appearance": "PLANET_BLUE",
+                        "parent_id": 1490,
+                        "distance": 0.409773,
+                        "latitude": -0.452,
+                        "longitude": 273.74,
+                        "size": 2554.24275,
+                        "show_label": true,
+                        "show_orbitlines": true,
+                        "shader_data": null,
+                        "habitable": false,
+                        "description": null,
+                        "affiliation": []
+                    },
+                    {
+                        "id": 1493,
+                        "code": "NEWHAWAI.PLANET.B",
+                        "name": "Нью-Гаваи B",
+                        "designation": "B",
+                        "type": "PLANET",
+                        "appearance": "PLANET_DEFAULT",
+                        "parent_id": 1490,
+                        "distance": 0.783504,
+                        "latitude": -0.171,
+                        "longitude": 71.85,
+                        "size": 6904.191,
+                        "show_label": true,
+                        "show_orbitlines": true,
+                        "shader_data": null,
+                        "habitable": false,
+                        "description": null,
+                        "affiliation": []
+                    },
+                    {
+                        "id": 1494,
+                        "code": "NEWHAWAI.JUMP.FLORIA",
+                        "name": "Гиперканал → Флория",
+                        "designation": null,
+                        "type": "JUMPPOINT",
+                        "appearance": "DEFAULT",
+                        "parent_id": 1490,
+                        "distance": 9.917784,
+                        "latitude": -0.47,
+                        "longitude": 346.53,
+                        "size": 1,
+                        "show_label": true,
+                        "show_orbitlines": false,
+                        "shader_data": null,
+                        "habitable": false,
+                        "description": null,
+                        "affiliation": []
+                    },
+                    {
+                        "id": 1495,
+                        "code": "NEWHAWAI.JUMP.FOMALHAUT",
+                        "name": "Гиперканал → Фомальгаут",
+                        "designation": null,
+                        "type": "JUMPPOINT",
+                        "appearance": "DEFAULT",
+                        "parent_id": 1490,
+                        "distance": 8.866475999999999,
+                        "latitude": 0.46,
+                        "longitude": 192.76,
+                        "size": 1,
+                        "show_label": true,
+                        "show_orbitlines": false,
+                        "shader_data": null,
+                        "habitable": false,
+                        "description": null,
+                        "affiliation": []
+                    },
+                    {
+                        "id": 1496,
+                        "code": "NEWHAWAI.JUMP.ANTARA",
+                        "name": "Гиперканал → Антара",
+                        "designation": null,
+                        "type": "JUMPPOINT",
+                        "appearance": "DEFAULT",
+                        "parent_id": 1490,
+                        "distance": 8.826407999999999,
+                        "latitude": 0.014,
+                        "longitude": 190.57,
+                        "size": 1,
+                        "show_label": true,
+                        "show_orbitlines": false,
+                        "shader_data": null,
+                        "habitable": false,
+                        "description": null,
+                        "affiliation": []
+                    }
+                ],
+                "time_modified": "2026-08-19 02:15:02",
+                "info_url": "",
+                "thumbnail": {
+                    "slug": "newhawai",
+                    "source": "",
+                    "images": {
+                        "post": "",
+                        "product_thumb_large": "",
+                        "subscribers_vault_thumbnail": ""
+                    }
+                },
+                "shader_data": {
+                    "lightColor": "#ffffff",
+                    "starfield": {
+                        "radius": 30,
+                        "count": 500,
+                        "sizeMin": 1,
+                        "sizeMax": 1,
+                        "color1": "#808080",
+                        "color2": "rgb(100,100,100)"
+                    },
+                    "planetsSize": {
+                        "min": 0.03,
+                        "max": 0.05,
+                        "kFactor": 0.3
+                    }
+                },
+                "aggregated_danger": 0,
+                "aggregated_economy": 0,
+                "aggregated_population": 0,
+                "aggregated_size": 0
+            }
+        ],
+        "totalrows": 1,
+        "pagesize": 0,
+        "page": 1,
+        "offset": 0,
+        "estimatedrows": false
+    }
+}

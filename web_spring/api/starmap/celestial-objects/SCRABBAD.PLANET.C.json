@@ -1,0 +1,48 @@
+{
+    "success": 1,
+    "code": "OK",
+    "msg": "OK",
+    "data": {
+        "rowcount": 1,
+        "pagecount": null,
+        "startrow": 0,
+        "resultset": [
+            {
+                "id": 1094,
+                "code": "SCRABBAD.PLANET.C",
+                "name": "Скраббад C",
+                "designation": "C",
+                "type": "PLANET",
+                "appearance": "PLANET_GREEN",
+                "parent_id": 1090,
+                "distance": 1.096,
+                "latitude": -0.196,
+                "longitude": 99.6,
+                "size": 5875.9733,
+                "show_label": true,
+                "show_orbitlines": true,
+                "shader_data": null,
+                "habitable": false,
+                "description": null,
+                "affiliation": [],
+                "time_modified": "2026-08-19 02:15:02",
+                "info_url": "",
+                "orbit_period": 0,
+                "age": null,
+                "axial_tilt": null,
+                "fairchanceact": false,
+                "population": [],
+                "sensor_danger": 0,
+                "sensor_economy": 0,
+                "sensor_population": 0,
+                "subtype": null,
+                "subtype_id": null
+            }
+        ],
+        "totalrows": 1,
+        "pagesize": 0,
+        "page": 1,
+        "offset": 0,
+        "estimatedrows": false
+    }
+}

@@ -1,0 +1,185 @@
+{
+    "success": 1,
+    "code": "OK",
+    "msg": "OK",
+    "data": {
+        "rowcount": 1,
+        "pagecount": null,
+        "startrow": 0,
+        "resultset": [
+            {
+                "id": 44,
+                "code": "GAYA",
+                "name": "Гайя",
+                "type": "SINGLE_STAR",
+                "description": null,
+                "position_x": -55.5778809581096,
+                "position_y": -63.49969882036557,
+                "position_z": 0,
+                "habitable_zone_inner": 0.7,
+                "habitable_zone_outer": 1.6,
+                "frost_line": 2.7,
+                "oort_radius": 39.5,
+                "status": "P",
+                "affiliation": [],
+                "celestial_objects": [
+                    {
+                        "id": 1440,
+                        "code": "GAYA.STAR.GAYA",
+                        "name": "Гайя",
+                        "designation": null,
+                        "type": "STAR",
+                        "appearance": "DEFAULT",
+                        "parent_id": null,
+                        "distance": 0,
+                        "latitude": 0,
+                        "longitude": 0,
+                        "size": 2,
+                        "show_label": true,
+                        "show_orbitlines": false,
+                        "shader_data": {
+                            "sun": {
+                                "color1": "#ff9d7a",
+                                "color2": "#ffffff"
+                            }
+                        },
+                        "habitable": false,
+                        "description": null,
+                        "affiliation": []
+                    },
+                    {
+                        "id": 1442,
+                        "code": "GAYA.PLANET.A",
+                        "name": "Гайя A",
+                        "designation": "A",
+                        "type": "PLANET",
+                        "appearance": "PLANET_BLUE",
+                        "parent_id": 1440,
+                        "distance": 0.356265,
+                        "latitude": 0.483,
+                        "longitude": 85.08,
+                        "size": 2135.3445,
+                        "show_label": true,
+                        "show_orbitlines": true,
+                        "shader_data": null,
+                        "habitable": false,
+                        "description": null,
+                        "affiliation": []
+                    },
+                    {
+                        "id": 1443,
+                        "code": "GAYA.PLANET.B",
+                        "name": "Гайя B",
+                        "designation": "B",
+                        "type": "PLANET",
+                        "appearance": "PLANET_GREEN",
+                        "parent_id": 1440,
+                        "distance": 0.694512,
+                        "latitude": -0.114,
+                        "longitude": 209.68,
+                        "size": 5804.1192,
+                        "show_label": true,
+                        "show_orbitlines": true,
+                        "shader_data": null,
+                        "habitable": false,
+                        "description": null,
+                        "affiliation": []
+                    },
+                    {
+                        "id": 1444,
+                        "code": "GAYA.PLANET.C",
+                        "name": "Гайя C",
+                        "designation": "C",
+                        "type": "PLANET",
+                        "appearance": "PLANET_GREEN",
+                        "parent_id": 1440,
+                        "distance": 0.9076,
+                        "latitude": 0.446,
+                        "longitude": 113.99,
+                        "size": 6237.209,
+                        "show_label": true,
+                        "show_orbitlines": true,
+                        "shader_data": null,
+                        "habitable": false,
+                        "description": null,
+                        "affiliation": []
+                    },
+                    {
+                        "id": 1445,
+                        "code": "GAYA.JUMP.ALMAH",
+                        "name": "Гиперканал → Альмах",
+                        "designation": null,
+                        "type": "JUMPPOINT",
+                        "appearance": "DEFAULT",
+                        "parent_id": 1440,
+                        "distance": 10.247867999999999,
+                        "latitude": -0.217,
+                        "longitude": 259.42,
+                        "size": 1,
+                        "show_label": true,
+                        "show_orbitlines": false,
+                        "shader_data": null,
+                        "habitable": false,
+                        "description": null,
+                        "affiliation": []
+                    },
+                    {
+                        "id": 1446,
+                        "code": "GAYA.JUMP.NIGHTWISH",
+                        "name": "Гиперканал → Найтвиш",
+                        "designation": null,
+                        "type": "JUMPPOINT",
+                        "appearance": "DEFAULT",
+                        "parent_id": 1440,
+                        "distance": 9.926369999999999,
+                        "latitude": -0.415,
+                        "longitude": 183.77,
+                        "size": 1,
+                        "show_label": true,
+                        "show_orbitlines": false,
+                        "shader_data": null,
+                        "habitable": false,
+                        "description": null,
+                        "affiliation": []
+                    }
+                ],
+                "time_modified": "2026-08-19 02:15:02",
+                "info_url": "",
+                "thumbnail": {
+                    "slug": "gaya",
+                    "source": "",
+                    "images": {
+                        "post": "",
+                        "product_thumb_large": "",
+                        "subscribers_vault_thumbnail": ""
+                    }
+                },
+                "shader_data": {
+                    "lightColor": "#ffffff",
+                    "starfield": {
+                        "radius": 30,
+                        "count": 500,
+                        "sizeMin": 1,
+                        "sizeMax": 1,
+                        "color1": "#808080",
+                        "color2": "rgb(100,100,100)"
+                    },
+                    "planetsSize": {
+                        "min": 0.03,
+                        "max": 0.05,
+                        "kFactor": 0.3
+                    }
+                },
+                "aggregated_danger": 0,
+                "aggregated_economy": 0,
+                "aggregated_population": 0,
+                "aggregated_size": 0
+            }
+        ],
+        "totalrows": 1,
+        "pagesize": 0,
+        "page": 1,
+        "offset": 0,
+        "estimatedrows": false
+    }
+}

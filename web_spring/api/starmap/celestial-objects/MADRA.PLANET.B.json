@@ -1,0 +1,48 @@
+{
+    "success": 1,
+    "code": "OK",
+    "msg": "OK",
+    "data": {
+        "rowcount": 1,
+        "pagecount": null,
+        "startrow": 0,
+        "resultset": [
+            {
+                "id": 1313,
+                "code": "MADRA.PLANET.B",
+                "name": "Мадра B",
+                "designation": "B",
+                "type": "PLANET",
+                "appearance": "PLANET_BLUE",
+                "parent_id": 1310,
+                "distance": 0.74592,
+                "latitude": 0.275,
+                "longitude": 127.23,
+                "size": 6919.621050000001,
+                "show_label": true,
+                "show_orbitlines": true,
+                "shader_data": null,
+                "habitable": false,
+                "description": null,
+                "affiliation": [],
+                "time_modified": "2026-08-19 02:15:02",
+                "info_url": "",
+                "orbit_period": 0,
+                "age": null,
+                "axial_tilt": null,
+                "fairchanceact": false,
+                "population": [],
+                "sensor_danger": 0,
+                "sensor_economy": 0,
+                "sensor_population": 0,
+                "subtype": null,
+                "subtype_id": null
+            }
+        ],
+        "totalrows": 1,
+        "pagesize": 0,
+        "page": 1,
+        "offset": 0,
+        "estimatedrows": false
+    }
+}

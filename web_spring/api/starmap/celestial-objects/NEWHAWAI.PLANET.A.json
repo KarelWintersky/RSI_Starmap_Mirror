@@ -1,0 +1,48 @@
+{
+    "success": 1,
+    "code": "OK",
+    "msg": "OK",
+    "data": {
+        "rowcount": 1,
+        "pagecount": null,
+        "startrow": 0,
+        "resultset": [
+            {
+                "id": 1492,
+                "code": "NEWHAWAI.PLANET.A",
+                "name": "Нью-Гаваи A",
+                "designation": "A",
+                "type": "PLANET",
+                "appearance": "PLANET_BLUE",
+                "parent_id": 1490,
+                "distance": 0.409773,
+                "latitude": -0.452,
+                "longitude": 273.74,
+                "size": 2554.24275,
+                "show_label": true,
+                "show_orbitlines": true,
+                "shader_data": null,
+                "habitable": false,
+                "description": null,
+                "affiliation": [],
+                "time_modified": "2026-08-19 02:15:02",
+                "info_url": "",
+                "orbit_period": 0,
+                "age": null,
+                "axial_tilt": null,
+                "fairchanceact": false,
+                "population": [],
+                "sensor_danger": 0,
+                "sensor_economy": 0,
+                "sensor_population": 0,
+                "subtype": null,
+                "subtype_id": null
+            }
+        ],
+        "totalrows": 1,
+        "pagesize": 0,
+        "page": 1,
+        "offset": 0,
+        "estimatedrows": false
+    }
+}

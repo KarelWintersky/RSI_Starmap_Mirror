@@ -1,0 +1,48 @@
+{
+    "success": 1,
+    "code": "OK",
+    "msg": "OK",
+    "data": {
+        "rowcount": 1,
+        "pagecount": null,
+        "startrow": 0,
+        "resultset": [
+            {
+                "id": 1167,
+                "code": "ASTRA.JUMP.KITEG",
+                "name": "Гиперканал → Китеж",
+                "designation": null,
+                "type": "JUMPPOINT",
+                "appearance": "DEFAULT",
+                "parent_id": 1160,
+                "distance": 9.293867999999998,
+                "latitude": -0.493,
+                "longitude": 60.94,
+                "size": 1,
+                "show_label": true,
+                "show_orbitlines": false,
+                "shader_data": null,
+                "habitable": false,
+                "description": null,
+                "affiliation": [],
+                "time_modified": "2026-08-19 02:15:02",
+                "info_url": "",
+                "orbit_period": 0,
+                "age": null,
+                "axial_tilt": null,
+                "fairchanceact": false,
+                "population": [],
+                "sensor_danger": 0,
+                "sensor_economy": 0,
+                "sensor_population": 0,
+                "subtype": null,
+                "subtype_id": null
+            }
+        ],
+        "totalrows": 1,
+        "pagesize": 0,
+        "page": 1,
+        "offset": 0,
+        "estimatedrows": false
+    }
+}
