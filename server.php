@@ -177,23 +177,63 @@ foreach ($prefixes as $prefix) {
     }
 }
 
-// API-данные зеркала (bootup, star-systems, celestial-objects)
-// GET с .json, POST без расширения — оба отдаём из web/api/starmap/
-if (preg_match('#^/api/starmap/([a-z-]+)(/[^/]+)?\.json$#', $uri, $m) && $safe($uri)) {
-    $file = $web . $uri;
-    if (is_file($file)) {
-        header('Content-Type: application/json; charset=utf-8');
-        readfile($file);
-        exit;
-    }
+// API-данные зеркала: STARMAP_DB=1 → MariaDB, иначе → статические JSON-файлы
+$useDb = getenv('STARMAP_DB') === '1';
+if ($useDb) {
+    require __DIR__ . '/src/StarmapAPI.php';
+    $dbDsn  = getenv('STARMAP_DB_DSN')  ?: 'mysql:host=localhost;dbname=rsi_starmap;charset=utf8mb4';
+    $dbUser = getenv('STARMAP_DB_USER') ?: 'rsi_starmap';
+    $dbPass = getenv('STARMAP_DB_PASS') ?: 'password';
+    $dbPdo = new PDO($dbDsn, $dbUser, $dbPass, [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]);
+    $starmapApi = new StarmapAPI($dbPdo);
 }
-if (preg_match('#^/api/starmap/(star-systems/[^/]+|celestial-objects/[^/]+|bootup)$#', $uri) && $safe($uri)) {
-    $file = $web . $uri . '.json';
-    if (is_file($file)) {
-        header('Content-Type: application/json; charset=utf-8');
-        readfile($file);
-        exit;
+
+// POST /api/starmap/bootup — полный снимок вселенной
+if ($uri === '/api/starmap/bootup' && $method === 'POST') {
+    $json = $useDb
+        ? $starmapApi->bootup()
+        : json_decode(file_get_contents($web . '/api/starmap/bootup.json'), true);
+    header('Content-Type: application/json; charset=utf-8');
+    echo json_encode($json, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE);
+    exit;
+}
+
+// GET/POST /api/starmap/star-systems/{CODE} — детали системы
+if (preg_match('#^/api/starmap/star-systems/([^/]+)$#', $uri, $m)) {
+    $code = preg_replace('#\.json$#', '', $m[1]);
+    if ($useDb) {
+        $json = $starmapApi->starSystem($code);
+    } else {
+        $file = $web . "/api/starmap/star-systems/{$code}.json";
+        $json = is_file($file) ? json_decode(file_get_contents($file), true) : null;
     }
+    if ($json) {
+        header('Content-Type: application/json; charset=utf-8');
+        echo json_encode($json, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE);
+    } else {
+        http_response_code(404);
+        echo '{"success":0,"code":"ErrSystemNotFound","msg":"System not found","data":null}';
+    }
+    exit;
+}
+
+// GET /api/starmap/celestial-objects/{CODE} — детали объекта
+if (preg_match('#^/api/starmap/celestial-objects/([^/]+)$#', $uri, $m)) {
+    $code = preg_replace('#\.json$#', '', $m[1]);
+    if ($useDb) {
+        $json = $starmapApi->celestialObject($code);
+    } else {
+        $file = $web . "/api/starmap/celestial-objects/{$code}.json";
+        $json = is_file($file) ? json_decode(file_get_contents($file), true) : null;
+    }
+    if ($json) {
+        header('Content-Type: application/json; charset=utf-8');
+        echo json_encode($json, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE);
+    } else {
+        http_response_code(404);
+        echo '{"success":0,"code":"ErrObjectNotFound","msg":"Object not found","data":null}';
+    }
+    exit;
 }
 
 http_response_code(404);
