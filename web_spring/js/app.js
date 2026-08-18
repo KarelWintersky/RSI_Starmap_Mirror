@@ -39,7 +39,7 @@ export class App {
     dom.appendChild(this.renderer.domElement);
 
     this.scene = new THREE.Scene();
-    this.scene.background = new THREE.Color('#04060e');
+    this.scene.background = null; // skybox IS the background
     this.scene.add(new THREE.AmbientLight(0x2a3350, 1.1));
 
     this.camera = new THREE.PerspectiveCamera(55, window.innerWidth / window.innerHeight, 0.05, 3000);
@@ -47,8 +47,13 @@ export class App {
 
     // Skybox: отдельная сцена + камера (как в оригинале)
     this.skyScene = new THREE.Scene();
-    this.skyCamera = new THREE.PerspectiveCamera(55, window.innerWidth / window.innerHeight, 0.1, 100);
-    this.skybox = null;
+    this.skyScene.add(new THREE.PointLight(0xffffff, 1.75));
+    this.skyCamera = new THREE.PerspectiveCamera(60, window.innerWidth / window.innerHeight, 0.01, 1000);
+    this.skybox = {
+      fov2: 75,
+      fov2amplitude: 2,
+      fov2frequency: 0.05,
+    };
 
     this.raycaster = new THREE.Raycaster();
     this.data = new DataStore();
@@ -172,21 +177,27 @@ export class App {
           if (!c.isMesh) return;
           const mat = c.material;
           if (!mat) return;
-          // Original engine: "Additive*" materials → additive blending, no depth write
+          // Original engine: converts Additive* materials to MeshBasicMaterial
+          // (MeshPhongMaterial needs lights to render, MeshBasicMaterial doesn't)
           if (mat.name && mat.name.startsWith('Additive')) {
-            mat.transparent = true;
-            mat.blending = THREE.AdditiveBlending;
-            mat.depthWrite = false;
-            mat.side = THREE.DoubleSide;
-            mat.needsUpdate = true;
+            const map = mat.map; // preserve texture from DAE
+            c.material = new THREE.MeshBasicMaterial({
+              map: map,
+              transparent: true,
+              blending: THREE.AdditiveBlending,
+              side: THREE.DoubleSide,
+              depthWrite: false,
+              fog: false,
+            });
           }
         });
         this.skyScene.add(collada);
+        console.log(`Skybox loaded: ${url}, meshes: ${collada.children.length}`);
       } catch (err) {
         console.warn(`Skybox ${url} failed:`, err);
       }
     }
-    this.skybox = this.skyScene;
+    this.skybox.loaded = true;
   }
 
   loop() {
@@ -197,19 +208,18 @@ export class App {
     if (this.state) this.state.update(this.time, dt);
     this.rig.update(dt);
 
-    // Render main scene
-    this.renderer.render(this.scene, this.camera);
-
-    // Render skybox on top (follows camera rotation, like original)
-    if (this.skybox) {
-      this.skyCamera.rotation.copy(this.camera.rotation);
-      // subtle FOV breathing (original: fov2amplitude * sin(time * PI * fov2frequency))
-      this.skyCamera.fov = this.camera.fov + 3 * Math.sin(this.time * 0.3);
-      this.skyCamera.updateProjectionMatrix();
+    if (this.skybox.loaded) {
+      // Skybox first — it IS the background
+      this.skyCamera.rotation.setFromRotationMatrix(this.camera.matrixWorld);
+      this.renderer.autoClear = true;
+      this.renderer.render(this.skyScene, this.skyCamera);
+      // Main scene on top — clear depth only, keep skybox colors
       this.renderer.autoClear = false;
       this.renderer.clearDepth();
-      this.renderer.render(this.skyScene, this.skyCamera);
+      this.renderer.render(this.scene, this.camera);
       this.renderer.autoClear = true;
+    } else {
+      this.renderer.render(this.scene, this.camera);
     }
   }
 }

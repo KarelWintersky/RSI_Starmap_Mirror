@@ -106,7 +106,7 @@ export class SystemScene {
         case 'ANOMALY': this.buildAnomaly(b); break;
         case 'LZ': this.buildLZ(b); break;
         case 'POI': this.buildPOI(b); break;
-        case 'OORT': this.buildOort(b); break;
+        case 'OORT': break; // отключено: огромная синяя сфера при отдалении
       }
       if (b.showOrbitlines && b.distance > 0) {
         const center = b.parentId != null && this.system.bodyById.has(b.parentId)
