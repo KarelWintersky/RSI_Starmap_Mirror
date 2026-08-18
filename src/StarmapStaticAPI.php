@@ -1,4 +1,9 @@
 <?php
+
+declare(strict_types=1);
+
+namespace Starmap;
+
 /**
  * StarmapStaticAPI.php — Класс, отвечающий JSON из статических файлов (зеркало web/api/starmap/).
  *
@@ -8,8 +13,6 @@
  *   $api = new StarmapStaticAPI(__DIR__ . '/web');
  *   echo json_encode($api->bootup());
  */
-
-declare(strict_types=1);
 
 class StarmapStaticAPI
 {

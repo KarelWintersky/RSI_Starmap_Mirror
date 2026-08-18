@@ -1,4 +1,9 @@
 <?php
+
+declare(strict_types=1);
+
+namespace Starmap;
+
 /**
  * StarmapAPI.php — Класс, отвечающий JSON из MariaDB в формате оригинального движка.
  *
@@ -12,16 +17,14 @@
  *   echo json_encode($api->bootup());
  */
 
-declare(strict_types=1);
-
 class StarmapAPI
 {
-    private PDO $pdo;
+    private \PDO $pdo;
 
-    public function __construct(PDO $pdo)
+    public function __construct(\PDO $pdo)
     {
         $this->pdo = $pdo;
-        $this->pdo->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
+        $this->pdo->setAttribute(\PDO::ATTR_DEFAULT_FETCH_MODE, \PDO::FETCH_ASSOC);
     }
 
     // ─── bootup ──────────────────────────────────────────────────

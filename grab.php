@@ -6,10 +6,7 @@ declare(strict_types=1);
 use Starmap\StarmapGrabber;
 use Starmap\Util;
 
-require __DIR__ . '/src/Util.php';
-require __DIR__ . '/src/HttpClient.php';
-require __DIR__ . '/src/StarmapGrabber.php';
-require __DIR__ . '/src/OfflineRouter.php';
+require __DIR__ . '/vendor/autoload.php';
 
 const CONCURRENCY = 12;
 

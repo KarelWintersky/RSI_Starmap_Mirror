@@ -1,0 +1,21 @@
+{
+    "name": "robertsspaceindustries/starmap-local",
+    "description": "Offline mirror of Star Citizen interactive starmap",
+    "type": "project",
+    "license": "proprietary",
+    "require": {
+        "php": "8.2.*",
+        "karelwintersky/arris.router": "2.3.*"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Starmap\\": "src/"
+        },
+        "classmap": [
+            "src/StarmapAPI.php",
+            "src/StarmapStaticAPI.php"
+        ]
+    }
+}
