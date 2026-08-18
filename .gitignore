@@ -24,7 +24,7 @@
 /data/
 
 # SpringGalaxy: данные генерируются make_data.php; three.js ставится npm
-/web_spring/node_modules/
+/web_spring_legacy/node_modules/
 
 # Composer
 /vendor/
