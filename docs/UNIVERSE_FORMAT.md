@@ -521,9 +521,14 @@ FROM celestial_objects co WHERE co.code = ?;
 
 ### Ключевые решения
 
-1. **Единая таблица `celestial_objects`** — все типы (STAR, PLANET, SATELLITE, ...) в одной таблице. `type`区分яет, `shader_data` (JSON) — полиморфный для разных типов.
+1. **Единая таблица `celestial_objects`** — все типы (STAR, PLANET, SATELLITE, ...) в одной таблице. 
+`type` определяет, `shader_data` (JSON) — полиморфный для разных типов.
 
-2. **`shader_data` как JSON-столбец** — разная структура для STAR (sun.color1, flare...), PLANET (highlight, ring), ASTEROID_BELT (orbital). Хранить как TEXT, парсить при генерации.
+2. **`shader_data` как JSON-столбец** — разная структура для 
+   - STAR (sun.color1, flare...), 
+   - PLANET (highlight, ring), 
+   - ASTEROID_BELT (orbital). 
+   Хранить как TEXT, парсить при генерации.
 
 3. **Сенсоры — строки** (`'0'`..`'10'`), не числа — для совместимости с форматом API.
 

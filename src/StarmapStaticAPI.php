@@ -17,10 +17,12 @@ namespace Starmap;
 class StarmapStaticAPI
 {
     private string $webRoot;
+    private StarmapLocalSearch $searcher;
 
     public function __construct(string $webRoot)
     {
         $this->webRoot = rtrim($webRoot, '/');
+        $this->searcher = new StarmapLocalSearch($webRoot);
     }
 
     public function bootup(): array
@@ -40,39 +42,7 @@ class StarmapStaticAPI
 
     public function search(string $query): array
     {
-        // Полный перебор по _index.json (как делал StarmapLocalSearch)
-        $index = $this->readJson('api/starmap/_index.json');
-        if ($index['success'] !== 1) {
-            return $index;
-        }
-
-        $q = mb_strtolower($query);
-        $results = [];
-        foreach ($index['data']['resultset'] as $obj) {
-            $haystack = mb_strtolower(
-                ($obj['code'] ?? '') . ' ' . ($obj['name'] ?? '') . ' ' . ($obj['designation'] ?? '')
-            );
-            if (str_contains($haystack, $q)) {
-                $results[] = $obj;
-            }
-        }
-
-        return [
-            'success' => 1,
-            'code'    => 'OK',
-            'msg'     => 'OK',
-            'data'    => [
-                'rowcount'      => count($results),
-                'pagecount'     => null,
-                'startrow'      => 0,
-                'resultset'     => $results,
-                'totalrows'     => count($results),
-                'pagesize'      => 0,
-                'page'          => 1,
-                'offset'        => 0,
-                'estimatedrows' => false,
-            ],
-        ];
+        return $this->searcher->search($query);
     }
 
     private function readJson(string $relativePath): array

@@ -164,19 +164,23 @@ try {
 
     // --- API: star-systems ---
 
-    AppRouter::get('/api/starmap/star-systems/{code}', function (string $code) use ($starmapApi) {
+    $starSystemHandler = function (string $code) use ($starmapApi) {
         $code = preg_replace('#\.json$#', '', $code);
         header('Content-Type: application/json; charset=utf-8');
         echo json_encode($starmapApi->starSystem($code), JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE);
-    }, 'api.star-system');
+    };
+    AppRouter::get('/api/starmap/star-systems/{code}', $starSystemHandler, 'api.star-system.get');
+    AppRouter::post('/api/starmap/star-systems/{code}', $starSystemHandler, 'api.star-system.post');
 
     // --- API: celestial-objects ---
 
-    AppRouter::get('/api/starmap/celestial-objects/{code}', function (string $code) use ($starmapApi) {
+    $celestialObjectHandler = function (string $code) use ($starmapApi) {
         $code = preg_replace('#\.json$#', '', $code);
         header('Content-Type: application/json; charset=utf-8');
         echo json_encode($starmapApi->celestialObject($code), JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE);
-    }, 'api.celestial-object');
+    };
+    AppRouter::get('/api/starmap/celestial-objects/{code}', $celestialObjectHandler, 'api.celestial-object.get');
+    AppRouter::post('/api/starmap/celestial-objects/{code}', $celestialObjectHandler, 'api.celestial-object.post');
 
     // --- API: routes/find (POST, Dijkstra) ---
 

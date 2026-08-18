@@ -285,6 +285,14 @@ final class StarmapGrabber
             $urls[] = Util::CDN_STARMAP . '/sourceimages/factions/' . $code . '.png';
         }
 
+        // текстуры звёзд (suns/) — зашиты в JS-бандл (шейдеры), не в CSS/DAE
+        for ($i = 1; $i <= 9; $i++) {
+            $urls[] = Util::CDN_STARMAP . '/sourceimages/suns/' . sprintf('%02d', $i) . '_Texture.jpg';
+        }
+
+        // прочие sourceimages из JS-бандла (не в CSS, не в DAE)
+        $urls[] = Util::CDN_STARMAP . '/sourceimages/JumpPointEnv.png';
+
         // ui-images и fonts/icons — вытаскиваем из уже скачанного main.css
         $cssPath = Util::webPath('static/starmap/main.css');
         if (!is_file($cssPath)) {
